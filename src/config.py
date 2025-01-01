@@ -7,23 +7,33 @@ class ChannelConfig:
         self.retry_count = retry_count
         self.success_rate = 100.0
 
-class Config:
+class ProxyConfig:
     def __init__(self):
         self.TELEGRAM_CHANNELS = [
-            ChannelConfig("https://t.me/s/v2ray_free_conf")
+            ChannelConfig("https://t.me/s/v2ray_free_conf"),
+            ChannelConfig("https://t.me/s/v2rayvpno"),
+            ChannelConfig("https://t.me/s/ZibaNabz"),
+            ChannelConfig("https://t.me/s/configV2rayForFree"),
+            ChannelConfig("https://t.me/s/v2rayngvpn"),
+            ChannelConfig("https://t.me/s/SvnV2ray"), 
+            ChannelConfig("https://t.me/s/RadixVPN"),
+            ChannelConfig("https://t.me/s/PrivateVPNs"),
+            ChannelConfig("https://t.me/s/VlessConfig"),
+            ChannelConfig("https://t.me/s/freewireguard")
         ]
         
         self.SUBSCRIPTION_URLS = [
             "https://raw.githubusercontent.com/m3hdiclub/free-server/main/Cloudflare_vless_trojan",
-            "https://little-sea-273d.7mehdinorouzi7.workers.dev/m3hdiclub?sub"
+			"https://little-sea-273d.7mehdinorouzi7.workers.dev/m3hdiclub?sub"
+            # Add more subscription URLs here
         ]
-        
+
         self.PROTOCOL_CONFIG_LIMITS = {
             "min": 5,
             "max": 15
         }
-        
-        self.SUPPORTED_PROTOCOLS = {
+
+        self.SUPPORTED_PROTOCOLS: Dict[str, Dict] = {
             "wireguard://": {"min_configs": self.PROTOCOL_CONFIG_LIMITS["min"], "max_configs": self.PROTOCOL_CONFIG_LIMITS["max"]},
             "hysteria2://": {"min_configs": self.PROTOCOL_CONFIG_LIMITS["min"], "max_configs": self.PROTOCOL_CONFIG_LIMITS["max"]},
             "vless://": {"min_configs": self.PROTOCOL_CONFIG_LIMITS["min"], "max_configs": self.PROTOCOL_CONFIG_LIMITS["max"]},
@@ -31,18 +41,22 @@ class Config:
             "ss://": {"min_configs": self.PROTOCOL_CONFIG_LIMITS["min"], "max_configs": self.PROTOCOL_CONFIG_LIMITS["max"]},
             "trojan://": {"min_configs": self.PROTOCOL_CONFIG_LIMITS["min"], "max_configs": self.PROTOCOL_CONFIG_LIMITS["max"]}
         }
-        
+
         self.MIN_CONFIGS_PER_CHANNEL = 5
         self.MAX_CONFIGS_PER_CHANNEL = 30
         self.MAX_CONFIG_AGE_DAYS = 7
         self.CHANNEL_RETRY_LIMIT = 3
         self.CHANNEL_ERROR_THRESHOLD = 0.5
+
         self.MIN_PROTOCOL_RATIO = 0.15
-        self.OUTPUT_FILE = 'configs/subscription'
+
+        self.OUTPUT_FILE = '../Free-Server/subscription'
         self.STATS_FILE = 'configs/channel_stats.json'
+
         self.MAX_RETRIES = 3
         self.RETRY_DELAY = 5
         self.REQUEST_TIMEOUT = 30
+
         self.HEADERS = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
