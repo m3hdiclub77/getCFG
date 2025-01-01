@@ -10,7 +10,8 @@ class ChannelConfig:
 class ProxyConfig:
     def __init__(self):
         self.TELEGRAM_CHANNELS = [
-            ChannelConfig("https://t.me/s/v2ray_free_conf"),
+            ChannelConfig("https://t.me/s/xs_filternet"),
+	    ChannelConfig("https://t.me/s/v2ray_free_conf"),
             ChannelConfig("https://t.me/s/v2rayvpno"),
             ChannelConfig("https://t.me/s/ZibaNabz"),
             ChannelConfig("https://t.me/s/configV2rayForFree"),
@@ -19,8 +20,7 @@ class ProxyConfig:
             ChannelConfig("https://t.me/s/RadixVPN"),
             ChannelConfig("https://t.me/s/PrivateVPNs"),
             ChannelConfig("https://t.me/s/VlessConfig"),
-            ChannelConfig("https://t.me/s/freewireguard"),
-	    ChannelConfig("https://t.me/s/xs_filternet")
+            ChannelConfig("https://t.me/s/freewireguard")
         ]
         
         self.SUBSCRIPTION_URLS = [
