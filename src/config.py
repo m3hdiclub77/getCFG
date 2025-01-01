@@ -24,8 +24,7 @@ class ProxyConfig:
         
         self.SUBSCRIPTION_URLS = [
             "https://raw.githubusercontent.com/m3hdiclub/free-server/main/Cloudflare_vless_trojan",
-		"https://little-sea-273d.7mehdinorouzi7.workers.dev/m3hdiclub?sub",
-		"https://raw.githubusercontent.com/m3hdiclub/free-server/main/test"
+		"https://little-sea-273d.7mehdinorouzi7.workers.dev/m3hdiclub?sub"
             # Add more subscription URLs here
         ]
 
