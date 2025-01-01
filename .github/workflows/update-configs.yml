@@ -1,21 +1,27 @@
 name: Update Proxy Configs
-
 on:
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   update-configs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout current repository
+      uses: actions/checkout@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+        path: current-repo
+    
+    - name: Checkout Free-Server repository
+      uses: actions/checkout@v3
+      with:
+        repository: m3hdiclub/Free-Server
+        token: ${{ secrets.PAT_TOKEN }}
+        path: Free-Server
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -24,23 +30,37 @@ jobs:
     
     - name: Install dependencies
       run: |
+        cd current-repo
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     
     - name: Run config fetcher
-      run: python src/fetch_configs.py
+      run: |
+        cd current-repo
+        python src/fetch_configs.py
     
     - name: Generate performance chart
-      run: python src/generate_charts.py
+      run: |
+        cd current-repo
+        python src/generate_charts.py
     
     - name: Update README with latest stats
       run: |
-        # Create new README with updated timestamp
+        cd current-repo
         sed -i "s|channel-stats-chart.svg?v=.*|channel-stats-chart.svg?v=$(date +%s)|" README.md
     
-    - name: Commit and push if changed
+    - name: Commit and push current repository changes
       run: |
+        cd current-repo
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add configs/proxy_configs.txt configs/channel_stats.json assets/channel_stats_chart.svg README.md
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update proxy configs, stats and charts" && git push)
+        git add configs/channel_stats.json assets/channel_stats_chart.svg README.md
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update stats and charts" && git push)
+    
+    - name: Commit and push Free-Server changes
+      run: |
+        cd Free-Server
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add subscription
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update subscription file" && git push)
