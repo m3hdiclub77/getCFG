@@ -1,6 +1,12 @@
 {
-  "timestamp": "2025-01-01T18:27:36.689737",
+  "timestamp": "2025-01-01T21:34:14.201569",
   "channels": [
+    {
+      "url": "https://t.me/s/xs_filternet",
+      "enabled": true,
+      "retry_count": 0,
+      "success_rate": 100.0
+    },
     {
       "url": "https://t.me/s/v2ray_free_conf",
       "enabled": true,
