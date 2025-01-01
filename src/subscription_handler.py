@@ -24,58 +24,69 @@ class SubscriptionHandler:
     def is_base64(self, s: str) -> bool:
         """Check if a string is base64 encoded."""
         try:
+            # Remove whitespace and newlines
+            s = s.strip()
             # Check if string contains only valid base64 characters
             if not re.match('^[A-Za-z0-9+/]*={0,2}$', s):
                 return False
             # Try to decode
-            base64.b64decode(s)
+            decoded = base64.b64decode(s)
+            # Try to decode as UTF-8 to make sure it's valid text
+            decoded.decode('utf-8')
             return True
         except:
             return False
 
     def decode_base64_content(self, content: str) -> str:
-        """Decode base64 content if encoded."""
+        """Decode base64 content."""
         try:
-            # Try to decode base64
-            decoded = base64.b64decode(content).decode('utf-8')
-            return decoded
-        except:
+            # Remove any whitespace and newlines
+            content = content.strip()
+            # Decode base64
+            decoded = base64.b64decode(content)
+            # Convert to string
+            return decoded.decode('utf-8')
+        except Exception as e:
+            self.logger.error(f"Error decoding base64 content: {str(e)}")
             return content
 
-    def parse_subscription_content(self, content: str) -> List[str]:
-        """Parse subscription content and extract proxy configurations."""
+    def extract_configs(self, content: str) -> List[str]:
+        """Extract configs from decoded content."""
         configs = []
-        if not content:
-            return configs
-
-        # First try to decode the entire content if it's base64
-        if self.is_base64(content):
-            content = self.decode_base64_content(content)
-
-        # Split into lines and process each line
-        lines = content.strip().split('\n')
-        for line in lines:
+        for line in content.split('\n'):
             line = line.strip()
             if not line:
                 continue
-
-            # Try to decode each line if it's base64
-            if self.is_base64(line):
-                decoded_line = self.decode_base64_content(line)
-                # Check if decoded content is a valid config
-                if any(decoded_line.startswith(protocol) for protocol in self.config.SUPPORTED_PROTOCOLS):
-                    configs.append(decoded_line)
-            elif any(line.startswith(protocol) for protocol in self.config.SUPPORTED_PROTOCOLS):
+                
+            # Check if line starts with any supported protocol
+            if any(line.startswith(protocol) for protocol in self.config.SUPPORTED_PROTOCOLS):
                 configs.append(line)
+                
+        return configs
 
+    def parse_subscription_content(self, content: str) -> List[str]:
+        """Parse subscription content and extract proxy configurations."""
+        if not content:
+            return []
+
+        # First try to decode the entire content if it's base64
+        decoded_content = content
+        if self.is_base64(content):
+            self.logger.info("Content is base64 encoded, decoding...")
+            decoded_content = self.decode_base64_content(content)
+            
+        # Extract configs from decoded content
+        configs = self.extract_configs(decoded_content)
+        
         # Remove duplicates while preserving order
-        return list(dict.fromkeys(configs))
+        unique_configs = list(dict.fromkeys(configs))
+        
+        self.logger.info(f"Found {len(unique_configs)} unique configs")
+        return unique_configs
 
     def process_subscription_url(self, url: str) -> List[str]:
         """Process a subscription URL and return list of valid configs."""
         content = self.fetch_subscription(url)
         if content:
-            configs = self.parse_subscription_content(content)
-            self.logger.info(f"Found {len(configs)} configs in subscription {url}")
-            return configs
+            return self.parse_subscription_content(content)
         return []
