@@ -20,18 +20,6 @@ class SubscriptionHandler:
             self.logger.error(f"Error fetching subscription from {url}: {str(e)}")
             return None
 
-    def decode_base64_recursively(encoded: str) -> str:
-    """Decode Base64 content recursively until it's no longer decodable."""
-    try:
-        while True:
-            decoded = base64.b64decode(encoded).decode('utf-8')
-            if decoded == encoded:  # If no change occurs, stop decoding
-                break
-            encoded = decoded
-        return encoded
-    except Exception:
-        return encoded
-
     def parse_subscription_content(self, content: str) -> List[str]:
         """Parse subscription content and extract proxy configurations."""
         configs = []
@@ -46,11 +34,11 @@ class SubscriptionHandler:
 
             try:
                 if not any(line.startswith(protocol) for protocol in self.config.SUPPORTED_PROTOCOLS):
-                    decoded = decode_base64_recursively(line)
+                    decoded = base64.b64decode(line).decode('utf-8')
                     if any(decoded.startswith(protocol) for protocol in self.config.SUPPORTED_PROTOCOLS):
                         line = decoded
-            except Exception as e:
-                self.logger.warning(f"Failed to decode line: {line}, error: {e}")
+            except:
+                pass
 
             if any(line.startswith(protocol) for protocol in self.config.SUPPORTED_PROTOCOLS):
                 configs.append(line)
