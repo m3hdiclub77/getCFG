@@ -1,13 +1,10 @@
 name: Update Proxy Configs
-
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */6 * * *'  # اصلاح کرون
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   update-configs:
     runs-on: ubuntu-latest
@@ -41,7 +38,7 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add configs/proxy_configs.txt configs/channel_stats.json assets/channel_stats_chart.svg README.md
+        git add configs/subscription configs/channel_stats.json assets/channel_stats_chart.svg README.md
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update proxy configs, stats and charts" && git push)
 
     - name: Push to Other Repository
@@ -50,11 +47,11 @@ jobs:
         git clone https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/m3hdiclub/Free-Server.git target_repo
         
         # Copy the configs file
-        cp subscription target_repo/
+        cp configs/subscription target_repo/
         
         # Commit and push to target repository
         cd target_repo
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add proxy_configs.txt
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update proxy configs" && git push)
+        git add subscription
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update subscription" && git push)
