@@ -1,14 +1,19 @@
 import requests
 import base64
 from typing import List, Optional
-from urllib.parse import urlparse
 import logging
 import re
+import json
+from datetime import datetime
+import os
 
 class SubscriptionHandler:
     def __init__(self, config):
         self.config = config
         self.logger = logging.getLogger(__name__)
+        
+        # Create configs directory if it doesn't exist
+        os.makedirs('configs', exist_ok=True)
         
     def fetch_subscription(self, url: str) -> Optional[str]:
         """Fetch content from subscription URL."""
@@ -19,15 +24,16 @@ class SubscriptionHandler:
             response.raise_for_status()
             content = response.text
             self.logger.info(f"Received content length: {len(content)} characters")
-            # Log first 100 characters of content for debugging
-            self.logger.debug(f"Content preview: {content[:100]}...")
             return content
         except Exception as e:
             self.logger.error(f"Error fetching subscription from {url}: {str(e)}")
             return None
 
     def is_base64(self, s: str) -> bool:
-        """Check if a string is base64 encoded."""
+        """Check if a string is base64 encoded with more flexible validation."""
+        if not s:
+            return False
+            
         try:
             # Remove whitespace and newlines
             s = s.strip()
@@ -36,21 +42,19 @@ class SubscriptionHandler:
             if missing_padding:
                 s += '=' * (4 - missing_padding)
             
-            # Check if string contains only valid base64 characters
-            if not re.match('^[A-Za-z0-9+/]*={0,2}$', s):
+            # Less restrictive pattern that allows for URL-safe base64
+            if not re.match('^[A-Za-z0-9+/\-_]*={0,3}$', s):
                 return False
                 
             # Try to decode
-            decoded = base64.b64decode(s)
-            # Try to decode as UTF-8 to make sure it's valid text
-            decoded.decode('utf-8')
+            base64.b64decode(s, validate=True)
             return True
         except Exception as e:
             self.logger.debug(f"Base64 check failed: {str(e)}")
             return False
 
     def decode_base64_content(self, content: str) -> str:
-        """Decode base64 content."""
+        """Decode base64 content with support for URL-safe encoding."""
         try:
             # Remove any whitespace and newlines
             content = content.strip()
@@ -58,61 +62,56 @@ class SubscriptionHandler:
             missing_padding = len(content) % 4
             if missing_padding:
                 content += '=' * (4 - missing_padding)
+            
+            # Try standard base64 first
+            try:
+                decoded = base64.b64decode(content)
+            except:
+                # If standard fails, try URL-safe base64
+                decoded = base64.urlsafe_b64decode(content)
                 
-            # Decode base64
-            decoded = base64.b64decode(content)
             # Convert to string
             result = decoded.decode('utf-8')
             self.logger.info(f"Successfully decoded base64 content, length: {len(result)}")
-            self.logger.debug(f"Decoded content preview: {result[:100]}...")
             return result
         except Exception as e:
             self.logger.error(f"Error decoding base64 content: {str(e)}")
             return content
 
     def extract_configs(self, content: str) -> List[str]:
-        """Extract configs from decoded content."""
+        """Extract configs from decoded content with improved protocol detection."""
         configs = []
-        lines = content.split('\n')
-        self.logger.info(f"Processing {len(lines)} lines for config extraction")
-        
-        for line in lines:
+        # Split by both newlines and commas (some subscriptions use comma separation)
+        for line in re.split(r'[\n,]', content):
             line = line.strip()
             if not line:
                 continue
-                
+            
             # Check if line starts with any supported protocol
-            for protocol in self.config.SUPPORTED_PROTOCOLS:
-                if line.startswith(protocol):
-                    self.logger.debug(f"Found {protocol} config: {line[:50]}...")
-                    configs.append(line)
-                    break
-                
+            if any(line.startswith(protocol) for protocol in self.config.SUPPORTED_PROTOCOLS):
+                configs.append(line)
+                self.logger.debug(f"Found config: {line[:50]}...")
+        
         self.logger.info(f"Extracted {len(configs)} configs")
         return configs
 
     def parse_subscription_content(self, content: str) -> List[str]:
-        """Parse subscription content and extract proxy configurations."""
+        """Parse subscription content with improved base64 handling."""
         if not content:
             self.logger.warning("Received empty content")
             return []
 
-        # First try to decode the entire content if it's base64
-        decoded_content = content
+        # Check if content might be base64 encoded
         if self.is_base64(content):
-            self.logger.info("Content is base64 encoded, decoding...")
+            self.logger.info("Content appears to be base64 encoded, attempting decode...")
             decoded_content = self.decode_base64_content(content)
-        else:
-            self.logger.info("Content is not base64 encoded")
-            
-        # Extract configs from decoded content
-        configs = self.extract_configs(decoded_content)
+            if decoded_content != content:  # Check if decoding actually changed something
+                self.logger.info("Successfully decoded base64 content")
+                return self.extract_configs(decoded_content)
         
-        # Remove duplicates while preserving order
-        unique_configs = list(dict.fromkeys(configs))
-        
-        self.logger.info(f"Found {len(unique_configs)} unique configs")
-        return unique_configs
+        # If not base64 or decoding failed, try direct extraction
+        self.logger.info("Processing content as plain text")
+        return self.extract_configs(content)
 
     def process_subscription_url(self, url: str) -> List[str]:
         """Process a subscription URL and return list of valid configs."""
@@ -123,3 +122,35 @@ class SubscriptionHandler:
             self.logger.info(f"Successfully processed {url}, found {len(configs)} configs")
             return configs
         return []
+
+    def save_configs(self, configs: List[str]) -> bool:
+        """Save configs to output file."""
+        try:
+            # Convert configs to base64
+            combined = '\n'.join(configs)
+            encoded = base64.b64encode(combined.encode()).decode()
+            
+            # Save to file
+            with open(self.config.OUTPUT_FILE, 'w') as f:
+                f.write(encoded)
+            
+            self.logger.info(f"Successfully saved {len(configs)} configs to {self.config.OUTPUT_FILE}")
+            return True
+        except Exception as e:
+            self.logger.error(f"Error saving configs: {str(e)}")
+            return False
+
+    def save_stats(self, protocol_stats: Dict[str, int]):
+        """Save channel statistics."""
+        try:
+            stats = {
+                'last_update': datetime.now().isoformat(),
+                'protocol_stats': protocol_stats
+            }
+            
+            with open(self.config.STATS_FILE, 'w') as f:
+                json.dump(stats, f, indent=2)
+                
+            self.logger.info(f"Channel statistics saved to {self.config.STATS_FILE}")
+        except Exception as e:
+            self.logger.error(f"Error saving channel statistics: {str(e)}")
