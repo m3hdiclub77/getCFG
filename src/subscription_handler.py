@@ -25,6 +25,12 @@ class SubscriptionHandler:
         configs = []
         if not content:
             return configs
+        
+        try:
+            decoded_content = base64.b64decode(content).decode('utf-8')
+            content = decoded_content
+        except:
+            pass
 
         lines = content.strip().split('\n')
         for line in lines:
