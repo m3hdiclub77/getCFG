@@ -19,7 +19,8 @@ class ProxyConfig:
             ChannelConfig("https://t.me/s/RadixVPN"),
             ChannelConfig("https://t.me/s/PrivateVPNs"),
             ChannelConfig("https://t.me/s/VlessConfig"),
-            ChannelConfig("https://t.me/s/freewireguard")
+            ChannelConfig("https://t.me/s/freewireguard"),
+	    ChannelConfig("https://t.me/s/xs_filternet")
         ]
         
         self.SUBSCRIPTION_URLS = [
