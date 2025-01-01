@@ -1,10 +1,13 @@
 name: Update Proxy Configs
+
 on:
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   update-configs:
     runs-on: ubuntu-latest
@@ -32,26 +35,12 @@ jobs:
     
     - name: Update README with latest stats
       run: |
+        # Create new README with updated timestamp
         sed -i "s|channel-stats-chart.svg?v=.*|channel-stats-chart.svg?v=$(date +%s)|" README.md
     
     - name: Commit and push if changed
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add subscription configs/channel_stats.json assets/channel_stats_chart.svg README.md
+        git add configs/proxy_configs.txt configs/channel_stats.json assets/channel_stats_chart.svg README.md
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update proxy configs, stats and charts" && git push)
-
-    - name: Push to Other Repository
-      run: |
-        # Clone the target repository
-        git clone https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/m3hdiclub/Free-Server.git target_repo
-        
-        # Copy the configs file
-        cp subscription target_repo/
-        
-        # Commit and push to target repository
-        cd target_repo
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add subscription
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update subscription" && git push)
