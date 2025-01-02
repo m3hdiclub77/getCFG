@@ -141,16 +141,16 @@
         </g>
         
         <g>
-            <rect x="554.5454545454545" y="60.0" width="56.81818181818182" height="280.0"
+            <rect x="554.5454545454545" y="200.0" width="56.81818181818182" height="140.0"
                   class="bar"/>
             <text x="585.4545454545454" y="380" 
                   transform="rotate(45, 585.4545454545454, 380)"
                   text-anchor="start" class="tick-label">
                 PrivateVPNs
             </text>
-            <text x="585.4545454545454" y="55.0" 
+            <text x="585.4545454545454" y="195.0" 
                   text-anchor="middle" class="tick-label">
-                100.0%
+                50.0%
             </text>
         </g>
         
@@ -183,7 +183,7 @@
         </g>
         
         <text x="740" y="390" text-anchor="end" class="timestamp">
-            Last updated: 2025-01-02T06:29:22.140416
+            Last updated: 2025-01-02T12:40:10.696515
         </text>
     </svg>
     
