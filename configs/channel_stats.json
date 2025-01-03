@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-01-02T18:28:42.426846",
+  "timestamp": "2025-01-03T01:38:44.881157",
   "channels": [
     {
       "url": "https://t.me/s/xs_filternet",
@@ -52,8 +52,8 @@
     {
       "url": "https://t.me/s/PrivateVPNs",
       "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
+      "retry_count": 0,
+      "success_rate": 100.0
     },
     {
       "url": "https://t.me/s/VlessConfig",
