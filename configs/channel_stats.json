@@ -1,71 +1,75 @@
 {
-  "timestamp": "2025-01-05T06:27:48.550699",
+  "timestamp": "2025-01-05T10:00:24.196053",
   "channels": [
-    {
-      "url": "https://t.me/s/xs_filternet",
-      "enabled": true,
-      "retry_count": 0,
-      "success_rate": 100.0
-    },
     {
       "url": "https://t.me/s/v2ray_free_conf",
       "enabled": true,
-      "retry_count": 0,
-      "success_rate": 100.0
-    },
-    {
-      "url": "https://t.me/s/v2rayvpno",
-      "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
-    },
-    {
-      "url": "https://t.me/s/ZibaNabz",
-      "enabled": true,
-      "retry_count": 0,
-      "success_rate": 100.0
+      "metrics": {
+        "total_configs": 20,
+        "valid_configs": 15,
+        "unique_configs": 15,
+        "avg_response_time": 0.59,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 92.87,
+        "last_success": "2025-01-05T10:00:22.251329"
+      }
     },
     {
       "url": "https://t.me/s/configV2rayForFree",
       "enabled": true,
-      "retry_count": 0,
-      "success_rate": 100.0
-    },
-    {
-      "url": "https://t.me/s/v2rayngvpn",
-      "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
-    },
-    {
-      "url": "https://t.me/s/SvnV2ray",
-      "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
-    },
-    {
-      "url": "https://t.me/s/RadixVPN",
-      "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
+      "metrics": {
+        "total_configs": 10,
+        "valid_configs": 6,
+        "unique_configs": 6,
+        "avg_response_time": 0.53,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 89.21,
+        "last_success": "2025-01-05T10:00:22.815044"
+      }
     },
     {
       "url": "https://t.me/s/PrivateVPNs",
       "enabled": true,
-      "retry_count": 0,
-      "success_rate": 100.0
-    },
-    {
-      "url": "https://t.me/s/VlessConfig",
-      "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
+      "metrics": {
+        "total_configs": 17,
+        "valid_configs": 12,
+        "unique_configs": 12,
+        "avg_response_time": 0.55,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 91.82,
+        "last_success": "2025-01-05T10:00:23.404771"
+      }
     },
     {
       "url": "https://t.me/s/freewireguard",
       "enabled": true,
-      "retry_count": 0,
-      "success_rate": 100.0
+      "metrics": {
+        "total_configs": 18,
+        "valid_configs": 15,
+        "unique_configs": 15,
+        "avg_response_time": 0.55,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 95.01,
+        "last_success": "2025-01-05T10:00:23.976346"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/valid7996/Gozargah/refs/heads/main/Gozargah_Sub",
+      "enabled": true,
+      "metrics": {
+        "total_configs": 15,
+        "valid_configs": 7,
+        "unique_configs": 7,
+        "avg_response_time": 0.22,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 86.34,
+        "last_success": "2025-01-05T10:00:24.194154"
+      }
     }
   ]
 }
