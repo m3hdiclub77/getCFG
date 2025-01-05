@@ -1,34 +1,56 @@
 from typing import Dict, List
+from datetime import datetime
+import re
+
+class ChannelMetrics:
+    def __init__(self):
+        self.total_configs = 0
+        self.valid_configs = 0
+        self.unique_configs = 0
+        self.avg_response_time = 0
+        self.last_success_time = None
+        self.fail_count = 0
+        self.success_count = 0
+        self.overall_score = 0.0
 
 class ChannelConfig:
-    def __init__(self, url: str, enabled: bool = True, retry_count: int = 0):
+    def __init__(self, url: str, enabled: bool = True):
         self.url = url
         self.enabled = enabled
-        self.retry_count = retry_count
-        self.success_rate = 100.0
+        self.metrics = ChannelMetrics()
+        self.is_telegram = bool(re.match(r'^https://t\.me/s/', url))
+        
+    def calculate_overall_score(self):
+        if self.metrics.success_count + self.metrics.fail_count == 0:
+            reliability_score = 0
+        else:
+            reliability_score = (self.metrics.success_count / (self.metrics.success_count + self.metrics.fail_count)) * 35
+        
+        if self.metrics.total_configs == 0:
+            quality_score = 0
+        else:
+            quality_score = (self.metrics.valid_configs / self.metrics.total_configs) * 25
+        
+        if self.metrics.valid_configs == 0:
+            uniqueness_score = 0
+        else:
+            uniqueness_score = (self.metrics.unique_configs / self.metrics.valid_configs) * 25
+        
+        if self.metrics.avg_response_time == 0:
+            response_score = 15
+        else:
+            response_score = max(0, min(15, 15 * (1 - (self.metrics.avg_response_time / 10))))
+        
+        self.metrics.overall_score = reliability_score + quality_score + uniqueness_score + response_score
 
 class ProxyConfig:
     def __init__(self):
-        self.TELEGRAM_CHANNELS = [
-            ChannelConfig("https://t.me/s/xs_filternet"),
-	    ChannelConfig("https://t.me/s/v2ray_free_conf"),
-            ChannelConfig("https://t.me/s/v2rayvpno"),
-            ChannelConfig("https://t.me/s/ZibaNabz"),
+        self.SOURCE_URLS = [
+            ChannelConfig("https://t.me/s/v2ray_free_conf"),
             ChannelConfig("https://t.me/s/configV2rayForFree"),
-            ChannelConfig("https://t.me/s/v2rayngvpn"),
-            ChannelConfig("https://t.me/s/SvnV2ray"), 
-            ChannelConfig("https://t.me/s/RadixVPN"),
             ChannelConfig("https://t.me/s/PrivateVPNs"),
-            ChannelConfig("https://t.me/s/VlessConfig"),
-            ChannelConfig("https://t.me/s/freewireguard")
-        ]
-        
-        self.SUBSCRIPTION_URLS = [
-            "https://raw.githubusercontent.com/m3hdiclub/free-server/main/Cloudflare_vless_trojan",
-			"https://little-sea-273d.7mehdinorouzi7.workers.dev/m3hdiclub?sub",
-		"https://raw.githubusercontent.com/tkamirparsa/V2rayy/refs/heads/main/Sub.text555",
-		"https://raw.githubusercontent.com/iPsycho1/Subscription/refs/heads/main/iPsycho"
-            # Add more subscription URLs here
+            ChannelConfig("https://t.me/s/freewireguard"),
+            ChannelConfig("https://raw.githubusercontent.com/valid7996/Gozargah/refs/heads/main/Gozargah_Sub")
         ]
 
         self.PROTOCOL_CONFIG_LIMITS = {
@@ -45,15 +67,15 @@ class ProxyConfig:
             "trojan://": {"min_configs": self.PROTOCOL_CONFIG_LIMITS["min"], "max_configs": self.PROTOCOL_CONFIG_LIMITS["max"]}
         }
 
-        self.MIN_CONFIGS_PER_CHANNEL = 2
-        self.MAX_CONFIGS_PER_CHANNEL = 10
+        self.MIN_CONFIGS_PER_CHANNEL = 5
+        self.MAX_CONFIGS_PER_CHANNEL = 30
         self.MAX_CONFIG_AGE_DAYS = 7
         self.CHANNEL_RETRY_LIMIT = 3
         self.CHANNEL_ERROR_THRESHOLD = 0.5
 
         self.MIN_PROTOCOL_RATIO = 0.15
 
-        self.OUTPUT_FILE = '../Free-Server/subscription'
+        self.OUTPUT_FILE = 'configs/proxy_configs.txt'
         self.STATS_FILE = 'configs/channel_stats.json'
 
         self.MAX_RETRIES = 3
@@ -72,14 +94,22 @@ class ProxyConfig:
         return protocol in self.SUPPORTED_PROTOCOLS
 
     def get_enabled_channels(self) -> List[ChannelConfig]:
-        return [channel for channel in self.TELEGRAM_CHANNELS if channel.enabled]
+        return [channel for channel in self.SOURCE_URLS if channel.enabled]
 
-    def update_channel_stats(self, channel: ChannelConfig, success: bool):
-        channel.retry_count = 0 if success else channel.retry_count + 1
+    def update_channel_stats(self, channel: ChannelConfig, success: bool, response_time: float = 0):
+        if success:
+            channel.metrics.success_count += 1
+            channel.metrics.last_success_time = datetime.now()
+        else:
+            channel.metrics.fail_count += 1
         
-        weight = 0.5
-        new_rate = 100.0 if success else 0.0
-        channel.success_rate = (weight * new_rate) + ((1 - weight) * channel.success_rate)
+        if response_time > 0:
+            if channel.metrics.avg_response_time == 0:
+                channel.metrics.avg_response_time = response_time
+            else:
+                channel.metrics.avg_response_time = (channel.metrics.avg_response_time * 0.7) + (response_time * 0.3)
         
-        if channel.success_rate < self.CHANNEL_ERROR_THRESHOLD * 100:
+        channel.calculate_overall_score()
+        
+        if channel.metrics.overall_score < 30:
             channel.enabled = False
