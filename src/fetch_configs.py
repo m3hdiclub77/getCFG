@@ -4,17 +4,14 @@ import time
 import json
 import logging
 import base64
-import hashlib
-import requests
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
+import requests
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
 from config import ProxyConfig, ChannelConfig
 from config_validator import ConfigValidator
 from subscription_handler import SubscriptionHandler
-from functools import lru_cache
-
 
 logging.basicConfig(
     level=logging.INFO,
@@ -41,16 +38,6 @@ class ConfigFetcher:
         self.config = config
         self.validator = ConfigValidator()
         self.protocol_counts: Dict[str, int] = {p: 0 for p in config.SUPPORTED_PROTOCOLS}
-        
-        self.protocol_stats = defaultdict(lambda: {
-            "success_count": 0,
-            "fail_count": 0,
-            "avg_response_time": 0
-        })
-        
-    @lru_cache(maxsize=128)
-    def cache_config(self, config: str) -> str:
-        return hashlib.sha256(config.encode()).hexdigest()
 
     def extract_config(self, text: str, start_index: int, protocol: str) -> Optional[str]:
         try:
@@ -196,15 +183,6 @@ class ConfigFetcher:
             return final_configs
         
         return []
-        
-    def track_protocol_performance(self, protocol: str, success: bool, response_time: float):
-        stats = self.protocol_stats[protocol]
-        if success:
-            stats["success_count"] += 1
-        else:
-            stats["fail_count"] += 1
-        stats["avg_response_time"] = (stats["avg_response_time"] * (stats["success_count"] - 1) + 
-                                    response_time) / stats["success_count"]
 
 def save_configs(configs: List[str], config: ProxyConfig):
     try:
