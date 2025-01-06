@@ -1,14 +1,8 @@
 import requests
 import base64
-import os
-import shutil
-import logging
 from typing import List, Optional
 from urllib.parse import urlparse
-from pathlib import Path
-from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor
-
+import logging
 
 class SubscriptionHandler:
     def __init__(self, config):
@@ -57,34 +51,3 @@ class SubscriptionHandler:
         if content:
             return self.parse_subscription_content(content)
         return []
-        
-    def secure_file_write(path: Path, content: str):
-    # Ensure directory exists and is secure
-    path.parent.mkdir(parents=True, exist_ok=True, mode=0o755)
-    
-    # Write with secure permissions
-    temp_path = path.with_suffix('.tmp')
-    with open(temp_path, 'w', encoding='utf-8') as f:
-        f.write(content)
-    os.chmod(temp_path, 0o644)
-    temp_path.replace(path)
-    
-    def create_backup(self):
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        backup_dir = self.config.BASE_DIR / 'backups'
-        backup_dir.mkdir(exist_ok=True)
-        
-        backup_path = backup_dir / f"subscription_backup_{timestamp}"
-        shutil.copy2(self.config.OUTPUT_FILE, backup_path)
-        
-        # Cleanup old backups
-        backup_files = sorted(backup_dir.glob("subscription_backup_*"))
-        while len(backup_files) > 5:  # Keep last 5 backups
-            backup_files[0].unlink()
-            backup_files = backup_files[1:]
-
-    def fetch_all_subscriptions(self):
-        with ThreadPoolExecutor(max_workers=5) as executor:
-            futures = [executor.submit(self.process_subscription_url, url) 
-                      for url in self.config.SUBSCRIPTION_URLS]
-            return [f.result() for f in futures]
