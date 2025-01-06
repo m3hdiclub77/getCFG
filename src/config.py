@@ -47,11 +47,20 @@ class ProxyConfig:
     def __init__(self):
         # List of channels or URLs to fetch proxy configurations from
         self.SOURCE_URLS = [
-            ChannelConfig("https://t.me/s/v2ray_free_conf"),
+            ChannelConfig("https://t.me/s/xs_filternet"),
+			ChannelConfig("https://t.me/s/v2ray_free_conf"),
+            ChannelConfig("https://t.me/s/v2rayvpno"),
+            ChannelConfig("https://t.me/s/ZibaNabz"),
             ChannelConfig("https://t.me/s/configV2rayForFree"),
+            ChannelConfig("https://t.me/s/v2rayngvpn"),
+            ChannelConfig("https://t.me/s/SvnV2ray"), 
+            ChannelConfig("https://t.me/s/RadixVPN"),
             ChannelConfig("https://t.me/s/PrivateVPNs"),
+            ChannelConfig("https://t.me/s/VlessConfig"),
             ChannelConfig("https://t.me/s/freewireguard"),
-            ChannelConfig("https://raw.githubusercontent.com/valid7996/Gozargah/refs/heads/main/Gozargah_Sub")
+            ChannelConfig("https://raw.githubusercontent.com/m3hdiclub/free-server/main/Cloudflare_vless_trojan"),
+			ChannelConfig("https://little-sea-273d.7mehdinorouzi7.workers.dev/m3hdiclub?sub"),
+			ChannelConfig("https://raw.githubusercontent.com/tkamirparsa/V2rayy/refs/heads/main/Sub.text555"),
         ]
 
         # Minimum and maximum number of configurations per protocol
