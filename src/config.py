@@ -1,9 +1,4 @@
 from typing import Dict, List
-import ssl
-import certifi
-from pathlib import Path
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 
 class ChannelConfig:
     def __init__(self, url: str, enabled: bool = True, retry_count: int = 0):
@@ -71,41 +66,6 @@ class ProxyConfig:
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1'
         }
-        
-        # Add secure request settings
-        self.SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
-        self.VERIFY_SSL = True
-        
-        # Add rate limiting
-        self.RATE_LIMIT = {
-            "requests_per_minute": 30,
-            "burst": 5
-        }
-        
-        # Secure file paths
-        self.BASE_DIR = Path(__file__).parent.parent.resolve()
-        self.OUTPUT_FILE = self.BASE_DIR / 'Free-Server' / 'subscription'
-        self.STATS_FILE = self.BASE_DIR / 'configs' / 'channel_stats.json'
-        
-        # Add request security headers
-        self.HEADERS.update({
-            'Sec-Fetch-Dest': 'document',
-            'Sec-Fetch-Mode': 'navigate',
-            'Sec-Fetch-Site': 'none',
-            'Sec-Fetch-User': '?1'
-        })
-        
-        self.HEALTH_CHECK = {
-            "enabled": True,
-            "timeout": 5,
-            "interval": 3600,  # 1 hour
-            "retries": 2
-        }
-        
-        self.SESSION = requests.Session()
-        retries = Retry(total=3, backoff_factor=1)
-        self.SESSION.mount('http://', HTTPAdapter(max_retries=retries))
-        self.SESSION.mount('https://', HTTPAdapter(max_retries=retries))
 
     def is_protocol_enabled(self, protocol: str) -> bool:
         return protocol in self.SUPPORTED_PROTOCOLS
