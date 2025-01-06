@@ -60,7 +60,7 @@ class ProxyConfig:
             ChannelConfig("https://t.me/s/freewireguard"),
             ChannelConfig("https://raw.githubusercontent.com/m3hdiclub/free-server/main/Cloudflare_vless_trojan"),
 			ChannelConfig("https://little-sea-273d.7mehdinorouzi7.workers.dev/m3hdiclub?sub"),
-			ChannelConfig("https://raw.githubusercontent.com/tkamirparsa/V2rayy/refs/heads/main/Sub.text555"),
+			ChannelConfig("https://raw.githubusercontent.com/tkamirparsa/V2rayy/refs/heads/main/Sub.text555")
         ]
 
         # Minimum and maximum number of configurations per protocol
