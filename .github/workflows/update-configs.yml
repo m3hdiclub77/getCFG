@@ -1,20 +1,27 @@
 name: Update Proxy Configs
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   update-configs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout current repository
+      uses: actions/checkout@v3
       with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        path: current-repo
+    
+    - name: Checkout Free-Server repository
+      uses: actions/checkout@v3
+      with:
+        repository: m3hdiclub/Free-Server
         token: ${{ secrets.PAT_TOKEN }}
+        path: Free-Server
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -23,43 +30,37 @@ jobs:
     
     - name: Install dependencies
       run: |
+        cd current-repo
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     
-    - name: Create directories
-      run: |
-        mkdir -p assets
-        mkdir -p configs
-    
     - name: Run config fetcher
-      run: python src/fetch_configs.py
-      continue-on-error: true
-    
-    - name: Generate charts and reports
-      run: python src/generate_charts.py
-    
-    - name: Update README timestamps
       run: |
-        timestamp=$(date +%s)
-        sed -i "s/channel_stats_chart\.svg?v=[0-9]*/channel_stats_chart.svg?v=$timestamp/" README.md
-        sed -i "s/performance_report\.html?v=[0-9]*/performance_report.html?v=$timestamp/" README.md
+        cd current-repo
+        python src/fetch_configs.py
     
-    - name: Checkout target repository
-      uses: actions/checkout@v3
-      with:
-        repository: m3hdiclub/Free-Server
-        token: ${{ secrets.PAT_TOKEN }}
-        path: free-server
-    
-    - name: Copy and rename proxy configs to target repo
+    - name: Generate performance chart
       run: |
-        cp configs/proxy_configs.txt free-server/subscription
+        cd current-repo
+        python src/generate_charts.py
     
-    - name: Commit to target repository
+    - name: Update README with latest stats
       run: |
-        cd free-server
+        cd current-repo
+        sed -i "s|channel-stats-chart.svg?v=.*|channel-stats-chart.svg?v=$(date +%s)|" README.md
+    
+    - name: Commit and push current repository changes
+      run: |
+        cd current-repo
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add configs/channel_stats.json assets/channel_stats_chart.svg README.md
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update stats and charts" && git push)
+    
+    - name: Commit and push Free-Server changes
+      run: |
+        cd Free-Server
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add subscription
-        git commit -m "Update subscription from source repository" || echo "No changes to commit"
-        git push
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update subscription file" && git push)
