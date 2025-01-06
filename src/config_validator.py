@@ -1,6 +1,7 @@
 import re
 import base64
 import json
+import validators
 from typing import Optional, Tuple, List
 from urllib.parse import unquote, urlparse
 
@@ -134,3 +135,15 @@ class ConfigValidator:
             return False
         except:
             return False
+            
+    @staticmethod
+    def validate_url(url: str) -> bool:
+        return bool(validators.url(url))
+    
+    @staticmethod
+    def sanitize_filename(filename: str) -> str:
+        return "".join(c for c in filename if c.isalnum() or c in "._-")
+    
+    @staticmethod
+    def validate_config_name(name: str) -> bool:
+        return bool(re.match(r'^[\w\-\. ]+$', name))
