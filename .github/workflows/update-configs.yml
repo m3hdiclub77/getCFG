@@ -33,21 +33,28 @@ jobs:
         cd current-repo
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+		
+	- name: Create directories
+      run: |
+        mkdir -p assets
+        mkdir -p configs
     
     - name: Run config fetcher
       run: |
         cd current-repo
         python src/fetch_configs.py
     
-    - name: Generate performance chart
-      run: |
+    - name: Generate charts and reports
+      run: python src/generate_charts.py
         cd current-repo
         python src/generate_charts.py
     
-    - name: Update README with latest stats
+    - name: Update README timestamps
       run: |
         cd current-repo
-        sed -i "s|channel-stats-chart.svg?v=.*|channel-stats-chart.svg?v=$(date +%s)|" README.md
+		timestamp=$(date +%s)
+        sed -i "s/channel_stats_chart\.svg?v=[0-9]*/channel_stats_chart.svg?v=$timestamp/" README.md
+        sed -i "s/performance_report\.html?v=[0-9]*/performance_report.html?v=$timestamp/" README.md
     
     - name: Commit and push current repository changes
       run: |
