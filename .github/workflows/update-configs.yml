@@ -1,21 +1,26 @@
 name: Update Proxy Configs
-
 on:
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   update-configs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout current repository
+      uses: actions/checkout@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Checkout Free-Server repository
+      uses: actions/checkout@v3
+      with:
+        repository: YOUR_USERNAME/Free-Server
+        token: ${{ secrets.PAT_TOKEN }}
+        path: Free-Server
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -39,23 +44,33 @@ jobs:
     - name: Generate charts and reports
       run: python src/generate_charts.py
     
+    - name: Move subscription file
+      run: |
+        mv subscription Free-Server/
+    
     - name: Update README timestamps
       run: |
         timestamp=$(date +%s)
         sed -i "s/channel_stats_chart\.svg?v=[0-9]*/channel_stats_chart.svg?v=$timestamp/" README.md
         sed -i "s/performance_report\.html?v=[0-9]*/performance_report.html?v=$timestamp/" README.md
     
-    - name: Setup Git
+    - name: Setup Git for current repo
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
     
-    - name: Commit and push changes
+    - name: Commit and push changes to current repo
       run: |
-        git add configs/proxy_configs.txt
         git add configs/channel_stats.json
         git add assets/channel_stats_chart.svg
         git add assets/performance_report.html
         git add README.md
-        git commit -m "Update proxy configs, stats and reports" || echo "No changes to commit"
+        git commit -m "Update stats and reports" || echo "No changes to commit"
+        git push
+    
+    - name: Commit and push to Free-Server repo
+      run: |
+        cd Free-Server
+        git add subscription
+        git commit -m "Update subscription" || echo "No changes to commit"
         git push
