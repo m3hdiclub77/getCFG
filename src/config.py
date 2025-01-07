@@ -81,7 +81,7 @@ class ProxyConfig:
         # Minimum ratio of configs required for a protocol to be considered valid
         self.MIN_PROTOCOL_RATIO = 0.15  # Protocol must have at least 15% of all fetched configs
 
-        self.OUTPUT_FILE = '../Free-Server/subscription'
+        self.OUTPUT_FILE = 'subscription'
         self.STATS_FILE = 'configs/channel_stats.json'
 
         # HTTP request settings
