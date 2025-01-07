@@ -32,45 +32,36 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     
-    - name: Create directories
-      run: |
-        mkdir -p assets
-        mkdir -p configs
-    
     - name: Run config fetcher
       run: python src/fetch_configs.py
-      continue-on-error: true
     
-    - name: Generate charts and reports
-      run: python src/generate_charts.py
-    
-    - name: Move subscription file
+    - name: Debug Output
       run: |
-        mv subscription Free-Server/
+        echo "Current directory contents:"
+        ls -la
+        echo "Checking if subscription file exists:"
+        if [ -f "subscription" ]; then
+          echo "subscription file found"
+          cat subscription | wc -l
+        else
+          echo "subscription file NOT found"
+        fi
     
-    - name: Update README timestamps
+    - name: Copy subscription file
       run: |
-        timestamp=$(date +%s)
-        sed -i "s/channel_stats_chart\.svg?v=[0-9]*/channel_stats_chart.svg?v=$timestamp/" README.md
-        sed -i "s/performance_report\.html?v=[0-9]*/performance_report.html?v=$timestamp/" README.md
-    
-    - name: Setup Git for current repo
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-    
-    - name: Commit and push changes to current repo
-      run: |
-        git add configs/channel_stats.json
-        git add assets/channel_stats_chart.svg
-        git add assets/performance_report.html
-        git add README.md
-        git commit -m "Update stats and reports" || echo "No changes to commit"
-        git push
+        if [ -f "subscription" ]; then
+          cp subscription Free-Server/
+          echo "File copied successfully"
+        else
+          echo "subscription file not found"
+          exit 1
+        fi
     
     - name: Commit and push to Free-Server repo
       run: |
         cd Free-Server
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add subscription
         git commit -m "Update subscription" || echo "No changes to commit"
         git push
