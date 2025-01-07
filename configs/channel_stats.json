@@ -1,11 +1,17 @@
 {
-  "timestamp": "2025-01-07T05:55:46.836235",
+  "timestamp": "2025-01-07T06:16:54.298991",
   "channels": [
     {
       "url": "https://t.me/s/xs_filternet",
       "enabled": true,
       "retry_count": 0,
       "success_rate": 100.0
+    },
+    {
+      "url": "https://t.me/s/mobilesignal",
+      "enabled": true,
+      "retry_count": 1,
+      "success_rate": 50.0
     },
     {
       "url": "https://t.me/s/v2rayvpno",
