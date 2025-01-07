@@ -1,14 +1,8 @@
 {
-  "timestamp": "2025-01-07T05:38:41.255006",
+  "timestamp": "2025-01-07T05:55:46.836235",
   "channels": [
     {
       "url": "https://t.me/s/xs_filternet",
-      "enabled": true,
-      "retry_count": 0,
-      "success_rate": 100.0
-    },
-    {
-      "url": "https://t.me/s/v2ray_free_conf",
       "enabled": true,
       "retry_count": 0,
       "success_rate": 100.0
@@ -18,12 +12,6 @@
       "enabled": true,
       "retry_count": 1,
       "success_rate": 50.0
-    },
-    {
-      "url": "https://t.me/s/ZibaNabz",
-      "enabled": true,
-      "retry_count": 0,
-      "success_rate": 100.0
     },
     {
       "url": "https://t.me/s/configV2rayForFree",
@@ -38,31 +26,25 @@
       "success_rate": 50.0
     },
     {
-      "url": "https://t.me/s/SvnV2ray",
+      "url": "https://t.me/s/DeamNet_proxy",
       "enabled": true,
       "retry_count": 1,
       "success_rate": 50.0
     },
     {
-      "url": "https://t.me/s/RadixVPN",
+      "url": "https://t.me/s/V2RFa",
       "enabled": true,
       "retry_count": 1,
       "success_rate": 50.0
     },
     {
-      "url": "https://t.me/s/PrivateVPNs",
-      "enabled": true,
-      "retry_count": 0,
-      "success_rate": 100.0
-    },
-    {
-      "url": "https://t.me/s/VlessConfig",
+      "url": "https://t.me/s/sinavm",
       "enabled": true,
       "retry_count": 1,
       "success_rate": 50.0
     },
     {
-      "url": "https://t.me/s/freewireguard",
+      "url": "https://t.me/s/v2ray1_ng",
       "enabled": true,
       "retry_count": 0,
       "success_rate": 100.0
