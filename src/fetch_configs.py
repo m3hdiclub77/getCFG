@@ -168,13 +168,27 @@ class ConfigFetcher:
 
 def save_configs(configs: List[str], config: ProxyConfig):
     try:
-        os.makedirs(os.path.dirname(config.OUTPUT_FILE), exist_ok=True)
+        if not configs:
+            logger.error("No configs to save!")
+            return
+            
+        # چاپ مسیر فایل برای دیباگ
+        logger.info(f"Trying to save configs to: {config.OUTPUT_FILE}")
+            
+        # ذخیره فایل
         with open(config.OUTPUT_FILE, 'w', encoding='utf-8') as f:
-            for config in configs:
-                f.write(config + '\n\n')
-        logger.info(f"Successfully saved {len(configs)} configs to {config.OUTPUT_FILE}")
+            for config_item in configs:
+                f.write(f"{config_item}\n")
+        
+        # چک کردن وجود فایل بعد از ذخیره
+        if os.path.exists(config.OUTPUT_FILE):
+            logger.info(f"Successfully saved {len(configs)} configs to {config.OUTPUT_FILE}")
+        else:
+            logger.error(f"File was not created at {config.OUTPUT_FILE}")
+            
     except Exception as e:
         logger.error(f"Error saving configs: {str(e)}")
+        raise  # برای دیدن خطای کامل
 
 def save_channel_stats(config: ProxyConfig):
     try:
