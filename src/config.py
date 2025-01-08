@@ -12,7 +12,6 @@ class ProxyConfig:
         self.TELEGRAM_CHANNELS = [
             ChannelConfig("https://t.me/s/xs_filternet"),
 		ChannelConfig("https://t.me/s/mobilesignal"),
-            ChannelConfig("https://t.me/s/v2rayvpno"),
             ChannelConfig("https://t.me/s/configV2rayForFree"),
             ChannelConfig("https://t.me/s/v2rayngvpn"),
             ChannelConfig("https://t.me/s/DeamNet_proxy"),
