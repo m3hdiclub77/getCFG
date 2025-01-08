@@ -25,14 +25,6 @@ class ConfigValidator:
             return None
 
     @staticmethod
-    def clean_vmess_config(config: str) -> str:
-        if "vmess://" in config:
-            base64_part = config[8:]
-            base64_clean = re.split(r'[^A-Za-z0-9+/=_-]', base64_part)[0]
-            return f"vmess://{base64_clean}"
-        return config
-
-    @staticmethod
     def is_vmess_config(config: str) -> bool:
         try:
             if not config.startswith('vmess://'):
@@ -47,24 +39,8 @@ class ConfigValidator:
             return False
 
     @staticmethod
-    def is_tuic_config(config: str) -> bool:
-        try:
-            if config.startswith('tuic://'):
-                parsed = urlparse(config)
-                return bool(parsed.netloc and ':' in parsed.netloc)
-            return False
-        except:
-            return False
-
-    @staticmethod
-    def convert_ssconf_to_https(url: str) -> str:
-        if url.startswith('ssconf://'):
-            return url.replace('ssconf://', 'https://', 1)
-        return url
-
-    @staticmethod
     def is_base64_config(config: str) -> Tuple[bool, str]:
-        protocols = ['vmess://', 'vless://', 'ss://', 'tuic://']
+        protocols = ['vmess://', 'vless://', 'ss://']
         for protocol in protocols:
             if config.startswith(protocol):
                 base64_part = config[len(protocol):]
@@ -76,7 +52,7 @@ class ConfigValidator:
 
     @staticmethod
     def split_configs(text: str) -> List[str]:
-        protocols = ['vmess://', 'vless://', 'ss://', 'trojan://', 'hysteria2://', 'wireguard://', 'tuic://', 'ssconf://']
+        protocols = ['vmess://', 'vless://', 'ss://', 'trojan://', 'hysteria2://', 'wireguard://']
         configs = []
         current_pos = 0
         text_length = len(text)
@@ -106,8 +82,6 @@ class ConfigValidator:
                         next_protocol_pos = pos
                 
                 current_config = text[next_config_start:next_protocol_pos].strip()
-                if matching_protocol == "vmess://":
-                    current_config = ConfigValidator.clean_vmess_config(current_config)
                 if ConfigValidator.is_valid_config(current_config):
                     configs.append(current_config)
                 
@@ -123,6 +97,15 @@ class ConfigValidator:
         config = re.sub(r'[\x00-\x08\x0B-\x1F\x7F-\x9F]', '', config)
         config = re.sub(r'[^\S\r\n]+', ' ', config)
         config = config.strip()
+        
+        if '#' in config:
+            parts = config.split('#')
+            config = parts[0].strip()
+            if len(parts) > 1:
+                name = parts[-1].strip()
+                if name:
+                    config = f"{config}#{name}"
+        
         return config
 
     @staticmethod
@@ -130,17 +113,15 @@ class ConfigValidator:
         if not config:
             return False
             
-        protocols = ['vmess://', 'vless://', 'ss://', 'trojan://', 'hysteria2://', 'wireguard://', 'tuic://', 'ssconf://']
+        protocols = ['vmess://', 'vless://', 'ss://', 'trojan://', 'hysteria2://', 'wireguard://']
         return any(config.startswith(p) for p in protocols)
 
     @classmethod
     def validate_protocol_config(cls, config: str, protocol: str) -> bool:
         try:
-            if protocol in ['vmess://', 'vless://', 'ss://', 'tuic://']:
+            if protocol in ['vmess://', 'vless://', 'ss://']:
                 if protocol == 'vmess://':
                     return cls.is_vmess_config(config)
-                if protocol == 'tuic://':
-                    return cls.is_tuic_config(config)
                 base64_part = config[len(protocol):]
                 decoded_url = unquote(base64_part)
                 if cls.is_base64(decoded_url) or cls.is_base64(base64_part):
@@ -150,8 +131,6 @@ class ConfigValidator:
             elif protocol in ['trojan://', 'hysteria2://', 'wireguard://']:
                 parsed = urlparse(config)
                 return bool(parsed.netloc and '@' in parsed.netloc)
-            elif protocol == 'ssconf://':
-                return True
             return False
         except:
             return False
