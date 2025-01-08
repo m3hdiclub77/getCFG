@@ -1,60 +1,46 @@
 {
-  "timestamp": "2025-01-08T06:52:47.230662",
+  "timestamp": "2025-01-08T06:55:22.452553",
   "channels": [
     {
-      "url": "https://t.me/s/v2ray_free_conf",
+      "url": "https://t.me/s/xs_filternet",
       "enabled": true,
       "metrics": {
-        "total_configs": 20,
-        "valid_configs": 16,
-        "unique_configs": 16,
-        "avg_response_time": 0.4,
-        "success_count": 1,
-        "fail_count": 0,
-        "overall_score": 94.4,
-        "last_success": "2025-01-08T06:52:36.536483"
-      }
-    },
-    {
-      "url": "https://t.me/s/PrivateVPNs",
-      "enabled": true,
-      "metrics": {
-        "total_configs": 18,
-        "valid_configs": 11,
-        "unique_configs": 11,
-        "avg_response_time": 0.37,
-        "success_count": 1,
-        "fail_count": 0,
-        "overall_score": 89.73,
-        "last_success": "2025-01-08T06:52:36.940710"
-      }
-    },
-    {
-      "url": "https://raw.githubusercontent.com/4n0nymou3/wg-config-fetcher/refs/heads/main/configs/wireguard_configs.txt",
-      "enabled": true,
-      "metrics": {
-        "total_configs": 10,
-        "valid_configs": 10,
-        "unique_configs": 10,
-        "avg_response_time": 0.12,
-        "success_count": 1,
-        "fail_count": 0,
-        "overall_score": 99.81,
-        "last_success": "2025-01-08T06:52:37.066475"
-      }
-    },
-    {
-      "url": "https://raw.githubusercontent.com/4n0nymou3/ss-config-updater/refs/heads/main/configs.txt",
-      "enabled": true,
-      "metrics": {
-        "total_configs": 12,
-        "valid_configs": 12,
-        "unique_configs": 4,
+        "total_configs": 6,
+        "valid_configs": 6,
+        "unique_configs": 2,
         "avg_response_time": 0,
         "success_count": 0,
         "fail_count": 0,
         "overall_score": 0.0,
         "last_success": null
+      }
+    },
+    {
+      "url": "https://sub.xn--4gqp1u.com/api/v1/client/subscribe?token=502e1f8983d37822457afa97e83b92aa",
+      "enabled": false,
+      "metrics": {
+        "total_configs": 0,
+        "valid_configs": 0,
+        "unique_configs": 0,
+        "avg_response_time": 0,
+        "success_count": 0,
+        "fail_count": 1,
+        "overall_score": 15.0,
+        "last_success": null
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/m3hdiclub/free-server/main/mine",
+      "enabled": true,
+      "metrics": {
+        "total_configs": 88,
+        "valid_configs": 28,
+        "unique_configs": 28,
+        "avg_response_time": 0.13,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 82.76,
+        "last_success": "2025-01-08T06:55:22.450793"
       }
     }
   ]
