@@ -23,7 +23,7 @@ class ProxyConfig:
         
         self.SUBSCRIPTION_URLS = [
             "https://raw.githubusercontent.com/m3hdiclub/free-server/main/mine",
-	     "https://sub.xn--4gqp1u.com/api/v1/client/subscribe?token=502e1f8983d37822457afa97e83b92aa",
+	     "https://raw.githubusercontent.com/m3hdiclub/free-server/main/一块.com",
 		"https://raw.githubusercontent.com/tkamirparsa/V2rayy/refs/heads/main/Sub.text555"
             # Add more subscription URLs here
         ]
