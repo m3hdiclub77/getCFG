@@ -1,47 +1,53 @@
 {
-  "timestamp": "2025-01-08T06:58:48.991978",
+  "timestamp": "2025-01-08T07:07:42.747711",
   "channels": [
     {
       "url": "https://t.me/s/xs_filternet",
       "enabled": true,
-      "metrics": {
-        "total_configs": 6,
-        "valid_configs": 6,
-        "unique_configs": 2,
-        "avg_response_time": 0,
-        "success_count": 0,
-        "fail_count": 0,
-        "overall_score": 0.0,
-        "last_success": null
-      }
+      "retry_count": 0,
+      "success_rate": 100.0
     },
     {
-      "url": "https://raw.githubusercontent.com/m3hdiclub/free-server/main/\u4e00\u5757.com",
+      "url": "https://t.me/s/mobilesignal",
       "enabled": true,
-      "metrics": {
-        "total_configs": 16,
-        "valid_configs": 15,
-        "unique_configs": 15,
-        "avg_response_time": 0.26,
-        "success_count": 1,
-        "fail_count": 0,
-        "overall_score": 98.04,
-        "last_success": "2025-01-08T06:58:48.763948"
-      }
+      "retry_count": 1,
+      "success_rate": 50.0
     },
     {
-      "url": "https://raw.githubusercontent.com/m3hdiclub/free-server/main/mine",
+      "url": "https://t.me/s/configV2rayForFree",
       "enabled": true,
-      "metrics": {
-        "total_configs": 88,
-        "valid_configs": 26,
-        "unique_configs": 26,
-        "avg_response_time": 0.22,
-        "success_count": 1,
-        "fail_count": 0,
-        "overall_score": 82.05,
-        "last_success": "2025-01-08T06:58:48.989916"
-      }
+      "retry_count": 1,
+      "success_rate": 50.0
+    },
+    {
+      "url": "https://t.me/s/v2rayngvpn",
+      "enabled": true,
+      "retry_count": 1,
+      "success_rate": 50.0
+    },
+    {
+      "url": "https://t.me/s/DeamNet_proxy",
+      "enabled": true,
+      "retry_count": 1,
+      "success_rate": 50.0
+    },
+    {
+      "url": "https://t.me/s/V2RFa",
+      "enabled": true,
+      "retry_count": 1,
+      "success_rate": 50.0
+    },
+    {
+      "url": "https://t.me/s/sinavm",
+      "enabled": true,
+      "retry_count": 1,
+      "success_rate": 50.0
+    },
+    {
+      "url": "https://t.me/s/v2ray1_ng",
+      "enabled": true,
+      "retry_count": 0,
+      "success_rate": 100.0
     }
   ]
 }
