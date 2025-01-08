@@ -1,59 +1,61 @@
 {
-  "timestamp": "2025-01-08T06:46:17.827134",
+  "timestamp": "2025-01-08T06:52:47.230662",
   "channels": [
     {
-      "url": "https://t.me/s/xs_filternet",
+      "url": "https://t.me/s/v2ray_free_conf",
       "enabled": true,
-      "retry_count": 0,
-      "success_rate": 100.0
+      "metrics": {
+        "total_configs": 20,
+        "valid_configs": 16,
+        "unique_configs": 16,
+        "avg_response_time": 0.4,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 94.4,
+        "last_success": "2025-01-08T06:52:36.536483"
+      }
     },
     {
-      "url": "https://t.me/s/mobilesignal",
+      "url": "https://t.me/s/PrivateVPNs",
       "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
+      "metrics": {
+        "total_configs": 18,
+        "valid_configs": 11,
+        "unique_configs": 11,
+        "avg_response_time": 0.37,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 89.73,
+        "last_success": "2025-01-08T06:52:36.940710"
+      }
     },
     {
-      "url": "https://t.me/s/v2rayvpno",
+      "url": "https://raw.githubusercontent.com/4n0nymou3/wg-config-fetcher/refs/heads/main/configs/wireguard_configs.txt",
       "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
+      "metrics": {
+        "total_configs": 10,
+        "valid_configs": 10,
+        "unique_configs": 10,
+        "avg_response_time": 0.12,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 99.81,
+        "last_success": "2025-01-08T06:52:37.066475"
+      }
     },
     {
-      "url": "https://t.me/s/configV2rayForFree",
+      "url": "https://raw.githubusercontent.com/4n0nymou3/ss-config-updater/refs/heads/main/configs.txt",
       "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
-    },
-    {
-      "url": "https://t.me/s/v2rayngvpn",
-      "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
-    },
-    {
-      "url": "https://t.me/s/DeamNet_proxy",
-      "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
-    },
-    {
-      "url": "https://t.me/s/V2RFa",
-      "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
-    },
-    {
-      "url": "https://t.me/s/sinavm",
-      "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
-    },
-    {
-      "url": "https://t.me/s/v2ray1_ng",
-      "enabled": true,
-      "retry_count": 0,
-      "success_rate": 100.0
+      "metrics": {
+        "total_configs": 12,
+        "valid_configs": 12,
+        "unique_configs": 4,
+        "avg_response_time": 0,
+        "success_count": 0,
+        "fail_count": 0,
+        "overall_score": 0.0,
+        "last_success": null
+      }
     }
   ]
 }
