@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-01-08T06:55:22.452553",
+  "timestamp": "2025-01-08T06:58:48.991978",
   "channels": [
     {
       "url": "https://t.me/s/xs_filternet",
@@ -16,17 +16,17 @@
       }
     },
     {
-      "url": "https://sub.xn--4gqp1u.com/api/v1/client/subscribe?token=502e1f8983d37822457afa97e83b92aa",
-      "enabled": false,
+      "url": "https://raw.githubusercontent.com/m3hdiclub/free-server/main/\u4e00\u5757.com",
+      "enabled": true,
       "metrics": {
-        "total_configs": 0,
-        "valid_configs": 0,
-        "unique_configs": 0,
-        "avg_response_time": 0,
-        "success_count": 0,
-        "fail_count": 1,
-        "overall_score": 15.0,
-        "last_success": null
+        "total_configs": 16,
+        "valid_configs": 15,
+        "unique_configs": 15,
+        "avg_response_time": 0.26,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 98.04,
+        "last_success": "2025-01-08T06:58:48.763948"
       }
     },
     {
@@ -34,13 +34,13 @@
       "enabled": true,
       "metrics": {
         "total_configs": 88,
-        "valid_configs": 28,
-        "unique_configs": 28,
-        "avg_response_time": 0.13,
+        "valid_configs": 26,
+        "unique_configs": 26,
+        "avg_response_time": 0.22,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 82.76,
-        "last_success": "2025-01-08T06:55:22.450793"
+        "overall_score": 82.05,
+        "last_success": "2025-01-08T06:58:48.989916"
       }
     }
   ]
