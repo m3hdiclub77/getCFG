@@ -52,7 +52,7 @@ class ProxyConfig:
         # List of channels or URLs to fetch proxy configurations from
         self.SOURCE_URLS = [
             ChannelConfig("https://t.me/s/xs_filternet"),
-            ChannelConfig("https://sub.xn--4gqp1u.com/api/v1/client/subscribe?token=502e1f8983d37822457afa97e83b92aa"),
+            ChannelConfig("https://raw.githubusercontent.com/m3hdiclub/free-server/main/一块.com"),
             ChannelConfig("https://raw.githubusercontent.com/m3hdiclub/free-server/main/mine")
             # ChannelConfig("ssconf://ainita.s3.eu-north-1.amazonaws.com/AinitaServer-1.csv")
         ]
