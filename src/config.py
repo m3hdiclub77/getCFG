@@ -23,7 +23,8 @@ class ProxyConfig:
         self.SUBSCRIPTION_URLS = [
             "https://raw.githubusercontent.com/m3hdiclub/free-server/main/mine",
 	     "https://raw.githubusercontent.com/m3hdiclub/free-server/main/一块.com",
-		"https://raw.githubusercontent.com/tkamirparsa/V2rayy/refs/heads/main/Sub.text555"
+		"https://raw.githubusercontent.com/tkamirparsa/V2rayy/refs/heads/main/Sub.text555",
+		"https://raw.githubusercontent.com/FRDYAK/teryak-configs/refs/heads/main/FRDYAK-pashmak"
             # Add more subscription URLs here
         ]
 
