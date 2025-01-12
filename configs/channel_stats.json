@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-01-12T12:24:23.558716",
+  "timestamp": "2025-01-12T15:52:16.001089",
   "channels": [
     {
       "url": "https://t.me/s/xs_filternet",
@@ -14,40 +14,16 @@
       "success_rate": 50.0
     },
     {
-      "url": "https://t.me/s/configV2rayForFree",
+      "url": "https://t.me/s/fnet00",
       "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
+      "retry_count": 0,
+      "success_rate": 100.0
     },
     {
       "url": "https://t.me/s/v2rayngvpn",
       "enabled": true,
       "retry_count": 1,
       "success_rate": 50.0
-    },
-    {
-      "url": "https://t.me/s/DeamNet_proxy",
-      "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
-    },
-    {
-      "url": "https://t.me/s/V2RFa",
-      "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
-    },
-    {
-      "url": "https://t.me/s/sinavm",
-      "enabled": true,
-      "retry_count": 1,
-      "success_rate": 50.0
-    },
-    {
-      "url": "https://t.me/s/v2ray1_ng",
-      "enabled": true,
-      "retry_count": 0,
-      "success_rate": 100.0
     }
   ]
 }
