@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-01-12T06:18:27.793215",
+  "timestamp": "2025-01-12T12:24:23.558716",
   "channels": [
     {
       "url": "https://t.me/s/xs_filternet",
@@ -28,8 +28,8 @@
     {
       "url": "https://t.me/s/DeamNet_proxy",
       "enabled": true,
-      "retry_count": 0,
-      "success_rate": 100.0
+      "retry_count": 1,
+      "success_rate": 50.0
     },
     {
       "url": "https://t.me/s/V2RFa",
