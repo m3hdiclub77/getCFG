@@ -20,8 +20,7 @@ class ProxyConfig:
             "https://raw.githubusercontent.com/m3hdiclub/free-server/main/mine",
 	     "https://raw.githubusercontent.com/m3hdiclub/free-server/main/一块.com",
 		"https://raw.githubusercontent.com/m3hdiclub/free-server/main/wrkr",
-		"https://raw.githubusercontent.com/tkamirparsa/V2rayy/refs/heads/main/Sub.text555",
-		"https://raw.githubusercontent.com/FRDYAK/teryak-configs/refs/heads/main/FRDYAK-pashmak"
+		"https://raw.githubusercontent.com/m3hdiclub/free-server/main/bpb"
             # Add more subscription URLs here
         ]
 
