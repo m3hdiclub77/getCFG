@@ -17,11 +17,7 @@ class ProxyConfig:
         ]
         
         self.SUBSCRIPTION_URLS = [
-            "https://raw.githubusercontent.com/m3hdiclub/free-server/main/mine",
-	     "https://raw.githubusercontent.com/m3hdiclub/free-server/main/一块.com",
-		"https://raw.githubusercontent.com/m3hdiclub/free-server/main/wrkr",
-		"https://raw.githubusercontent.com/m3hdiclub/free-server/main/bpb",
-		"https://raw.githubusercontent.com/m3hdiclub/free-server/main/@horizonbehind2 [X]"
+            "https://raw.githubusercontent.com/m3hdiclub/free-server/main/mine"
             # Add more subscription URLs here
         ]
 
