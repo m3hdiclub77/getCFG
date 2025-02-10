@@ -11,14 +11,13 @@ class ProxyConfig:
     def __init__(self):
         self.TELEGRAM_CHANNELS = [
             ChannelConfig("https://t.me/s/xs_filternet"),
-		ChannelConfig("https://t.me/s/mobilesignal"),
+	    ChannelConfig("https://t.me/s/mobilesignal"),
             ChannelConfig("https://t.me/s/fnet00"),
             ChannelConfig("https://t.me/s/v2rayngvpn")
         ]
         
         self.SUBSCRIPTION_URLS = [
             "https://raw.githubusercontent.com/m3hdiclub/free-server/main/mine"
-            # Add more subscription URLs here
         ]
 
         self.PROTOCOL_CONFIG_LIMITS = {
