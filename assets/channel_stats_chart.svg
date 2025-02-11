@@ -1,91 +1,13 @@
-
-    <svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-        <style>
-            .chart-title { font: bold 16px sans-serif; }
-            .axis-label { font: 12px sans-serif; }
-            .tick-label { font: 10px sans-serif; }
-            .bar { fill: #4f46e5; }
-            .bar:hover { fill: #6366f1; }
-            .timestamp { font: 10px sans-serif; fill: #666; }
-        </style>
-        
-        <!-- Title -->
-        <text x="400.0" y="30" text-anchor="middle" class="chart-title">
-            Channel Success Rates
-        </text>
-        
-        <!-- Y-axis -->
-        <line x1="60" y1="340" x2="60" y2="60" 
-              stroke="black" stroke-width="1"/>
-        
-        <!-- X-axis -->
-        <line x1="60" y1="340" x2="740" y2="340" 
-              stroke="black" stroke-width="1"/>
-        
-        <!-- Y-axis labels -->
-        <text x="50" y="340" text-anchor="end" class="axis-label">0%</text>
-        <text x="50" y="60" text-anchor="end" class="axis-label">100%</text>
-        
-        <!-- Bars and labels -->
-    
-        <g>
-            <rect x="60" y="200.0" width="165.0" height="140.0"
-                  class="bar"/>
-            <text x="145.0" y="380" 
-                  transform="rotate(45, 145.0, 380)"
-                  text-anchor="start" class="tick-label">
-                xs_filternet
-            </text>
-            <text x="145.0" y="195.0" 
-                  text-anchor="middle" class="tick-label">
-                50.0%
-            </text>
-        </g>
-        
-        <g>
-            <rect x="230.0" y="200.0" width="165.0" height="140.0"
-                  class="bar"/>
-            <text x="315.0" y="380" 
-                  transform="rotate(45, 315.0, 380)"
-                  text-anchor="start" class="tick-label">
-                mobilesignal
-            </text>
-            <text x="315.0" y="195.0" 
-                  text-anchor="middle" class="tick-label">
-                50.0%
-            </text>
-        </g>
-        
-        <g>
-            <rect x="400.0" y="60.0" width="165.0" height="280.0"
-                  class="bar"/>
-            <text x="485.0" y="380" 
-                  transform="rotate(45, 485.0, 380)"
-                  text-anchor="start" class="tick-label">
-                fnet00
-            </text>
-            <text x="485.0" y="55.0" 
-                  text-anchor="middle" class="tick-label">
-                100.0%
-            </text>
-        </g>
-        
-        <g>
-            <rect x="570.0" y="200.0" width="165.0" height="140.0"
-                  class="bar"/>
-            <text x="655.0" y="380" 
-                  transform="rotate(45, 655.0, 380)"
-                  text-anchor="start" class="tick-label">
-                v2rayngvpn
-            </text>
-            <text x="655.0" y="195.0" 
-                  text-anchor="middle" class="tick-label">
-                50.0%
-            </text>
-        </g>
-        
-        <text x="740" y="390" text-anchor="end" class="timestamp">
-            Last updated: 2025-02-11T00:57:40.890854
-        </text>
-    </svg>
-    
+<?xml version="1.0" encoding="UTF-8"?>
+    <svg width="800" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .row { font: 14px Arial; fill: #64748b; }
+        .score { font: bold 14px Arial; fill: #64748b; }
+    </style>
+    <text x="400" y="40" text-anchor="middle" font-size="20px" font-weight="bold" fill="#64748b">Channel Performance Overview</text><rect x="150" y="80" width="500" height="30" fill="#eee" rx="5"/><rect x="150" y="80" width="386.85" height="30" fill="#22c55e" rx="5"/>
+        <text x="140" y="100" text-anchor="end" class="row">wireguard_configs.txt</text>
+        <text x="660" y="100" text-anchor="start" class="score">77.4% (S:100%)</text><rect x="150" y="130" width="500" height="30" fill="#eee" rx="5"/><rect x="150" y="130" width="388.45" height="30" fill="#22c55e" rx="5"/>
+        <text x="140" y="150" text-anchor="end" class="row">configs.txt</text>
+        <text x="660" y="150" text-anchor="start" class="score">77.7% (S:100%)</text><rect x="150" y="180" width="500" height="30" fill="#eee" rx="5"/><rect x="150" y="180" width="395.34999999999997" height="30" fill="#22c55e" rx="5"/>
+        <text x="140" y="200" text-anchor="end" class="row">Gozargah_Sub</text>
+        <text x="660" y="200" text-anchor="start" class="score">79.1% (S:100%)</text></svg>
