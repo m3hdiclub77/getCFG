@@ -9,7 +9,7 @@ from urllib.parse import urlparse, parse_qs
 
 class ConfigToSingbox:
     def __init__(self):
-        self.output_file = '../free-server/singbox_configs.json'
+        self.output_file = 'configs/singbox_configs.json'
         
     def get_location(self, address: str) -> tuple:
         try:
