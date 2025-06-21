@@ -4,28 +4,94 @@ import uuid
 import time
 import socket
 import requests
-from typing import Dict, Optional
+from typing import Dict, Optional, Tuple
 from urllib.parse import urlparse, parse_qs
 
 class ConfigToSingbox:
     def __init__(self):
         self.output_file = 'configs/singbox_configs.json'
+        self.headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
         
+    def get_location_from_ip_api(self, ip: str) -> Tuple[str, str]:
+        try:
+            response = requests.get(f'http://ip-api.com/json/{ip}', headers=self.headers, timeout=5)
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('status') == 'success' and data.get('countryCode'):
+                    return data['countryCode'].lower(), data['country']
+        except Exception:
+            pass
+        return '', ''
+
+    def get_location_from_ipapi_co(self, ip: str) -> Tuple[str, str]:
+        try:
+            response = requests.get(f'https://ipapi.co/{ip}/json/', headers=self.headers, timeout=5)
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('country_code') and data.get('country_name'):
+                    return data['country_code'].lower(), data['country_name']
+        except Exception:
+            pass
+        return '', ''
+
+    def get_location_from_ipwhois(self, ip: str) -> Tuple[str, str]:
+        try:
+            response = requests.get(f'https://ipwhois.app/json/{ip}', headers=self.headers, timeout=5)
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('country_code') and data.get('country'):
+                    return data['country_code'].lower(), data['country']
+        except Exception:
+            pass
+        return '', ''
+
+    def get_location_from_ipdata(self, ip: str) -> Tuple[str, str]:
+        try:
+            response = requests.get(f'https://api.ipdata.co/{ip}?api-key=test', headers=self.headers, timeout=5)
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('country_code') and data.get('country_name'):
+                    return data['country_code'].lower(), data['country_name']
+        except Exception:
+            pass
+        return '', ''
+
+    def get_location_from_abstractapi(self, ip: str) -> Tuple[str, str]:
+        try:
+            response = requests.get(f'https://ipgeolocation.abstractapi.com/v1/?api_key=test&ip_address={ip}', 
+                                  headers=self.headers, timeout=5)
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('country_code') and data.get('country'):
+                    return data['country_code'].lower(), data['country']
+        except Exception:
+            pass
+        return '', ''
+
     def get_location(self, address: str) -> tuple:
         try:
             ip = socket.gethostbyname(address)
-            response = requests.get(f'http://ip-api.com/json/{ip}')
-            if response.status_code == 200:
-                data = response.json()
-                if data['status'] == 'success':
-                    country_code = data['countryCode'].lower()
-                    flag = f"🏳️"
-                    if len(country_code) == 2:
-                        flag = ''.join(chr(ord('🇦') + ord(c.upper()) - ord('A')) for c in country_code)
-                    return flag, data['country']
-            time.sleep(1.5)
+            apis = [
+                self.get_location_from_ip_api,
+                self.get_location_from_ipapi_co,
+                self.get_location_from_ipwhois,
+                self.get_location_from_ipdata,
+                self.get_location_from_abstractapi
+            ]
+            
+            for api_func in apis:
+                country_code, country = api_func(ip)
+                if country_code and country and len(country_code) == 2:
+                    flag = ''.join(chr(ord('🇦') + ord(c.upper()) - ord('A')) for c in country_code)
+                    time.sleep(1)
+                    return flag, country
+                time.sleep(1)
+                
         except Exception:
             pass
+            
         return "🏳️", "Unknown"
 
     def decode_vmess(self, config: str) -> Optional[Dict]:
