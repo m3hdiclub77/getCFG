@@ -4,6 +4,7 @@
 # Add or remove URLs as needed. All URLs in this list are automatically enabled.
 SOURCE_URLS = [
     "https://t.me/s/sunflowerplato",
+    "https://t.me/s/localhost_proxies",
     # "https://t.me/s/v2rayfree",
     # "https://t.me/s/FreeV2rays",
     # "https://t.me/s/v2ray_free_conf",
