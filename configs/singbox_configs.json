@@ -79,17 +79,7 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-4e2664e2 (Iran)",
-        "🇮🇷 vless-b2508431 (Iran)",
-        "🇮🇷 vless-f14ea94f (Iran)",
-        "🇮🇷 vless-94d551e4 (Iran)",
-        "🇮🇷 vless-82ae220b (Iran)",
-        "🇮🇷 vless-a5be0d21 (Iran)",
-        "🇳🇱 vless-02eff630 (The Netherlands)",
-        "🇳🇱 vless-1094595d (The Netherlands)",
-        "🏳️ vless-8714f65b (Unknown)",
-        "🏳️ vless-09f2327e (Unknown)",
-        "🇮🇷 vless-8221fff7 (Iran)",
+        "🇮🇪 trojan-2c8f3b32 (Ireland)",
         "direct"
       ]
     },
@@ -97,17 +87,7 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-4e2664e2 (Iran)",
-        "🇮🇷 vless-b2508431 (Iran)",
-        "🇮🇷 vless-f14ea94f (Iran)",
-        "🇮🇷 vless-94d551e4 (Iran)",
-        "🇮🇷 vless-82ae220b (Iran)",
-        "🇮🇷 vless-a5be0d21 (Iran)",
-        "🇳🇱 vless-02eff630 (The Netherlands)",
-        "🇳🇱 vless-1094595d (The Netherlands)",
-        "🏳️ vless-8714f65b (Unknown)",
-        "🏳️ vless-09f2327e (Unknown)",
-        "🇮🇷 vless-8221fff7 (Iran)"
+        "🇮🇪 trojan-2c8f3b32 (Ireland)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -118,176 +98,17 @@
       "type": "direct"
     },
     {
-      "type": "vless",
-      "tag": "🇮🇷 vless-4e2664e2 (Iran)",
-      "server": "bostir.nolimited.site",
-      "server_port": 37176,
-      "uuid": "2d3c56ba-b17b-4bb1-bd38-ce1bd4bfdbf5",
-      "flow": "",
+      "type": "trojan",
+      "tag": "🇮🇪 trojan-2c8f3b32 (Ireland)",
+      "server": "52.48.226.90",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
       "tls": {
         "enabled": true,
-        "server_name": "bostir.nolimited.site",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-b2508431 (Iran)",
-      "server": "l7.magicnetwork.info",
-      "server_port": 443,
-      "uuid": "3491dd29-da32-721b-b2f9-73421aead895",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "l7.magicnetwork.info",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-f14ea94f (Iran)",
-      "server": "panel28.sharpwp2.shop",
-      "server_port": 9060,
-      "uuid": "380c77d5-6172-43e0-93cf-fa2f69f4736a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "panel28.sharpwp2.shop",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-94d551e4 (Iran)",
-      "server": "fi.firephone.shop",
-      "server_port": 2086,
-      "uuid": "778bef22-7ac1-47b4-940b-53e848952ca5",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi.firephone.shop",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-82ae220b (Iran)",
-      "server": "81.12.30.51",
-      "server_port": 58045,
-      "uuid": "9deda4f9-a9b9-4614-b840-ece9998ec6db",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "81.12.30.51",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-a5be0d21 (Iran)",
-      "server": "office1001.avaoffice.cloud",
-      "server_port": 443,
-      "uuid": "a27c7aca-c39c-48ac-8a6a-c6794340b157",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "office1001.avaoffice.cloud",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 vless-02eff630 (The Netherlands)",
-      "server": "rt.tom1team.site",
-      "server_port": 41661,
-      "uuid": "b02337e2-c91d-4891-931a-8713eecbe8c1",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.speedtest.net",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 vless-1094595d (The Netherlands)",
-      "server": "abdzgg.teemazad.com",
-      "server_port": 37062,
-      "uuid": "b3a0f19f-b0f9-4a96-95de-49c5c5a725e0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "abdzgg.teemazad.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ vless-8714f65b (Unknown)",
-      "server": "heydar.slateshop.ir",
-      "server_port": 443,
-      "uuid": "cdf51094-2c10-40f7-99b0-44e1febf6b24",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "digipay.com.snapp.app.pwa.mci.ir.slateshop.ir",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/de25eadf81bc6543qw89ae68de20v67f35d6c043b8976250448p",
-        "headers": {
-          "Host": "digipay.com.snapp.app.pwa.mci.ir.slateshop.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ vless-09f2327e (Unknown)",
-      "server": "heydar.slateshop.ir",
-      "server_port": 443,
-      "uuid": "cdf51094-2c10-40f7-99b0-44e1febf6b24",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "digipay.com.snapp.app.pwa.mci.ir.slateshop.ir",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/de25eadf81bc6543qw89ae68de20v67f35d6c043b8976250448p",
-        "headers": {
-          "Host": "digipay.com.snapp.app.pwa.mci.ir.slateshop.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-8221fff7 (Iran)",
-      "server": "trvip.irannoweb.art",
-      "server_port": 8080,
-      "uuid": "f43617b5-1a02-4776-bffe-85c30a27458a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "trvip.irannoweb.art",
+        "server_name": "trojan.burgerip.co.uk",
+        "alpn": [
+          "http/1.1"
+        ],
         "insecure": true
       },
       "transport": {}

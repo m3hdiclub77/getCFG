@@ -1,0 +1,8 @@
+//profile-title: base64:8J+RvUFub255bW91cy3wnZWP
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/BXAMbot
+//profile-web-page-url: https://github.com/4n0nymou3
+
+trojan://telegram-id-privatevpns@52.48.226.90:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%40sunflowerplato%F0%9F%8C%BB108🪶@sunflowerplato🪶
+
