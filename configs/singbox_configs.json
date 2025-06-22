@@ -79,7 +79,8 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 trojan-a1449613 (Iran)",
+        "🇨🇦 vless-203121f2 (Canada)",
+        "🇮🇷 trojan-7987658d (Iran)",
         "direct"
       ]
     },
@@ -87,7 +88,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 trojan-a1449613 (Iran)"
+        "🇨🇦 vless-203121f2 (Canada)",
+        "🇮🇷 trojan-7987658d (Iran)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -98,8 +100,28 @@
       "type": "direct"
     },
     {
+      "type": "vless",
+      "tag": "🇨🇦 vless-203121f2 (Canada)",
+      "server": "104.17.147.22",
+      "server_port": 80,
+      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "104.17.147.22",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/Telegram@V2ray_Alpha/?ed=2560",
+        "headers": {
+          "Host": "redfree8mahsang6.redfree8.ir"
+        },
+        "type": "ws"
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "🇮🇷 trojan-a1449613 (Iran)",
+      "tag": "🇮🇷 trojan-7987658d (Iran)",
       "server": "wivip.dtsazino.com",
       "server_port": 443,
       "password": "wPslQ6KBJN",
