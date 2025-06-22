@@ -79,10 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 trojan-f1a06c12 (Iran)",
-        "🇮🇷 trojan-af095998 (Iran)",
-        "🇮🇷 vless-dac02f30 (Iran)",
-        "🇺🇸 vmess-fcf4fafa (United States)",
+        "🇮🇷 trojan-0c571203 (Iran)",
+        "🇮🇷 trojan-f21f15df (Iran)",
+        "🇮🇷 vless-e01bbb41 (Iran)",
+        "🇺🇸 vmess-b9fdd265 (United States)",
         "direct"
       ]
     },
@@ -90,10 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 trojan-f1a06c12 (Iran)",
-        "🇮🇷 trojan-af095998 (Iran)",
-        "🇮🇷 vless-dac02f30 (Iran)",
-        "🇺🇸 vmess-fcf4fafa (United States)"
+        "🇮🇷 trojan-0c571203 (Iran)",
+        "🇮🇷 trojan-f21f15df (Iran)",
+        "🇮🇷 vless-e01bbb41 (Iran)",
+        "🇺🇸 vmess-b9fdd265 (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -105,7 +105,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇮🇷 trojan-f1a06c12 (Iran)",
+      "tag": "🇮🇷 trojan-0c571203 (Iran)",
       "server": "185.143.235.5",
       "server_port": 443,
       "password": "biS(YrwB,3L$",
@@ -124,7 +124,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇮🇷 trojan-af095998 (Iran)",
+      "tag": "🇮🇷 trojan-f21f15df (Iran)",
       "server": "185.143.235.5",
       "server_port": 443,
       "password": "biS(YrwB,3L$",
@@ -143,7 +143,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-dac02f30 (Iran)",
+      "tag": "🇮🇷 vless-e01bbb41 (Iran)",
       "server": "turkey.jewelll.ir",
       "server_port": 3311,
       "uuid": "ccd5d8c4-634c-46bc-8f7a-5be3b8649858",
@@ -157,7 +157,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-fcf4fafa (United States)",
+      "tag": "🇺🇸 vmess-b9fdd265 (United States)",
       "server": "fast.v2sub.online",
       "server_port": 80,
       "uuid": "db304dce-499b-46a4-a782-a7d03199551c",
