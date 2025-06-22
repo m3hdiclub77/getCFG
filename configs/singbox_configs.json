@@ -79,13 +79,7 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇦 vless-5099be32 (Ukraine)",
-        "🇺🇸 vless-37ca3789 (United States)",
-        "🇷🇺 vless-228c5fa0 (Russia)",
-        "🇨🇦 vless-477ac8de (Canada)",
-        "🇹🇭 vless-4c9d661a (Thailand)",
-        "🇨🇦 vless-4eb2cb05 (Canada)",
-        "🇨🇦 vmess-2f0fa400 (Canada)",
+        "🇮🇷 vless-64d42ee9 (Iran)",
         "direct"
       ]
     },
@@ -93,13 +87,7 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇦 vless-5099be32 (Ukraine)",
-        "🇺🇸 vless-37ca3789 (United States)",
-        "🇷🇺 vless-228c5fa0 (Russia)",
-        "🇨🇦 vless-477ac8de (Canada)",
-        "🇹🇭 vless-4c9d661a (Thailand)",
-        "🇨🇦 vless-4eb2cb05 (Canada)",
-        "🇨🇦 vmess-2f0fa400 (Canada)"
+        "🇮🇷 vless-64d42ee9 (Iran)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -111,126 +99,17 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇦 vless-5099be32 (Ukraine)",
-      "server": "89.116.180.248",
-      "server_port": 443,
-      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
+      "tag": "🇮🇷 vless-64d42ee9 (Iran)",
+      "server": "turkey.jewelll.ir",
+      "server_port": 3311,
+      "uuid": "ccd5d8c4-634c-46bc-8f7a-5be3b8649858",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "pqh23v4.hiddendom.shop",
+        "server_name": "turkey.jewelll.ir",
         "insecure": true
       },
       "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-37ca3789 (United States)",
-      "server": "5.181.171.10",
-      "server_port": 443,
-      "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "speed.cloudflare.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 vless-228c5fa0 (Russia)",
-      "server": "109.73.206.90",
-      "server_port": 443,
-      "uuid": "4eff2388-2092-4b0a-aa74-0e464889ffaf",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-477ac8de (Canada)",
-      "server": "104.17.147.22",
-      "server_port": 80,
-      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "104.17.147.22",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/Telegram@V2ray_Alpha/?ed=2560",
-        "headers": {
-          "Host": "redfree8mahsang6.redfree8.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇭 vless-4c9d661a (Thailand)",
-      "server": "45.144.167.46",
-      "server_port": 19816,
-      "uuid": "6337837a-2b47-4e0d-a695-75c5a4a8ad51",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "rs-hk.lzjnb.shop",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/lzjjjj666",
-        "headers": {
-          "Host": "rs-hk.lzjnb.shop"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-4eb2cb05 (Canada)",
-      "server": "172.67.11.138",
-      "server_port": 80,
-      "uuid": "b55ec078-3b17-4ed1-a697-71f464cdcaaa",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "172.67.11.138",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "kssepa.sabzipolobamahi.dpdns.org"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇦 vmess-2f0fa400 (Canada)",
-      "server": "104.17.176.171",
-      "server_port": 8080,
-      "uuid": "6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "path": "/nasnet/cdn",
-        "headers": {
-          "Host": "ke7hz36ewz-4515017473.mashallahbet.com"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": ""
-      }
     }
   ],
   "route": {

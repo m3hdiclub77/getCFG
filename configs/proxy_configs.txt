@@ -1,0 +1,8 @@
+//profile-title: base64:8J+RvUFub255bW91cy3wnZWP
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/BXAMbot
+//profile-web-page-url: https://github.com/4n0nymou3
+
+vless://ccd5d8c4-634c-46bc-8f7a-5be3b8649858@turkey.jewelll.ir:3311?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#%40sunflowerplato%F0%9F%8C%BB133
+
