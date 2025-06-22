@@ -79,7 +79,7 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-23f563d6 (Iran)",
+        "🇮🇷 vless-d5fa5f79 (Iran)",
         "direct"
       ]
     },
@@ -87,7 +87,7 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-23f563d6 (Iran)"
+        "🇮🇷 vless-d5fa5f79 (Iran)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -99,7 +99,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-23f563d6 (Iran)",
+      "tag": "🇮🇷 vless-d5fa5f79 (Iran)",
       "server": "turkey.jewelll.ir",
       "server_port": 3311,
       "uuid": "ccd5d8c4-634c-46bc-8f7a-5be3b8649858",
