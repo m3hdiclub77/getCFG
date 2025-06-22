@@ -79,10 +79,7 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 trojan-35cd6be0 (Iran)",
-        "🇮🇷 trojan-302e8d48 (Iran)",
-        "🇮🇷 vless-9f5aad71 (Iran)",
-        "🇺🇸 vmess-4d1920f7 (United States)",
+        "🇮🇷 trojan-0806147e (Iran)",
         "direct"
       ]
     },
@@ -90,10 +87,7 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 trojan-35cd6be0 (Iran)",
-        "🇮🇷 trojan-302e8d48 (Iran)",
-        "🇮🇷 vless-9f5aad71 (Iran)",
-        "🇺🇸 vmess-4d1920f7 (United States)"
+        "🇮🇷 trojan-0806147e (Iran)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -105,70 +99,17 @@
     },
     {
       "type": "trojan",
-      "tag": "🇮🇷 trojan-35cd6be0 (Iran)",
-      "server": "185.143.235.5",
+      "tag": "🇮🇷 trojan-0806147e (Iran)",
+      "server": "wivip.dtsazino.com",
       "server_port": 443,
-      "password": "biS(YrwB,3L$",
+      "password": "wPslQ6KBJN",
       "tls": {
         "enabled": true,
-        "server_name": "mydigipay.com",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": true
-      },
-      "transport": {
-        "path": "/trjEUVvM7dgjVVlrrX?ed=2560",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇮🇷 trojan-302e8d48 (Iran)",
-      "server": "185.143.235.5",
-      "server_port": 443,
-      "password": "biS(YrwB,3L$",
-      "tls": {
-        "enabled": true,
-        "server_name": "mydigipay.com",
-        "alpn": [
-          "http/1.1"
-        ],
-        "insecure": true
-      },
-      "transport": {
-        "path": "/trjEUVvM7dgjVVlrrX?ed=2560",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-9f5aad71 (Iran)",
-      "server": "turkey.jewelll.ir",
-      "server_port": 3311,
-      "uuid": "ccd5d8c4-634c-46bc-8f7a-5be3b8649858",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "turkey.jewelll.ir",
+        "server_name": "wivip.dtsazino.com",
+        "alpn": [],
         "insecure": true
       },
       "transport": {}
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 vmess-4d1920f7 (United States)",
-      "server": "fast.v2sub.online",
-      "server_port": 80,
-      "uuid": "db304dce-499b-46a4-a782-a7d03199551c",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {},
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": ""
-      }
     }
   ],
   "route": {

@@ -1,0 +1,8 @@
+//profile-title: base64:8J+RvUFub255bW91cy3wnZWP
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/BXAMbot
+//profile-web-page-url: https://github.com/4n0nymou3
+
+trojan://wPslQ6KBJN@wivip.dtsazino.com:443?security=tls&headerType=none&type=tcp&sni=wivip.dtsazino.com#%40sunflowerplato%F0%9F%8C%BB148🪶@sunflowerplato🪶
+
