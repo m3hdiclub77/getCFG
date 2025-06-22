@@ -79,7 +79,7 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 trojan-0806147e (Iran)",
+        "🇮🇷 trojan-a1449613 (Iran)",
         "direct"
       ]
     },
@@ -87,7 +87,7 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 trojan-0806147e (Iran)"
+        "🇮🇷 trojan-a1449613 (Iran)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -99,7 +99,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇮🇷 trojan-0806147e (Iran)",
+      "tag": "🇮🇷 trojan-a1449613 (Iran)",
       "server": "wivip.dtsazino.com",
       "server_port": 443,
       "password": "wPslQ6KBJN",
