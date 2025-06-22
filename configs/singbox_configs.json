@@ -79,9 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-b59bb67c (Canada)",
-        "🇮🇷 trojan-5630f43d (Iran)",
-        "🇮🇷 vmess-5642cda7 (Iran)",
+        "🇨🇦 vless-467b15be (Canada)",
+        "🇮🇷 trojan-c39f4103 (Iran)",
+        "🇮🇷 vmess-18085d58 (Iran)",
+        "🇮🇷 vmess-4bffacb4 (Iran)",
         "direct"
       ]
     },
@@ -89,9 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-b59bb67c (Canada)",
-        "🇮🇷 trojan-5630f43d (Iran)",
-        "🇮🇷 vmess-5642cda7 (Iran)"
+        "🇨🇦 vless-467b15be (Canada)",
+        "🇮🇷 trojan-c39f4103 (Iran)",
+        "🇮🇷 vmess-18085d58 (Iran)",
+        "🇮🇷 vmess-4bffacb4 (Iran)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -103,7 +105,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-b59bb67c (Canada)",
+      "tag": "🇨🇦 vless-467b15be (Canada)",
       "server": "104.17.147.22",
       "server_port": 80,
       "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
@@ -123,7 +125,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇮🇷 trojan-5630f43d (Iran)",
+      "tag": "🇮🇷 trojan-c39f4103 (Iran)",
       "server": "wivip.dtsazino.com",
       "server_port": 443,
       "password": "wPslQ6KBJN",
@@ -137,7 +139,22 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 vmess-5642cda7 (Iran)",
+      "tag": "🇮🇷 vmess-18085d58 (Iran)",
+      "server": "l2.apland.ir",
+      "server_port": 13277,
+      "uuid": "89248924-e8df-49a2-a672-3e84242c00de",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {},
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": ""
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇷 vmess-4bffacb4 (Iran)",
       "server": "main.nimstream.ir",
       "server_port": 4674,
       "uuid": "475fcc16-70f3-4d06-8d8a-3aaa10c002a5",
