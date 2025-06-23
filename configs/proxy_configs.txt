@@ -4,17 +4,9 @@
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-vless://30ef22a6-b8a0-4b15-b8b7-bb92ded87b46@151.101.3.8:80?mode=auto&path=%2Fv2rayfree1vpn&security=none&encryption=none&host=telv2rayfree1vpn.global.ssl.fastly.net&type=xhttp#%40sunflowerplato%F0%9F%8C%BB204
-
-vless://46daebf2-b1c7-4aab-aec8-8286983777aa@ger1-tu1.conectbash.info:3030?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB100
-
-vless://8f90b851-8f60-411a-ace2-efe1c1edda4b@62.60.159.191:443?path=%2Fws%3Fed%3D2560&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=de222.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com&fp=randomized&type=ws&sni=de222.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com#%40sunflowerplato%F0%9F%8C%BB205
-
 vless://c604e116-a5c2-4a94-acd6-e557c4f50468@srv.1.larosnetwork.shop:443?security=none&encryption=none&host=hub.docker.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB210
 
-vless://ccd5d8c4-634c-46bc-8f7a-5be3b8649858@turkey.jewelll.ir:3311?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB203
-
-vmess://eyJhZGQiOiI4NC4yNDcuMTQ3LjI0MyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJhZTZhZTk3Ny0xN2YyLTQzZmQtYTMzNi0yMGIzYjNhOWU3OTEiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjUxNTY2IiwicHMiOiJAc3VuZmxvd2VycGxhdG/wn4y7MTAxIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+trojan://261ccd4c-425d-43a2-bf2a-59c3d1f02e94@5.83.221.31:30006?security=tls&headerType=none&type=tcp&sni=v2hgc02.fuqiangren.com#%40sunflowerplato%F0%9F%8C%BB225
 
 vmess://eyJhZGQiOiI4NC4yNDcuMTQ3LjY3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImQxNDNlYmJjLTc4MjUtNGI0My1hNTVlLWYxMWNiMTUzYmQ1YiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNTQxNzkiLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsyMDkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 
