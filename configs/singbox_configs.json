@@ -79,10 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇭🇰 trojan-60884630 (Hong Kong)",
-        "🇮🇷 vmess-1856cbf6 (Iran)",
-        "🇮🇷 vmess-743215f5 (Iran)",
-        "🇮🇷 vmess-c3f03e38 (Iran)",
+        "🇭🇰 trojan-5bd97f2c (Hong Kong)",
+        "🇮🇷 vmess-9f2ecde3 (Iran)",
+        "🇮🇷 vmess-4a7001e4 (Iran)",
+        "🇮🇷 vmess-93ee86a7 (Iran)",
         "direct"
       ]
     },
@@ -90,10 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇭🇰 trojan-60884630 (Hong Kong)",
-        "🇮🇷 vmess-1856cbf6 (Iran)",
-        "🇮🇷 vmess-743215f5 (Iran)",
-        "🇮🇷 vmess-c3f03e38 (Iran)"
+        "🇭🇰 trojan-5bd97f2c (Hong Kong)",
+        "🇮🇷 vmess-9f2ecde3 (Iran)",
+        "🇮🇷 vmess-4a7001e4 (Iran)",
+        "🇮🇷 vmess-93ee86a7 (Iran)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -105,7 +105,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇭🇰 trojan-60884630 (Hong Kong)",
+      "tag": "🇭🇰 trojan-5bd97f2c (Hong Kong)",
       "server": "5.83.221.31",
       "server_port": 30006,
       "password": "261ccd4c-425d-43a2-bf2a-59c3d1f02e94",
@@ -119,7 +119,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 vmess-1856cbf6 (Iran)",
+      "tag": "🇮🇷 vmess-9f2ecde3 (Iran)",
       "server": "iran.aiteamplus.ir",
       "server_port": 8081,
       "uuid": "8d000875-db2e-45a5-8ecc-c376fd8472b7",
@@ -134,7 +134,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 vmess-743215f5 (Iran)",
+      "tag": "🇮🇷 vmess-4a7001e4 (Iran)",
       "server": "iran.aiteamplus.ir",
       "server_port": 8081,
       "uuid": "8d000875-db2e-45a5-8ecc-c376fd8472b7",
@@ -149,7 +149,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 vmess-c3f03e38 (Iran)",
+      "tag": "🇮🇷 vmess-93ee86a7 (Iran)",
       "server": "irc.jahanrocket.sbs",
       "server_port": 443,
       "uuid": "410b1034-f5b2-46be-8f86-370ba9925e4c",
