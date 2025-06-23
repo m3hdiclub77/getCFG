@@ -79,10 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇭🇰 trojan-4d9b163c (Hong Kong)",
-        "🇺🇸 vmess-da25440f (United States)",
-        "🇺🇸 vmess-065e49a5 (United States)",
-        "🇺🇸 vmess-bf1c95e6 (United States)",
+        "🇭🇰 trojan-3a28aeb8 (Hong Kong)",
+        "🇺🇸 vmess-c69b4aab (United States)",
+        "🇺🇸 vmess-76d7e5c3 (United States)",
+        "🇺🇸 vmess-fe2d192a (United States)",
         "direct"
       ]
     },
@@ -90,10 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇭🇰 trojan-4d9b163c (Hong Kong)",
-        "🇺🇸 vmess-da25440f (United States)",
-        "🇺🇸 vmess-065e49a5 (United States)",
-        "🇺🇸 vmess-bf1c95e6 (United States)"
+        "🇭🇰 trojan-3a28aeb8 (Hong Kong)",
+        "🇺🇸 vmess-c69b4aab (United States)",
+        "🇺🇸 vmess-76d7e5c3 (United States)",
+        "🇺🇸 vmess-fe2d192a (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -105,7 +105,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇭🇰 trojan-4d9b163c (Hong Kong)",
+      "tag": "🇭🇰 trojan-3a28aeb8 (Hong Kong)",
       "server": "5.83.221.31",
       "server_port": 30006,
       "password": "261ccd4c-425d-43a2-bf2a-59c3d1f02e94",
@@ -119,7 +119,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-da25440f (United States)",
+      "tag": "🇺🇸 vmess-c69b4aab (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "466cac2a-d8d1-4e47-be31-329538c63ebd",
@@ -140,7 +140,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-065e49a5 (United States)",
+      "tag": "🇺🇸 vmess-76d7e5c3 (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "466cac2a-d8d1-4e47-be31-329538c63ebd",
@@ -161,7 +161,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-bf1c95e6 (United States)",
+      "tag": "🇺🇸 vmess-fe2d192a (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "466cac2a-d8d1-4e47-be31-329538c63ebd",
