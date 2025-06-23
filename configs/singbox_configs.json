@@ -79,9 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇸 vmess-578d94ee (United States)",
-        "🇺🇸 vmess-56871eff (United States)",
-        "🇺🇸 vmess-fb265226 (United States)",
+        "🇰🇷 trojan-cc90745d (South Korea)",
+        "🇺🇸 vmess-df40fdf3 (United States)",
+        "🇺🇸 vmess-71e388b6 (United States)",
+        "🇺🇸 vmess-9046abea (United States)",
         "direct"
       ]
     },
@@ -89,9 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 vmess-578d94ee (United States)",
-        "🇺🇸 vmess-56871eff (United States)",
-        "🇺🇸 vmess-fb265226 (United States)"
+        "🇰🇷 trojan-cc90745d (South Korea)",
+        "🇺🇸 vmess-df40fdf3 (United States)",
+        "🇺🇸 vmess-71e388b6 (United States)",
+        "🇺🇸 vmess-9046abea (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -102,8 +104,22 @@
       "type": "direct"
     },
     {
+      "type": "trojan",
+      "tag": "🇰🇷 trojan-cc90745d (South Korea)",
+      "server": "221.165.64.92",
+      "server_port": 50000,
+      "password": "Aimer",
+      "tls": {
+        "enabled": true,
+        "server_name": "ngepz.ambercc.filegear-sg.me",
+        "alpn": [],
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-578d94ee (United States)",
+      "tag": "🇺🇸 vmess-df40fdf3 (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "466cac2a-d8d1-4e47-be31-329538c63ebd",
@@ -124,7 +140,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-56871eff (United States)",
+      "tag": "🇺🇸 vmess-71e388b6 (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "466cac2a-d8d1-4e47-be31-329538c63ebd",
@@ -145,7 +161,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-fb265226 (United States)",
+      "tag": "🇺🇸 vmess-9046abea (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "466cac2a-d8d1-4e47-be31-329538c63ebd",
