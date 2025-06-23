@@ -79,9 +79,9 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇸 vmess-07a94fb5 (United States)",
-        "🇺🇸 vmess-6e2df62f (United States)",
-        "🇺🇸 vmess-076b3be0 (United States)",
+        "🇺🇸 vmess-578d94ee (United States)",
+        "🇺🇸 vmess-56871eff (United States)",
+        "🇺🇸 vmess-fb265226 (United States)",
         "direct"
       ]
     },
@@ -89,9 +89,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 vmess-07a94fb5 (United States)",
-        "🇺🇸 vmess-6e2df62f (United States)",
-        "🇺🇸 vmess-076b3be0 (United States)"
+        "🇺🇸 vmess-578d94ee (United States)",
+        "🇺🇸 vmess-56871eff (United States)",
+        "🇺🇸 vmess-fb265226 (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -103,7 +103,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-07a94fb5 (United States)",
+      "tag": "🇺🇸 vmess-578d94ee (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "466cac2a-d8d1-4e47-be31-329538c63ebd",
@@ -124,7 +124,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-6e2df62f (United States)",
+      "tag": "🇺🇸 vmess-56871eff (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "466cac2a-d8d1-4e47-be31-329538c63ebd",
@@ -145,7 +145,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-076b3be0 (United States)",
+      "tag": "🇺🇸 vmess-fb265226 (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "466cac2a-d8d1-4e47-be31-329538c63ebd",
