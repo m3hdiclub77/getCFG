@@ -4,11 +4,7 @@
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-vless://c604e116-a5c2-4a94-acd6-e557c4f50468@srv.1.larosnetwork.shop:443?security=none&encryption=none&host=hub.docker.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB210
-
 trojan://261ccd4c-425d-43a2-bf2a-59c3d1f02e94@5.83.221.31:30006?security=tls&headerType=none&type=tcp&sni=v2hgc02.fuqiangren.com#%40sunflowerplato%F0%9F%8C%BB225
-
-vmess://eyJhZGQiOiI4NC4yNDcuMTQ3LjY3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImQxNDNlYmJjLTc4MjUtNGI0My1hNTVlLWYxMWNiMTUzYmQ1YiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNTQxNzkiLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsyMDkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 
 vmess://eyJhZGQiOiJpcmFuLmFpdGVhbXBsdXMuaXIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InZhcnplc2gzLmNvbSIsImlkIjoiOGQwMDA4NzUtZGIyZS00NWE1LThlY2MtYzM3NmZkODQ3MmI3IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiODA4MSIsInBzIjoiQHN1bmZsb3dlcnBsYXRv8J+MuzIxNyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
 
