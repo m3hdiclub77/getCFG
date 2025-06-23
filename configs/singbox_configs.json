@@ -79,11 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇭🇰 trojan-262418db (Hong Kong)",
-        "🇺🇸 vmess-c9f8748a (United States)",
-        "🇺🇸 vmess-ec45b9bd (United States)",
-        "🇺🇸 vmess-e1c0c7a3 (United States)",
-        "🇮🇷 vmess-6c30e7b0 (Iran)",
+        "🇭🇰 trojan-0aa30ee1 (Hong Kong)",
+        "🇺🇸 vmess-cf867414 (United States)",
+        "🇺🇸 vmess-e423b338 (United States)",
+        "🇺🇸 vmess-ec3d7de6 (United States)",
         "direct"
       ]
     },
@@ -91,11 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇭🇰 trojan-262418db (Hong Kong)",
-        "🇺🇸 vmess-c9f8748a (United States)",
-        "🇺🇸 vmess-ec45b9bd (United States)",
-        "🇺🇸 vmess-e1c0c7a3 (United States)",
-        "🇮🇷 vmess-6c30e7b0 (Iran)"
+        "🇭🇰 trojan-0aa30ee1 (Hong Kong)",
+        "🇺🇸 vmess-cf867414 (United States)",
+        "🇺🇸 vmess-e423b338 (United States)",
+        "🇺🇸 vmess-ec3d7de6 (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -107,7 +105,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇭🇰 trojan-262418db (Hong Kong)",
+      "tag": "🇭🇰 trojan-0aa30ee1 (Hong Kong)",
       "server": "5.83.221.31",
       "server_port": 30006,
       "password": "261ccd4c-425d-43a2-bf2a-59c3d1f02e94",
@@ -121,7 +119,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-c9f8748a (United States)",
+      "tag": "🇺🇸 vmess-cf867414 (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "466cac2a-d8d1-4e47-be31-329538c63ebd",
@@ -142,7 +140,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-ec45b9bd (United States)",
+      "tag": "🇺🇸 vmess-e423b338 (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "466cac2a-d8d1-4e47-be31-329538c63ebd",
@@ -163,7 +161,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-e1c0c7a3 (United States)",
+      "tag": "🇺🇸 vmess-ec3d7de6 (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "466cac2a-d8d1-4e47-be31-329538c63ebd",
@@ -176,21 +174,6 @@
         },
         "type": "ws"
       },
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": ""
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇮🇷 vmess-6c30e7b0 (Iran)",
-      "server": "iran.aiteamplus.ir",
-      "server_port": 8081,
-      "uuid": "8d000875-db2e-45a5-8ecc-c376fd8472b7",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {},
       "tls": {
         "enabled": false,
         "insecure": true,
