@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-06-24T03:16:05.721762+00:00",
+  "timestamp": "2025-06-24T04:26:18.912264+00:00",
   "channels": [
     {
       "url": "https://t.me/s/sunflowerplato",
@@ -8,11 +8,11 @@
         "total_configs": 14,
         "valid_configs": 2,
         "unique_configs": 2,
-        "avg_response_time": 0.47,
+        "avg_response_time": 0.61,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 77.87,
-        "last_success": "2025-06-24T03:16:05.721112+00:00",
+        "overall_score": 77.66,
+        "last_success": "2025-06-24T04:26:18.911555+00:00",
         "protocol_counts": {
           "wireguard://": 0,
           "hysteria2://": 0,
