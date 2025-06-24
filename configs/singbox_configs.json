@@ -79,8 +79,8 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇸 trojan-f4601b4f (United States)",
-        "🇰🇷 trojan-8d1e6c98 (South Korea)",
+        "🇺🇸 trojan-192b4fd8 (United States)",
+        "🇰🇷 trojan-bc80ad05 (South Korea)",
         "direct"
       ]
     },
@@ -88,8 +88,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 trojan-f4601b4f (United States)",
-        "🇰🇷 trojan-8d1e6c98 (South Korea)"
+        "🇺🇸 trojan-192b4fd8 (United States)",
+        "🇰🇷 trojan-bc80ad05 (South Korea)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -101,7 +101,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇺🇸 trojan-f4601b4f (United States)",
+      "tag": "🇺🇸 trojan-192b4fd8 (United States)",
       "server": "199.34.228.50",
       "server_port": 2053,
       "password": "Aimer",
@@ -115,7 +115,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇰🇷 trojan-8d1e6c98 (South Korea)",
+      "tag": "🇰🇷 trojan-bc80ad05 (South Korea)",
       "server": "221.165.64.92",
       "server_port": 50000,
       "password": "Aimer",
