@@ -79,8 +79,8 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇫🇷 vless-58d9bda0 (France)",
-        "🇺🇸 vless-202e0454 (United States)",
+        "🇫🇷 vless-bfb32173 (France)",
+        "🇺🇸 vless-23db4dc4 (United States)",
         "direct"
       ]
     },
@@ -88,8 +88,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇫🇷 vless-58d9bda0 (France)",
-        "🇺🇸 vless-202e0454 (United States)"
+        "🇫🇷 vless-bfb32173 (France)",
+        "🇺🇸 vless-23db4dc4 (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -101,7 +101,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 vless-58d9bda0 (France)",
+      "tag": "🇫🇷 vless-bfb32173 (France)",
       "server": "13.39.4.50",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
@@ -118,7 +118,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-202e0454 (United States)",
+      "tag": "🇺🇸 vless-23db4dc4 (United States)",
       "server": "iza2.lalash.ir",
       "server_port": 80,
       "uuid": "839e2965-4d82-4825-adcc-90035314c03c",
