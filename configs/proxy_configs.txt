@@ -10,5 +10,7 @@ vless://415bd8b4-c455-4921-a548-7351847f9dcb@tun1.fastlink.cfd:2087?security=non
 
 vless://Parsashonam-265@151.101.3.8:80?mode=auto&path=%2F---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam---Parsashonam%3Fed%3D2048&security=none&encryption=none&host=ParsashonamTelegramChannel3.ir&type=xhttp#%40sunflowerplato%F0%9F%8C%BB266
 
+vless://fb8aba76-c0a3-4000-a5ec-de4766086db3@151.101.3.8:80?mode=auto&path=ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&security=none&encryption=none&host=Alirezaayour-name.global.ssl.fastly.net&type=xhttp#%40sunflowerplato%F0%9F%8C%BB284
+
 vmess://eyJhZGQiOiJ4dm9uLmZhc3QuaG9zdGluZy1pcC5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiZDlhMDVhYTktNDQxZi00ZTk0LTg0MTItYWVhNDc2MDE3NzVmIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI4MCIsInBzIjoiQHN1bmZsb3dlcnBsYXRv8J+MuzI2NCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
 
