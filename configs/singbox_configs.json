@@ -79,9 +79,7 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇸 trojan-8c5fe059 (United States)",
-        "🇰🇷 trojan-d5d4f02a (South Korea)",
-        "🇺🇸 vless-70d686c6 (United States)",
+        "🇺🇸 vless-31764149 (United States)",
         "direct"
       ]
     },
@@ -89,9 +87,7 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 trojan-8c5fe059 (United States)",
-        "🇰🇷 trojan-d5d4f02a (South Korea)",
-        "🇺🇸 vless-70d686c6 (United States)"
+        "🇺🇸 vless-31764149 (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -102,36 +98,8 @@
       "type": "direct"
     },
     {
-      "type": "trojan",
-      "tag": "🇺🇸 trojan-8c5fe059 (United States)",
-      "server": "199.34.228.50",
-      "server_port": 2053,
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "ngepx.ambercc.filegear-sg.me",
-        "alpn": [],
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "trojan",
-      "tag": "🇰🇷 trojan-d5d4f02a (South Korea)",
-      "server": "221.165.64.92",
-      "server_port": 50000,
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "ngepz.ambercc.filegear-sg.me",
-        "alpn": [],
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
       "type": "vless",
-      "tag": "🇺🇸 vless-70d686c6 (United States)",
+      "tag": "🇺🇸 vless-31764149 (United States)",
       "server": "iza2.lalash.ir",
       "server_port": 80,
       "uuid": "839e2965-4d82-4825-adcc-90035314c03c",
