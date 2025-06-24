@@ -79,10 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇫🇷 vless-55cca8f1 (France)",
-        "🇮🇹 vless-9fcd26d3 (Italy)",
-        "🇺🇸 vless-cc69c688 (United States)",
-        "🇺🇸 vmess-e6406ded (United States)",
+        "🇫🇷 vless-8614367e (France)",
+        "🇮🇹 vless-3ee2a0bb (Italy)",
+        "🇺🇸 vless-6d8c4dcd (United States)",
+        "🇺🇸 vmess-cca670df (United States)",
         "direct"
       ]
     },
@@ -90,10 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇫🇷 vless-55cca8f1 (France)",
-        "🇮🇹 vless-9fcd26d3 (Italy)",
-        "🇺🇸 vless-cc69c688 (United States)",
-        "🇺🇸 vmess-e6406ded (United States)"
+        "🇫🇷 vless-8614367e (France)",
+        "🇮🇹 vless-3ee2a0bb (Italy)",
+        "🇺🇸 vless-6d8c4dcd (United States)",
+        "🇺🇸 vmess-cca670df (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -105,7 +105,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 vless-55cca8f1 (France)",
+      "tag": "🇫🇷 vless-8614367e (France)",
       "server": "13.39.4.50",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
@@ -122,7 +122,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇹 vless-9fcd26d3 (Italy)",
+      "tag": "🇮🇹 vless-3ee2a0bb (Italy)",
       "server": "ens.zdshop.ir",
       "server_port": 80,
       "uuid": "1b8df49d-cd7e-456f-adc6-76974001e05f",
@@ -136,7 +136,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-cc69c688 (United States)",
+      "tag": "🇺🇸 vless-6d8c4dcd (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "Parsashonam-265",
@@ -150,7 +150,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 vmess-e6406ded (United States)",
+      "tag": "🇺🇸 vmess-cca670df (United States)",
       "server": "xvon.fast.hosting-ip.com",
       "server_port": 80,
       "uuid": "d9a05aa9-441f-4e94-8412-aea47601775f",
