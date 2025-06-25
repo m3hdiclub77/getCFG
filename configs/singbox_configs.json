@@ -79,8 +79,8 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-82dd82bc (Iran)",
-        "🇺🇸 vless-ab43eec7 (United States)",
+        "🇮🇷 vless-6743dc2d (Iran)",
+        "🇺🇸 vless-728c10cc (United States)",
         "direct"
       ]
     },
@@ -88,8 +88,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-82dd82bc (Iran)",
-        "🇺🇸 vless-ab43eec7 (United States)"
+        "🇮🇷 vless-6743dc2d (Iran)",
+        "🇺🇸 vless-728c10cc (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -101,7 +101,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-82dd82bc (Iran)",
+      "tag": "🇮🇷 vless-6743dc2d (Iran)",
       "server": "tun1.fastlink.cfd",
       "server_port": 2087,
       "uuid": "415bd8b4-c455-4921-a548-7351847f9dcb",
@@ -115,7 +115,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-ab43eec7 (United States)",
+      "tag": "🇺🇸 vless-728c10cc (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "fb8aba76-c0a3-4000-a5ec-de4766086db3",
