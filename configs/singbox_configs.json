@@ -79,14 +79,14 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇬🇧 ss-e7f40e2d (United Kingdom)",
-        "🇬🇧 ss-a02d477f (United Kingdom)",
-        "🇬🇧 ss-e46e5ece (United Kingdom)",
-        "🇬🇧 ss-8e45d060 (United Kingdom)",
-        "🇬🇧 ss-d86e48ff (United Kingdom)",
-        "🇬🇧 ss-dcc35d4a (United Kingdom)",
-        "🇩🇪 vless-db89fb8f (Germany)",
-        "🇮🇷 vmess-e18b5add (Iran)",
+        "🇬🇧 ss-42f6907b (United Kingdom)",
+        "🇬🇧 ss-9e61d434 (United Kingdom)",
+        "🇬🇧 ss-4e3ef001 (United Kingdom)",
+        "🇬🇧 ss-3f28b3cd (United Kingdom)",
+        "🇬🇧 ss-7cd9b6e4 (United Kingdom)",
+        "🇬🇧 ss-71e4d4df (United Kingdom)",
+        "🇩🇪 vless-8ea4f9bb (Germany)",
+        "🇮🇷 vmess-f688a694 (Iran)",
         "direct"
       ]
     },
@@ -94,14 +94,14 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇬🇧 ss-e7f40e2d (United Kingdom)",
-        "🇬🇧 ss-a02d477f (United Kingdom)",
-        "🇬🇧 ss-e46e5ece (United Kingdom)",
-        "🇬🇧 ss-8e45d060 (United Kingdom)",
-        "🇬🇧 ss-d86e48ff (United Kingdom)",
-        "🇬🇧 ss-dcc35d4a (United Kingdom)",
-        "🇩🇪 vless-db89fb8f (Germany)",
-        "🇮🇷 vmess-e18b5add (Iran)"
+        "🇬🇧 ss-42f6907b (United Kingdom)",
+        "🇬🇧 ss-9e61d434 (United Kingdom)",
+        "🇬🇧 ss-4e3ef001 (United Kingdom)",
+        "🇬🇧 ss-3f28b3cd (United Kingdom)",
+        "🇬🇧 ss-7cd9b6e4 (United Kingdom)",
+        "🇬🇧 ss-71e4d4df (United Kingdom)",
+        "🇩🇪 vless-8ea4f9bb (Germany)",
+        "🇮🇷 vmess-f688a694 (Iran)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -113,7 +113,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-e7f40e2d (United Kingdom)",
+      "tag": "🇬🇧 ss-42f6907b (United Kingdom)",
       "server": "admin.c4.webramz.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -121,7 +121,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-a02d477f (United Kingdom)",
+      "tag": "🇬🇧 ss-9e61d434 (United Kingdom)",
       "server": "admin.c4.webramz.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -129,7 +129,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-e46e5ece (United Kingdom)",
+      "tag": "🇬🇧 ss-4e3ef001 (United Kingdom)",
       "server": "api.namasha.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -137,7 +137,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-8e45d060 (United Kingdom)",
+      "tag": "🇬🇧 ss-3f28b3cd (United Kingdom)",
       "server": "api.namasha.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -145,7 +145,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-d86e48ff (United Kingdom)",
+      "tag": "🇬🇧 ss-7cd9b6e4 (United Kingdom)",
       "server": "series-a2-mec.varzesh360.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -153,7 +153,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-dcc35d4a (United Kingdom)",
+      "tag": "🇬🇧 ss-71e4d4df (United Kingdom)",
       "server": "admin.c2.webramz.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -161,7 +161,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-db89fb8f (Germany)",
+      "tag": "🇩🇪 vless-8ea4f9bb (Germany)",
       "server": "all32-vip.f-sub.com",
       "server_port": 2434,
       "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
@@ -175,7 +175,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 vmess-e18b5add (Iran)",
+      "tag": "🇮🇷 vmess-f688a694 (Iran)",
       "server": "tun.myextraordinary.ir",
       "server_port": 3911,
       "uuid": "4e51fb58-ef69-42bd-8536-acfd52d28afd",
