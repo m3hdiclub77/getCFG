@@ -79,11 +79,8 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇸 vless-c5f781f2 (United States)",
-        "🇮🇷 vless-ec2c2183 (Iran)",
-        "🇺🇸 vless-5ae63191 (United States)",
-        "🇺🇸 vless-75e37194 (United States)",
-        "🇺🇸 vmess-a0eaad8e (United States)",
+        "🇮🇷 vless-82dd82bc (Iran)",
+        "🇺🇸 vless-ab43eec7 (United States)",
         "direct"
       ]
     },
@@ -91,11 +88,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 vless-c5f781f2 (United States)",
-        "🇮🇷 vless-ec2c2183 (Iran)",
-        "🇺🇸 vless-5ae63191 (United States)",
-        "🇺🇸 vless-75e37194 (United States)",
-        "🇺🇸 vmess-a0eaad8e (United States)"
+        "🇮🇷 vless-82dd82bc (Iran)",
+        "🇺🇸 vless-ab43eec7 (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -107,21 +101,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-c5f781f2 (United States)",
-      "server": "ens.zdshop.ir",
-      "server_port": 80,
-      "uuid": "1b8df49d-cd7e-456f-adc6-76974001e05f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ens.zdshop.ir",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-ec2c2183 (Iran)",
+      "tag": "🇮🇷 vless-82dd82bc (Iran)",
       "server": "tun1.fastlink.cfd",
       "server_port": 2087,
       "uuid": "415bd8b4-c455-4921-a548-7351847f9dcb",
@@ -135,21 +115,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-5ae63191 (United States)",
-      "server": "151.101.3.8",
-      "server_port": 80,
-      "uuid": "Parsashonam-265",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "151.101.3.8",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-75e37194 (United States)",
+      "tag": "🇺🇸 vless-ab43eec7 (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "fb8aba76-c0a3-4000-a5ec-de4766086db3",
@@ -160,21 +126,6 @@
         "insecure": true
       },
       "transport": {}
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 vmess-a0eaad8e (United States)",
-      "server": "xvon.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "d9a05aa9-441f-4e94-8412-aea47601775f",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {},
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": ""
-      }
     }
   ],
   "route": {
