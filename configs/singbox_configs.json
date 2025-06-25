@@ -79,11 +79,11 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇬🇧 ss-cce76126 (United Kingdom)",
-        "🇬🇧 ss-bcb5cbb9 (United Kingdom)",
-        "🇬🇧 ss-d1d61906 (United Kingdom)",
-        "🇨🇦 vless-fae61e61 (Canada)",
-        "🇮🇷 vmess-8e35e9fa (Iran)",
+        "🇬🇧 ss-1fc5c027 (United Kingdom)",
+        "🇬🇧 ss-93b3356d (United Kingdom)",
+        "🇬🇧 ss-4e781b62 (United Kingdom)",
+        "🇨🇦 vless-6d95c6bf (Canada)",
+        "🇮🇷 vmess-8818a314 (Iran)",
         "direct"
       ]
     },
@@ -91,11 +91,11 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇬🇧 ss-cce76126 (United Kingdom)",
-        "🇬🇧 ss-bcb5cbb9 (United Kingdom)",
-        "🇬🇧 ss-d1d61906 (United Kingdom)",
-        "🇨🇦 vless-fae61e61 (Canada)",
-        "🇮🇷 vmess-8e35e9fa (Iran)"
+        "🇬🇧 ss-1fc5c027 (United Kingdom)",
+        "🇬🇧 ss-93b3356d (United Kingdom)",
+        "🇬🇧 ss-4e781b62 (United Kingdom)",
+        "🇨🇦 vless-6d95c6bf (Canada)",
+        "🇮🇷 vmess-8818a314 (Iran)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -107,7 +107,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-cce76126 (United Kingdom)",
+      "tag": "🇬🇧 ss-1fc5c027 (United Kingdom)",
       "server": "admin.c4.webramz.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -115,7 +115,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-bcb5cbb9 (United Kingdom)",
+      "tag": "🇬🇧 ss-93b3356d (United Kingdom)",
       "server": "api.namasha.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -123,7 +123,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-d1d61906 (United Kingdom)",
+      "tag": "🇬🇧 ss-4e781b62 (United Kingdom)",
       "server": "series-a2-mec.varzesh360.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -131,7 +131,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-fae61e61 (Canada)",
+      "tag": "🇨🇦 vless-6d95c6bf (Canada)",
       "server": "all2.golnar-clod.ir",
       "server_port": 8880,
       "uuid": "862873ea-4ea7-4207-b8d3-8f3c440f0afc",
@@ -145,7 +145,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 vmess-8e35e9fa (Iran)",
+      "tag": "🇮🇷 vmess-8818a314 (Iran)",
       "server": "tun.myextraordinary.ir",
       "server_port": 3911,
       "uuid": "4e51fb58-ef69-42bd-8536-acfd52d28afd",
