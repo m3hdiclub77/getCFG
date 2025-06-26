@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-06-26T22:15:15.298928+00:00",
+  "timestamp": "2025-06-26T23:15:45.124741+00:00",
   "channels": [
     {
       "url": "https://t.me/s/sunflowerplato",
@@ -12,7 +12,7 @@
         "success_count": 1,
         "fail_count": 0,
         "overall_score": 86.83,
-        "last_success": "2025-06-26T22:15:15.298284+00:00",
+        "last_success": "2025-06-26T23:15:45.124116+00:00",
         "protocol_counts": {
           "wireguard://": 0,
           "hysteria2://": 0,
