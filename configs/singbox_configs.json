@@ -79,14 +79,16 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇬🇧 ss-01c990bb (United Kingdom)",
-        "🇬🇧 ss-50532b0c (United Kingdom)",
-        "🇬🇧 ss-3cb1888c (United Kingdom)",
-        "🇬🇧 ss-3a5d9bf3 (United Kingdom)",
-        "🇬🇧 ss-18994050 (United Kingdom)",
-        "🇬🇧 ss-3ee99558 (United Kingdom)",
-        "🇩🇪 vless-f83a33e9 (Germany)",
-        "🇮🇷 vmess-8950f38f (Iran)",
+        "🇬🇧 ss-a24fa2bc (United Kingdom)",
+        "🇬🇧 ss-ee3d57cf (United Kingdom)",
+        "🇬🇧 ss-4bca54a8 (United Kingdom)",
+        "🇬🇧 ss-30551426 (United Kingdom)",
+        "🇬🇧 ss-50992315 (United Kingdom)",
+        "🇬🇧 ss-06d40aa0 (United Kingdom)",
+        "🇩🇪 vless-17aa4b16 (Germany)",
+        "🇩🇪 vless-65d18300 (Germany)",
+        "🇮🇷 vmess-a53d0bbf (Iran)",
+        "🇳🇱 vmess-ba601672 (The Netherlands)",
         "direct"
       ]
     },
@@ -94,14 +96,16 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇬🇧 ss-01c990bb (United Kingdom)",
-        "🇬🇧 ss-50532b0c (United Kingdom)",
-        "🇬🇧 ss-3cb1888c (United Kingdom)",
-        "🇬🇧 ss-3a5d9bf3 (United Kingdom)",
-        "🇬🇧 ss-18994050 (United Kingdom)",
-        "🇬🇧 ss-3ee99558 (United Kingdom)",
-        "🇩🇪 vless-f83a33e9 (Germany)",
-        "🇮🇷 vmess-8950f38f (Iran)"
+        "🇬🇧 ss-a24fa2bc (United Kingdom)",
+        "🇬🇧 ss-ee3d57cf (United Kingdom)",
+        "🇬🇧 ss-4bca54a8 (United Kingdom)",
+        "🇬🇧 ss-30551426 (United Kingdom)",
+        "🇬🇧 ss-50992315 (United Kingdom)",
+        "🇬🇧 ss-06d40aa0 (United Kingdom)",
+        "🇩🇪 vless-17aa4b16 (Germany)",
+        "🇩🇪 vless-65d18300 (Germany)",
+        "🇮🇷 vmess-a53d0bbf (Iran)",
+        "🇳🇱 vmess-ba601672 (The Netherlands)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -113,7 +117,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-01c990bb (United Kingdom)",
+      "tag": "🇬🇧 ss-a24fa2bc (United Kingdom)",
       "server": "admin.c4.webramz.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -121,7 +125,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-50532b0c (United Kingdom)",
+      "tag": "🇬🇧 ss-ee3d57cf (United Kingdom)",
       "server": "admin.c4.webramz.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -129,7 +133,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-3cb1888c (United Kingdom)",
+      "tag": "🇬🇧 ss-4bca54a8 (United Kingdom)",
       "server": "api.namasha.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -137,15 +141,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-3a5d9bf3 (United Kingdom)",
-      "server": "api.namasha.co",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "u17T3BvpYaaiuW2c"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 ss-18994050 (United Kingdom)",
+      "tag": "🇬🇧 ss-30551426 (United Kingdom)",
       "server": "series-a2-mec.varzesh360.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -153,15 +149,23 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 ss-3ee99558 (United Kingdom)",
+      "tag": "🇬🇧 ss-50992315 (United Kingdom)",
       "server": "admin.c2.webramz.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "WstuSnlu4ieA9M0L"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 ss-06d40aa0 (United Kingdom)",
+      "server": "series-a2.varzesh360.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "mps3FwmDjLrWaOVg"
+    },
+    {
       "type": "vless",
-      "tag": "🇩🇪 vless-f83a33e9 (Germany)",
+      "tag": "🇩🇪 vless-17aa4b16 (Germany)",
       "server": "all32-vip.f-sub.com",
       "server_port": 2434,
       "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
@@ -174,11 +178,40 @@
       "transport": {}
     },
     {
+      "type": "vless",
+      "tag": "🇩🇪 vless-65d18300 (Germany)",
+      "server": "46.101.210.59",
+      "server_port": 8629,
+      "uuid": "9783723b-b652-472e-aa72-d181621eef41",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "journalofbigdata.springeropen.com",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
       "type": "vmess",
-      "tag": "🇮🇷 vmess-8950f38f (Iran)",
+      "tag": "🇮🇷 vmess-a53d0bbf (Iran)",
       "server": "tun.myextraordinary.ir",
       "server_port": 3911,
       "uuid": "4e51fb58-ef69-42bd-8536-acfd52d28afd",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {},
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": ""
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇳🇱 vmess-ba601672 (The Netherlands)",
+      "server": "netherlands.aparat-movies-download.ir",
+      "server_port": 42562,
+      "uuid": "7905c28d-34d7-435a-b67e-d1d2d342f011",
       "security": "auto",
       "alter_id": 0,
       "transport": {},
