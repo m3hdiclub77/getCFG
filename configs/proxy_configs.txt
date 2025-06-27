@@ -26,6 +26,8 @@ vless://9783723b-b652-472e-aa72-d181621eef41@46.101.210.59:8629?security=reality
 
 vless://e6236ebc-7334-4bed-977f-0c20bcdfcc00@104.24.56.187:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=a1.ghormehsabzi.dpdns.org&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
+vless://f08e95ae-5e18-40aa-992d-8a50a3e91f74@31.58.237.83:2022?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2OU1VaWk3VkR3TXFoN0h6@admin.c4.webramz.co:443#%40sunflowerplato
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2OU1VaWk3VkR3TXFoN0h6@admin.c4.webramz.co:443#%40sunflowerplato%F0%9F%8C%BB305
