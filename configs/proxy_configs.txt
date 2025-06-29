@@ -26,8 +26,6 @@ vless://2ee654be-dcf2-4a6b-acfb-e7945263a1cf@config_v_2ray-99916.edges.chat2.fun
 
 vless://4086d510-5c74-4fc7-9b6b-1c79ac506209@rezashakor.uniquenonstop.space:22921?security=none&encryption=none&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
-vless://461b0991-d24b-42dc-87c2-c505cf1a01f4@199.232.214.172:80?mode=auto&path=%2Fauthentic_channel%3Fed%3D2560&security=none&encryption=none&host=ownercolin.com&type=xhttp#%40sunflowerplato
-
 vless://4730d92d-a8a0-42f0-af19-8151fb951b4b@fr.spirako.com:443?security=reality&encryption=none&pbk=0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=website.com#%40sunflowerplato
 
 vless://4730d92d-a8a0-42f0-af19-8151fb951b4b@pl.spirako.com:443?security=reality&encryption=none&pbk=0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=website.com#%40sunflowerplato
