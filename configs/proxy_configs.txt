@@ -30,15 +30,9 @@ vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.92.95:51615?security=none&enc
 
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.92.95:51615?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB511
 
-vless://4730d92d-a8a0-42f0-af19-8151fb951b4b@fr.spirako.com:443?security=reality&encryption=none&pbk=0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=website.com#%40sunflowerplato
-
-vless://4730d92d-a8a0-42f0-af19-8151fb951b4b@pl.spirako.com:443?security=reality&encryption=none&pbk=0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=website.com#%40sunflowerplato
-
 vless://4fd98f74-27a9-451e-9bcd-dd73b4dca46f@UTC.hamrahconf.ir:2479?path=%2Fpath&security=none&encryption=none&host=speedtest.net&type=ws#%40sunflowerplato%F0%9F%8C%BB513
 
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?path=%2FTELEGRAM%40Spotify_Porteghali%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#%40sunflowerplato%F0%9F%8C%BB509
-
-vless://5459f68e-d914-4b31-93a3-ecdf638b7a5b@172.66.132.44:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=abcd.taraneh.dpdns.org&fp=random&type=ws&sni=abcd.taraneh.dpdns.org#%40sunflowerplato%F0%9F%8C%BB
 
 vless://568279ce-dd78-4f33-9e5c-64b18c5505db@151.101.123.141:80?path=%2Folem%2Fws%3Fed%3D2560&security=none&encryption=none&host=foffmelo.com&type=ws#%40sunflowerplato
 
@@ -70,19 +64,11 @@ vless://ccd5d8c4-634c-46bc-8f7a-5be3b8649858@85.133.215.188:3311?mode=gun&securi
 
 vless://d843b700-0e0d-5ad9-72d9-46ced5785cd1@212.33.201.187:2051?security=none&encryption=none&host=snapp.taxi&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB500
 
-vless://e6236ebc-7334-4bed-977f-0c20bcdfcc00@104.24.56.187:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=a1.ghormehsabzi.dpdns.org&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
 vless://f08e95ae-5e18-40aa-992d-8a50a3e91f74@31.58.237.83:2022?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#%40sunflowerplato
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXc3R1U25sdTRpZUE5TTBM@admin.c2.webramz.co:443#%40sunflowerplato%F0%9F%8C%BB508
 
-vmess://eyJhZGQiOiI1MS43OS44Ni4xODIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiZTA5NTdjYTYtZjYxMy00MDE3LWZmM2MtZWZmZDFkYTg4NzFhIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0MjYxMCIsInBzIjoiQHN1bmZsb3dlcnBsYXRv8J+MuyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
-
 vmess://eyJhZGQiOiI5MS45OS4xNjUuMTc1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ2YXJ6ZXNoMy5jb20iLCJpZCI6IjdiNTc0YjJjLTZmMWUtNDYxMy1hYjMwLTc4NjNkZjdkMDUyZCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjQ0MyIsInBzIjoiQHN1bmZsb3dlcnBsYXRv8J+MuyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
-
-vmess://eyJhZGQiOiI5My4xMTUuMTcyLjE3NSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoic2hleXBvb3IuY29tIiwiaWQiOiIwNTZkM2QzNS1hNzI5LTRhYjQtYmJhZS1kNzFkODQ1OGFmMTkiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiIxMjU0MCIsInBzIjoiQHN1bmZsb3dlcnBsYXRv8J+MuyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
 
 vmess://eyJhZGQiOiIzNy4yMDIuMjQxLjI1MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI0OGM0YjE2Mi1lZjgyLTRlMzMtYTNmZC1mNjYyMTk4NWU3OTEiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6Ijg4OCIsInBzIjoiQHN1bmZsb3dlcnBsYXRv4pyo77iP8J+MuyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
 
