@@ -50,9 +50,13 @@ vless://77b7af06-6e10-4afa-a9bb-461fab6db315@pfwie.marfanet.com:55700?security=r
 
 vless://77b7af06-6e10-4afa-a9bb-461fab6db315@pfwie.marfanet.com:55700?security=reality&encryption=none&pbk=upY29Nxcyc_8q8shNAv_0XNdn0WJdy93iNlKbxLmFUA&host=refersion.com&headerType=none&fp=firefox&spx=%2Fblog%2Fcategory%2Ftechnology%2F&type=tcp&sni=refersion.com&sid=ae839dceb524a40b#%40sunflowerplato%F0%9F%8C%BB556
 
+vless://7a66b8ef-9713-4b69-b839-6bb45070af35@91.99.198.174:443?security=none&encryption=none&host=zula.ir%2F%3FTELEGRAM%40JOKERRVPN&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
+
 vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.122.102:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
 vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.169.206:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato
+
+vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.199.137:443?security=none&encryption=none&host=zula.ir%2F%3FTELEGRAM%40JOKERRVPN&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
 vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.231.218:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB504
 
