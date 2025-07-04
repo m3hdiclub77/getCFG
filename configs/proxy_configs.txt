@@ -10,13 +10,9 @@ vless://15398933-070d-4ea2-9697-5fcd79793c97@91.99.54.106:443?security=none&encr
 
 vless://22facc17-dda1-4000-9b45-b56fee01ae6d@91.107.144.71:54250?security=reality&encryption=none&pbk=hqFjJmgoV9E8zs3YIpiOFOljQjYuskuJuWF3mzkBzh0&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=refersion.com&sid=ce8a4a0afd73a293#%40sunflowerplato
 
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.151.199:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato
-
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.159.125:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato
 
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.203.65:443?security=none&encryption=none&host=account.zula.ir&headerType=http&type=tcp#%40sunflowerplato
-
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.203.70:51615?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato
 
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.203.70:51615?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
@@ -31,8 +27,6 @@ vless://4179c595-08ca-45cd-b555-91b6f1faeadc@172.67.128.105:80?path=%2F%3Fed%3D2
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.147.22:80?path=%2FTelegram%40Spotify_Porteghali%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&fp=chrome&type=ws#%40sunflowerplato
 
 vless://5db3a167-1a04-4f2c-ab9b-771c24b5cf1d@2.189.117.62:21483?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#%40sunflowerplato
-
-vless://6a656837-8915-40c6-99fd-7f244a674a5d@connection08.eco-network.org:54269?security=none&encryption=none&host=soft98.ir&headerType=http&type=tcp#%40sunflowerplato
 
 vless://6f690965-3be3-43bb-9331-3ead6efb20aa@172.67.17.195:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=sib.sibzamini.dpdns.org&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
