@@ -8,8 +8,6 @@ vless://06e4425e-a8cb-4b63-929f-2105604ab0a9@icook.tw:443?path=%2F%3Fed%3D2560&s
 
 vless://15398933-070d-4ea2-9697-5fcd79793c97@91.99.54.106:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato
 
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.159.125:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato
-
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.203.65:443?security=none&encryption=none&host=account.zula.ir&headerType=http&type=tcp#%40sunflowerplato
 
 vless://2ebdc8ed-7b96-4839-b32f-b5d21a11f320@181.214.99.36:443?security=reality&encryption=none&pbk=zguKemuiateh9w_YrRsbWEwm94KaNd-fAUxuZMR1p2c&host=---%40External_Net---%40External_Net---%40External_Net---%40External_Net---%40External_Net&headerType=none&fp=chrome&type=tcp&sni=docker.com&sid=781c#%40sunflowerplato
@@ -18,9 +16,7 @@ vless://3ed3966a-ca0e-4a46-a437-8000836fa495@Sd.mciickoir.ir:9620?security=none&
 
 vless://3ed3966a-ca0e-4a46-a437-8000836fa495@Ws.mciickoir.ir:9620?security=none&encryption=none&host=uptvs.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
-vless://4179c595-08ca-45cd-b555-91b6f1faeadc@172.67.128.105:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=di.dibdibini.dpdns.org&fp=chrome&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.147.22:80?path=%2FTelegram%40Spotify_Porteghali%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&fp=chrome&type=ws#%40sunflowerplato
+vless://4179c595-08ca-45cd-b555-91b6f1faeadc@172.67.128.105:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=di.dibdibini.dpdns.org&fp=chrome&type=ws#%40sunflowerplato
 
 vless://5db3a167-1a04-4f2c-ab9b-771c24b5cf1d@2.189.117.62:21483?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#%40sunflowerplato
 
@@ -28,23 +24,25 @@ vless://6f690965-3be3-43bb-9331-3ead6efb20aa@172.67.17.195:80?path=%2F%3Fed%3D25
 
 vless://7a66b8ef-9713-4b69-b839-6bb45070af35@91.99.130.239:443?security=none&encryption=none&host=zula.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#%40sunflowerplato
 
-vless://7a66b8ef-9713-4b69-b839-6bb45070af35@91.99.160.217:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato
-
-vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.122.102:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato
-
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@104.16.53.11:8443?path=%2FTelegram%40V2ray_Alpha&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=my.ski1plag.ir&fp=random&type=ws&sni=my.ski1plag.ir#%40sunflowerplato
-
-vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@add.ski1plag.ir:80?path=%2Fupload&security=none&encryption=none&host=my.ski1plag.ir&fp=chrome&type=ws#%40sunflowerplato
 
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@add.ski1plag.ir:80?path=%2Fupload&security=none&encryption=none&host=my.ski1plag.ir&fp=chrome&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@add.ski1plag.ir:80?path=%2Fupload&security=none&encryption=none&host=my.ski1plag.ir&type=ws#%40sunflowerplato
 
+vless://8343febb-5d7a-4af1-8196-396a42246db4@srv6.numberonedrshabi.top:2082?path=%2F&security=none&encryption=none&type=ws#%40sunflowerplato
+
+vless://92f481b6-ad92-43e4-a683-2bb0aeaa9846@104.16.241.234:80?path=%2F%3Fed%3D2590&security=none&encryption=none&host=dw.alibichareh.dpdns.org&type=ws#%40sunflowerplato
+
 vless://bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0@172.67.164.239:80?path=%2FBaRAyeIran%3Fed%3D2560&security=none&encryption=none&host=barayeiran.nastaranh.dpdns.org&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://d1237c01-58b5-48f9-8a27-8a396b7f5422@104.18.209.108:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=ey.nazanin.dpdns.org&fp=random&type=ws&sni=ey.nazanin.dpdns.org#%40sunflowerplato%F0%9F%8C%BB
 
+vless://e2df21c8-f834-4250-b22e-3cb554901f6a@151.101.3.8:80?mode=auto&path=%2Fn8xt7th32ufh&security=none&encryption=none&host=azureeee1.global.ssl.fastly.net&type=xhttp#%40sunflowerplato
+
 vless://f2bb6f82-f343-4455-8ef9-5b0dc438941a@ir4.tunneled.site:5050?security=none&encryption=none&headerType=http&type=tcp#%40sunflowerplato
+
+trojan://telegram-id-directvpn@52.29.32.68:22223?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%40sunflowerplato
 
 vmess://eyJhZGQiOiI1LjE2MC4xOTcuMTIwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJzcGVlZHRlc3QubmV0IiwiaWQiOiJlMGM4NGE2Yi1iZjAyLTRiOWItOWRkZi1kZTlmZTk4YmIwMjgiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiI1NDg3NyIsInBzIjoiQHN1bmZsb3dlcnBsYXRv8J+MuyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
 
