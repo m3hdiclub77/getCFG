@@ -16,13 +16,9 @@ vless://3ed3966a-ca0e-4a46-a437-8000836fa495@Op.mciickoir.ir:9620?security=none&
 
 vless://3ed3966a-ca0e-4a46-a437-8000836fa495@Op.mciickoir.ir:9620?security=none&encryption=none&host=uptvs.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB9
 
-vless://49203d20-5f1b-4628-d526-9a6825c3f5f3@87.107.144.71:54465?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB19
-
 vless://4ccd8137-fbdc-2d61-4d60-e9014c4261fd@ir.lightning2025.top:699?path=%2Fws%3Fed%3D2048&security=none&encryption=none&host=telewebion.com%2Cuser.telewebion.com%2Cplus.telewebion.com%2Capi.telewebion.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://627712cf-d0e1-4545-81fb-241e7fda0284@141.253.124.138:443?security=tls&encryption=none&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=b2-9fr2329-6bh.xn--4gq62f52gppi29k.com#%40sunflowerplato
-
-vless://6bb8cb48-c5d7-4016-b671-4367a56e299a@46.245.76.249:10215?path=%2F&security=none&encryption=none&host=%2FJOKERRVPNBIA_CHANEL%40JOKERRVPN&type=ws#%40sunflowerplato%F0%9F%8C%BB21
 
 vless://6f690965-3be3-43bb-9331-3ead6efb20aa@104.18.26.90:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=sib.sibzamini.dpdns.org&type=ws#%40sunflowerplato%F0%9F%8C%BB1
 
@@ -40,9 +36,5 @@ vless://bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0@104.16.0.113:80?path=%2F%3Fed%3D256
 
 vless://bea34b73-3244-475b-b914-7bb80e1cda91@mar13t.rasmar1400.com:2080?security=reality&encryption=none&pbk=L3lJWdU7mHijSkNaNt-m29OYnKnHvHYRxg2Y8XXFdng&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=dash.cloudflare.com&sid=bf517367267685#%40sunflowerplato%F0%9F%8C%BB6
 
-vless://d4bc0a04-a68e-4de8-9098-4a22f8936485@104.16.53.11:80?path=%2F%3Fed&security=none&encryption=none&host=FAInt-gAte.oNEeAt.CO.&type=ws#%40sunflowerplato%F0%9F%8C%BB20
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@series-a2.samanehha.co:443#%40sunflowerplato%F0%9F%8C%BB9
-
-vmess://eyJhZGQiOiJjaGFubmVsLmRvbGxhcmRvb24uY29tIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJmYXN0LmNvbSIsImlkIjoiNGFjMzllOGEtNmQ1Yy00OGJiLWIwZDAtZjYzM2M4MjkxMTNlIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxNTcwOSIsInBzIjoiQHN1bmZsb3dlcnBsYXRv8J+MuzE4Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
 
