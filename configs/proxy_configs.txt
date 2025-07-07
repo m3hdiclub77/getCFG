@@ -16,8 +16,6 @@ vless://346264b7-975c-4891-8f7b-dcd6e5707a42@kernel.panel.cactusv2.xyz:4434?mode
 
 vless://346264b7-975c-4891-8f7b-dcd6e5707a42@kernel.panel.cactusv2.xyz:4434?mode=multi&security=reality&encryption=none&pbk=qlXAzsjjzUjqcfuZcd-oUlLLIFVEVqs454P_F3BvQwI&fp=chrome&spx=%2F&type=grpc&serviceName=cactusservice&sni=journalofbigdata.springeropen.com&sid=f10dcd45#%40sunflowerplato%F0%9F%8C%BB13
 
-vless://346264b7-975c-4891-8f7b-dcd6e5707a42@kernel.panel.cactusv2.xyz:4434?mode=multi&security=reality&encryption=none&pbk=qlXAzsjjzUjqcfuZcd-oUlLLIFVEVqs454P_F3BvQwI&fp=chrome&spx=%2F&type=grpc&serviceName=cactusservice&sni=journalofbigdata.springeropen.com&sid=f10dcd45#%40sunflowerplato%F0%9F%8C%BB4
-
 vless://3ed3966a-ca0e-4a46-a437-8000836fa495@Op.mciickoir.ir:9620?security=none&encryption=none&host=uptvs.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB10
 
 vless://3ed3966a-ca0e-4a46-a437-8000836fa495@Op.mciickoir.ir:9620?security=none&encryption=none&host=uptvs.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB9
@@ -41,10 +39,6 @@ vless://6f690965-3be3-43bb-9331-3ead6efb20aa@104.18.26.90:80?path=%2F%3Fed%3D256
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@104.16.53.11:8443?path=%2FTelegram%40Config_Rayegan&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=my.ski1plag.ir&fp=random&type=ws&sni=my.ski1plag.ir#%40sunflowerplato%F0%9F%8C%BB9
 
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@104.16.53.11:8443?path=%2FTelegram%40V2ray_Alpha&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=my.ski1plag.ir&fp=random&type=ws&sni=my.ski1plag.ir#%40sunflowerplato%F0%9F%8C%BB10
-
-vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@add.ski1plag.ir:80?path=%2Fdownload&security=none&encryption=none&host=my.ski1plag.ir&type=ws#%40sunflowerplato%F0%9F%8C%BB3
-
-vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@add.ski1plag.ir:80?path=%2Fupload&security=none&encryption=none&host=my.ski1plag.ir&type=ws#%40sunflowerplato%F0%9F%8C%BB2
 
 vless://7e296434-2d17-48d3-928d-19eaa34aecb1@45.15.170.80:28495?security=reality&encryption=none&pbk=KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ&headerType=none&fp=chrome&type=tcp&sni=dl.google.com&sid=0ecc2c1392#%40sunflowerplato%F0%9F%8C%BB7
 
