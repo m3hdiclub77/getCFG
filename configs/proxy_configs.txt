@@ -4,15 +4,11 @@
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-vless://10b1f4a3-63a7-46b4-f05a-023542f0dc11@87.107.144.71:54465?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato
-
 vless://26bc13af-e442-4956-afd4-b8f85744d26f@172.66.137.85:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=fggerlad.gerald81.dpdns.org&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://28bfa633-1c61-4ecf-8ce9-ca3f2fd51496@n4.asmdns.net:44185?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#%40sunflowerplato
 
 vless://5becb1f6-ca68-48f2-a5a2-425a51e6b369@91.99.105.1:17833?security=none&encryption=none&host=exo.ir&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
-
-vless://627712cf-d0e1-4545-81fb-241e7fda0284@141.253.124.138:443?security=tls&encryption=none&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=b2-9fr2329-6bh.xn--4gq62f52gppi29k.com#%40sunflowerplato
 
 vless://75fde681-ec64-4654-86fa-30732e8e179c@104.16.243.59:443?path=%2Fassets&security=tls&alpn=h3&encryption=none&host=nginx.nscl.ir&type=ws&sni=NGINX.NSCl.IR#%40sunflowerplato
 
