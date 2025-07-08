@@ -20,6 +20,10 @@ vless://75fde681-ec64-4654-86fa-30732e8e179c@104.16.243.59:443?path=%2Fassets&se
 
 vless://75fde681-ec64-4654-86fa-30732e8e179c@104.16.243.59:443?path=%2Fassets&security=tls&alpn=h3&encryption=none&host=nginx.nscl.ir&type=ws&sni=NGINX.NSCl.IR#%40sunflowerplato%F0%9F%8C%BB
 
+vless://890cc8de-0c7a-4c70-b945-879ce892e196@www.speedtest.net:8880?path=%2F%3Fed%3D8880&security=none&encryption=none&host=arm1.dollardoon.com&type=httpupgrade#%40sunflowerplato%F0%9F%8C%BB
+
+vless://89b3cbba-e6ac-485a-9481-976a0415eab9@172.66.132.196:8443?path=%2FTelegram%40V2ray_Alpha%3D%3Fed%3D2560&security=tls&encryption=none&host=UuHuHyygESDFGh.uyHjhGVGfcJGUJHbUilbvfdxdXM.xYz&type=ws&sni=UuHuHyygESDFGh.uyHjhGVGfcJGUJHbUilbvfdxdXM.xYz#%40sunflowerplato%F0%9F%8C%BB
+
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@45.12.30.101:80?path=Telegram%3A%40ShadowProxy66%2F%3Fed%3D2560&security=none&encryption=none&host=uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@45.131.208.130:80?path=Telegram%40V2ray_Alpha%2F%3Fed%3D2560&security=none&encryption=none&host=uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz&type=ws#%40sunflowerplato%F0%9F%8C%BB
