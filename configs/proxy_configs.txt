@@ -48,10 +48,6 @@ vless://b1a8ceea-6601-45b5-a674-7e5b64ab6f6f@162.159.129.11:2053?path=%2FTelegra
 
 vless://c0569a4c-7a62-4ed6-9ae8-91fff5625f84@ifcg.crocodileserver.ir:80?mode=auto&path=%2Fsiroosqoli%3Fed%3D2048&security=none&encryption=none&host=thisispalmis.global.ssl.fastly.net&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
 
-vless://cbc68f99-54f8-4605-8fac-69d8c9fdb1e7@135.181.201.193:51168?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato
-
-vless://cqmu6gmmyu@91.99.113.34:443?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&headerType=none&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=cqmu6gmmyu-919911334-direct.khastehnabashi.com#%40sunflowerplato%F0%9F%8C%BB
-
 vless://d0298536-d670-4045-bbb1-ddd5ea68683e@198.62.62.4:443?path=%2Fazadnet-7py.pages.dev%2F%3Fed%3D2560%26PROT_TYPE%3Dvless&security=tls&encryption=none&host=azadnet-7py.pages.dev&fp=randomized&type=ws&sni=azadnet-7py.pages.dev#%40sunflowerplato%F0%9F%8C%B
 
 vless://d0298536-d670-4045-bbb1-ddd5ea68683e@198.62.62.4:443?path=%2Fazadnet-7py.pages.dev%2F%3Fed%3D2560%26PROT_TYPE%3Dvless&security=tls&encryption=none&host=azadnet-7py.pages.dev&fp=randomized&type=ws&sni=azadnet-7py.pages.dev#%40sunflowerplato%F0%9F%8C%BB
@@ -69,10 +65,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@172.165.94.205:443#%40
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@131.145.34.231:443#%40sunflowerplato
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@4.158.124.20:443#%40sunflowerplato%F0%9F%8C%BB
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#%40sunflowerplato%F0%9F%8C%BB
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@series-a2.varzesh360.co:443#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
 
 vmess://eyJhZGQiOiI5MS45OS4xODcuNDIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTM4MmQ3MmYtNjUwOS00ZDE2LWFhZTctYzY3MTIxYzczNmRjIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0NjE5OSIsInBzIjoiQHN1bmZsb3dlcnBsYXRv8J+MuyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
 
