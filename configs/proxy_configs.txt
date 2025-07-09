@@ -4,6 +4,8 @@
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3
 
+vless://11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b@viop.fast.hosting-ip.com:80?mode=auto&path=%2F&security=none&encryption=none&host=gogojiyour-name.global.ssl.fastly.net&type=xhttp#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
+
 vless://26bc13af-e442-4956-afd4-b8f85744d26f@172.66.137.85:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=fggerlad.gerald81.dpdns.org&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://28bfa633-1c61-4ecf-8ce9-ca3f2fd51496@n4.asmdns.net:44185?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#%40sunflowerplato
