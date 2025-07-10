@@ -20,8 +20,6 @@ vless://3d1622e6-7ac5-4715-b635-7bd542e0a70b@fr.marzban-locations.com:3032?secur
 
 vless://3d1622e6-7ac5-4715-b635-7bd542e0a70b@tr.panelmarzban.com:3036?security=reality&encryption=none&pbk=21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI&headerType=none&fp=firefox&type=tcp&sni=refersion.com#%40sunflowerplato%F0%9F%8C%BB
 
-vless://3d554bba-9c77-499f-9055-1eb42058ed00@300232332.webnama.com.tr:1517?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
-
 vless://453cad9e-8903-41c1-bbe9-d0de4e601d4b@core.snappfood.xyz:8880?security=none&encryption=none&host=FGdgashs.varzesh3.com.tr.&type=httpupgrade#%40sunflowerplato%F0%9F%8C%BB
 
 vless://49a9e35b-62f6-7103-d6c9-d26aba2d768c@i.ownlink.pro:29143?security=none&encryption=none&headerType=http&type=tcp#%40sunflowerplato@sunflowerplato🌻
@@ -30,25 +28,11 @@ vless://4e0a435a-65d6-4e4e-a4ed-dfa8bdd732f5@www.speedtest.net:443?mode=stream-o
 
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.4.147:80?path=Telegram%F0%9F%87%A8%F0%9F%87%B3%402%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8.pooriashop.ir&type=ws#%40sunflowerplato
 
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.4.147:80?path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8.pooriashop.ir&type=ws#%40sunflowerplato
-
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.4.147:80?path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40v%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8.pooriashop.ir&type=ws#%40sunflowerplato
-
-vless://6f690965-3be3-43bb-9331-3ead6efb20aa@172.67.62.141:80?path=%2FBaRAyeIran%3Fed%3D2560&security=none&encryption=none&host=sib.sibzamini.dpdns.org&type=ws#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
-
-vless://75fde681-ec64-4654-86fa-30732e8e179c@104.16.243.59:443?path=%2Fassets&security=tls&alpn=h3&encryption=none&host=nginx.nscl.ir&type=ws&sni=NGINX.NSCl.IR#%40sunflowerplato%F0%9F%8C%BB
 
 vless://75fde681-ec64-4654-86fa-30732e8e179c@104.16.243.59:443?path=%2Fassets&security=tls&encryption=none&host=NGINX.NSCl.IR&fp=chrome&type=ws&sni=NGINX.NSCl.IR#%40sunflowerplato
 
 vless://75fde681-ec64-4654-86fa-30732e8e179c@172.67.92.147:443?path=%2Fassets&security=tls&alpn=h3&encryption=none&host=nginx.nscl.ir&type=ws&sni=NGINX.NSCl.IR#%40sunflowerplato%F0%9F%8C%BB
-
-vless://890cc8de-0c7a-4c70-b945-879ce892e196@www.speedtest.net:8880?path=%2F%3Fed%3D8880&security=none&encryption=none&host=arm1.dollardoon.com&type=httpupgrade#%40sunflowerplato%F0%9F%8C%BB
-
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@172.66.132.196:8443?path=%2FTelegram%40V2ray_Alpha%3D%3Fed%3D2560&security=tls&encryption=none&host=UuHuHyygESDFGh.uyHjhGVGfcJGUJHbUilbvfdxdXM.xYz&type=ws&sni=UuHuHyygESDFGh.uyHjhGVGfcJGUJHbUilbvfdxdXM.xYz#%40sunflowerplato%F0%9F%8C%BB
-
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@45.12.30.101:80?path=Telegram%3A%40ShadowProxy66%2F%3Fed%3D2560&security=none&encryption=none&host=uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@45.131.208.130:80?path=Telegram%40V2ray_Alpha%2F%3Fed%3D2560&security=none&encryption=none&host=uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c@104.19.245.206:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=kawaiifreevpn-7ds.pages.dev&fp=random&type=ws&sni=kawaiifreevpn-7ds.pages.dev#%40sunflowerplato%F0%9F%8C%BB
 
@@ -58,17 +42,9 @@ vless://a0a3e34d-87e4-4ff3-b04a-875c85325d62@it.panelmarzban.com:3037?security=r
 
 vless://ae0fbd66-f1e3-4368-8f47-b3b214ada914@hhh.fastly80.hosting-ip.com:80?mode=auto&path=%2Fvpnglobal&security=none&encryption=none&host=sdkdsd2.global.ssl.fastly.net&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
 
-vless://b1a8ceea-6601-45b5-a674-7e5b64ab6f6f@162.159.129.11:2053?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=sub.divib.dynv6.net&type=ws&sni=sub.divib.dynv6.net#%40sunflowerplato%F0%9F%8C%BB
-
 vless://c819261a-ad50-4ded-b164-1eafed9885c2@www.speedtest.net:2096?path=%2Fmmdhmrws&security=tls&encryption=none&host=638868951946670036.amsterdam-prx-dnraaal.info&type=ws&sni=638868951946670036.amsterdam-prx-dnraaal.info#%40sunflowerplato%F0%9F%8C%BB
 
 vless://d0298536-d670-4045-bbb1-ddd5ea68683e@162.159.129.67:8443?path=%2Fazadnet1-706.pages.dev%2F%3Fed%3D2560%26PROT_TYPE%3Dvless&security=tls&encryption=none&host=azadnet1-706.pages.dev&fp=randomized&type=ws&sni=azadnet1-706.pages.dev#%40sunflowerplato%F0%9F%8C%BB
-
-vless://d0298536-d670-4045-bbb1-ddd5ea68683e@198.62.62.4:443?path=%2Fazadnet-7py.pages.dev%2F%3Fed%3D2560%26PROT_TYPE%3Dvless&security=tls&encryption=none&host=azadnet-7py.pages.dev&fp=randomized&type=ws&sni=azadnet-7py.pages.dev#%40sunflowerplato%F0%9F%8C%B
-
-vless://dc80ee7e-bad0-450c-a218-f12e05680885@141.11.202.250:2096?path=%2F%3Fed%3D2096&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=arm1.dollardoon.com&fp=chrome&type=ws&sni=arm1.dollardoon.com#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
-
-vless://dc80ee7e-bad0-450c-a218-f12e05680885@185.251.82.170:2096?path=%2F%3Fed%3D2096&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=arm1.dollardoon.com&fp=chrome&type=ws&sni=arm1.dollardoon.com#%40sunflowerplato%F0%9F%8C%BB
 
 vless://ec7a6b6d-94b6-45df-9d62-491f53a508be@104.17.147.22:2087?path=%2FErkw2ygbmWGKKrhw%2Fc2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ%3D&security=tls&encryption=none&host=FReedOm.paNotosU.StORe&fp=randomized&type=ws&sni=FReedOm.paNotosU.StORe#%40sunflowerplato%F0%9F%8C%BB
 
