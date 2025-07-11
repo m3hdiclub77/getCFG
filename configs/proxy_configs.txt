@@ -4,7 +4,11 @@
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3
 
+vless://06f5a7cb-3842-49d0-a498-d4165c0eb956@test-lets-wildcard.spotifycdn.org:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk&fp=chrome&type=xhttp&sni=www.tgju.org&sid=7f2798f9#%40sunflowerplato
+
 vless://06f5a7cb-3842-49d0-a498-d4165c0eb956@test-lets-wildcard.spotifycdn.org:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk&fp=chrome&type=xhttp&sni=www.tgju.org&sid=7f2798f9#%40sunflowerplato%F0%9F%8C%BB
+
+vless://09489f39-3736-4774-b212-0c50aaa217f3@142.132.227.65:443?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato
 
 vless://240052ac-0bf0-481f-adb4-f40a259fc189@all97-vip.f-sub.com:1517?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
@@ -36,6 +40,8 @@ vless://7c6136e8-3b0a-4239-84e9-31ac4bcec72f@game.hpc.tw:2095?security=reality&e
 
 vless://7c6136e8-3b0a-4239-84e9-31ac4bcec72f@speedy.mooo.info:80?mode=auto&path=%2F&security=none&encryption=none&host=2.ir&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
 
+vless://8088c605-e0c2-4774-9ee4-7fa7e47b6112@151.101.67.8:80?mode=auto&path=%2FZed%2F%3F%40MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2048&security=none&encryption=none&host=Ryanjames.global.ssl.fastly.net&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
+
 vless://9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c@104.19.245.206:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=kawaiifreevpn-7ds.pages.dev&fp=random&type=ws&sni=kawaiifreevpn-7ds.pages.dev#%40sunflowerplato%F0%9F%8C%BB
 
 vless://a0a3e34d-87e4-4ff3-b04a-875c85325d62@it.panelmarzban.com:3037?security=reality&encryption=none&pbk=21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI&headerType=none&fp=firefox&type=tcp&sni=refersion.com#%40sunflowerplato
@@ -55,6 +61,8 @@ vless://ec7a6b6d-94b6-45df-9d62-491f53a508be@104.17.147.22:2087?path=%2FErkw2ygb
 vless://ec7a6b6d-94b6-45df-9d62-491f53a508be@172.67.137.129:2096?path=%2FvRpve4WyyyBMiVSu%2Fc2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ%3D%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&host=freedom.panotosu.store&fp=randomized&type=ws&sni=FReedOM.pANoToSu.StorE#%40sunflowerplato%F0%9F%8C%BB
 
 vless://f302a122-31bd-4118-ad7d-90b56534aa79@www.srvice.shop:443?security=reality&encryption=none&pbk=HAn9cMHIS6B_yAfR-WSbgqqSK8Jzs6h0vBDarkN_dlA&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=trello.com&sid=801ba2#%40sunflowerplato%F0%9F%8C%BB
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3anZISEY1U2FGb2I%3D@78.153.131.96:443#%40sunflowerplato%F0%9F%8C%BB
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@172.187.105.25:443#%40sunflowerplato%F0%9F%8C%BB
 
