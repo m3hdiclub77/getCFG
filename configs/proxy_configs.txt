@@ -34,8 +34,6 @@ vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@162.159.252.20:8880?path=%2F%3Fed%3
 
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.211.203:8880?path=Telegram%40ShadowProxy66%2F%3Fed%3D2560&security=none&encryption=none&host=reedfree8mahsang2.redorg.ir&type=ws#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
 
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.4.147:80?path=Telegram%F0%9F%87%A8%F0%9F%87%B3%402%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8.pooriashop.ir&type=ws#%40sunflowerplato
-
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.80.111.147:80?path=%2FTelegram%40AZADIIIVPN%2F%3Fed%3D2560&security=none&encryption=none&host=reedfree8mahsang2.redorg.ir&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://7c6136e8-3b0a-4239-84e9-31ac4bcec72f@game.hpc.tw:2095?security=reality&encryption=none&pbk=9LY8_rbDS8zJoZLk9J4BYbdKOYK8vdKg11Wab5IetXY&headerType=none&fp=firefox&spx=%2Fexample&type=tcp&flow=xtls-rprx-vision&sni=refersion.com&sid=a56f693ce784b4cc#%40sunflowerplato%F0%9F%8C%BB
@@ -50,8 +48,6 @@ vless://c4cd9656-81a7-4342-9c0f-959ad333acae@all.4qwertyuiopasdfghjklzxcvbnmmnbv
 
 vless://cdc0bb55-372e-490f-aebe-b92ffe186680@51.89.119.137:2025?mode=gun&security=reality&encryption=none&pbk=Ve2fc16C0gBfuDNdjau_rFc1JhU1oEjfKXr-bCnGHGQ&fp=chrome&type=grpc&serviceName=sorkhi&sni=journalofbigdata.springeropen.com&sid=1f949997214a59#%40sunflowerplato%F0%9F%8C%BB
 
-vless://ec7a6b6d-94b6-45df-9d62-491f53a508be@172.67.137.129:2096?path=%2FvRpve4WyyyBMiVSu%2Fc2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ%3D%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&host=freedom.panotosu.store&fp=randomized&type=ws&sni=FReedOM.pANoToSu.StorE#%40sunflowerplato%F0%9F%8C%BB
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3anZISEY1U2FGb2I%3D@78.153.131.96:443#%40sunflowerplato%F0%9F%8C%BB
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@172.187.105.25:443#%40sunflowerplato%F0%9F%8C%BB
@@ -60,13 +56,9 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@admin.c1.webramz.co:44
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@74.177.199.135:443#%40sunflowerplato%F0%9F%8C%BB
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.varzesh360.co:443#%40sunflowerplato%F0%9F%8C%BB
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphWFVZUGhDdENHbk1xU0Fxczg2ZGhx@h110vpnde.outlinekeys.net:21712#%40sunflowerplato%F0%9F%8C%BB
 
 vmess://eyJhZGQiOiJ0dS50dXJib2dhbWUudG9wIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ3d3cuc3BlZWR0ZXN0Lm5ldCIsImlkIjoiNjhhYTBlYWQtNjFkNC00MDNlLTlkYTUtOWMzM2QwNDEzOTc2IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiMzc3ODkiLCJwcyI6IkBzdW5mbG93ZXJwbGF0byIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
-
-vmess://eyJhZGQiOiJhLWNvbmZpZ2F6YWQuc2hvcCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoic2t5cm9vbS5vbmxpbmUsaWdhcC5uZXQsZ2hhcmFyLmlyIiwiaWQiOiJkNTFmNDQ4ZC1hNmY4LTQ0MGUtYmMyNi01N2E4MTUwNjc4YWYiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiIyMzY0NiIsInBzIjoiQHN1bmZsb3dlcnBsYXRv8J+MuyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
 
 vmess://eyJhZGQiOiJsMS5hcGxhbmQuaXIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InVwdHZzLmNvbSIsImlkIjoiYzk1YzRlYWYtMGYxYi00ZTM0LTliMDMtMzcxODdlNjM3MjFjIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiNDUwOTAiLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiJ9
 
