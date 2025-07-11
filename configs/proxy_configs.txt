@@ -4,6 +4,10 @@
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3
 
+vless://00e92112-b43b-4757-a56a-fa7b53ad3419@185.193.89.61:443?security=reality&encryption=none&pbk=9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=cdnjs.com&sid=0a6ba2716a409da6#%40sunflowerplato%F0%9F%8C%BB
+
+vless://00e92112-b43b-4757-a56a-fa7b53ad3419@93.123.39.31:443?security=reality&encryption=none&pbk=9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=cdnjs.com&sid=0a6ba2716a409da6#%40sunflowerplato%F0%9F%8C%BB
+
 vless://06f5a7cb-3842-49d0-a498-d4165c0eb956@test-lets-wildcard.spotifycdn.org:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk&fp=chrome&type=xhttp&sni=www.tgju.org&sid=7f2798f9#%40sunflowerplato
 
 vless://06f5a7cb-3842-49d0-a498-d4165c0eb956@test-lets-wildcard.spotifycdn.org:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk&fp=chrome&type=xhttp&sni=www.tgju.org&sid=7f2798f9#%40sunflowerplato%F0%9F%8C%BB
@@ -23,6 +27,8 @@ vless://3d1622e6-7ac5-4715-b635-7bd542e0a70b@fr.marzban-locations.com:3032?secur
 vless://3d1622e6-7ac5-4715-b635-7bd542e0a70b@tr.panelmarzban.com:3036?security=reality&encryption=none&pbk=21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI&headerType=none&fp=firefox&type=tcp&sni=refersion.com#%40sunflowerplato%F0%9F%8C%BB
 
 vless://453cad9e-8903-41c1-bbe9-d0de4e601d4b@core.snappfood.xyz:8880?security=none&encryption=none&host=FGdgashs.varzesh3.com.tr.&type=httpupgrade#%40sunflowerplato%F0%9F%8C%BB
+
+vless://47ff8594-87eb-492c-bc5f-b116a33065da@91.99.112.78:443?security=reality&encryption=none&pbk=A58Fv9wW1xfE5_s14H2wvWryYTle31Hr2XUk9j3iLjg&headerType=none&fp=chrome&spx=%2F%40----%40vPRUOXYI&type=tcp&sni=www.latimes.com&sid=ac#%40sunflowerplato%F0%9F%8C%BB
 
 vless://49a9e35b-62f6-7103-d6c9-d26aba2d768c@i.ownlink.pro:29143?security=none&encryption=none&headerType=http&type=tcp#%40sunflowerplato@sunflowerplato🌻
 
