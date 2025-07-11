@@ -28,8 +28,6 @@ vless://3d1622e6-7ac5-4715-b635-7bd542e0a70b@tr.panelmarzban.com:3036?security=r
 
 vless://47ff8594-87eb-492c-bc5f-b116a33065da@91.99.112.78:443?security=reality&encryption=none&pbk=A58Fv9wW1xfE5_s14H2wvWryYTle31Hr2XUk9j3iLjg&headerType=none&fp=chrome&spx=%2F%40----%40vPRUOXYI&type=tcp&sni=www.latimes.com&sid=ac#%40sunflowerplato%F0%9F%8C%BB
 
-vless://49a9e35b-62f6-7103-d6c9-d26aba2d768c@i.ownlink.pro:29143?security=none&encryption=none&headerType=http&type=tcp#%40sunflowerplato@sunflowerplato🌻
-
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@162.159.252.20:8880?path=%2F%3Fed%3D2560&security=none&encryption=none&host=reedfree8mahsang2.redorg.ir&type=ws#%40sunflowerplato
 
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.211.203:8880?path=Telegram%40ShadowProxy66%2F%3Fed%3D2560&security=none&encryption=none&host=reedfree8mahsang2.redorg.ir&type=ws#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
@@ -42,23 +40,15 @@ vless://7c6136e8-3b0a-4239-84e9-31ac4bcec72f@speedy.mooo.info:80?mode=auto&path=
 
 vless://8088c605-e0c2-4774-9ee4-7fa7e47b6112@151.101.67.8:80?mode=auto&path=%2FZed%2F%3F%40MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2048&security=none&encryption=none&host=Ryanjames.global.ssl.fastly.net&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
 
-vless://9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c@104.19.245.206:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=kawaiifreevpn-7ds.pages.dev&fp=random&type=ws&sni=kawaiifreevpn-7ds.pages.dev#%40sunflowerplato%F0%9F%8C%BB
-
 vless://c4cd9656-81a7-4342-9c0f-959ad333acae@all.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com:443?path=%2Fws%3Fed%3D2560&security=tls&encryption=none&host=de2radin.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com&type=ws&sni=de2radin.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com#%40sunflowerplato%F0%9F%8C%BB
 
 vless://cdc0bb55-372e-490f-aebe-b92ffe186680@51.89.119.137:2025?mode=gun&security=reality&encryption=none&pbk=Ve2fc16C0gBfuDNdjau_rFc1JhU1oEjfKXr-bCnGHGQ&fp=chrome&type=grpc&serviceName=sorkhi&sni=journalofbigdata.springeropen.com&sid=1f949997214a59#%40sunflowerplato%F0%9F%8C%BB
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3anZISEY1U2FGb2I%3D@78.153.131.96:443#%40sunflowerplato%F0%9F%8C%BB
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@172.187.105.25:443#%40sunflowerplato%F0%9F%8C%BB
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@admin.c1.webramz.co:443#%40sunflowerplato%F0%9F%8C%BB
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@74.177.199.135:443#%40sunflowerplato%F0%9F%8C%BB
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphWFVZUGhDdENHbk1xU0Fxczg2ZGhx@h110vpnde.outlinekeys.net:21712#%40sunflowerplato%F0%9F%8C%BB
-
-vmess://eyJhZGQiOiJ0dS50dXJib2dhbWUudG9wIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ3d3cuc3BlZWR0ZXN0Lm5ldCIsImlkIjoiNjhhYTBlYWQtNjFkNC00MDNlLTlkYTUtOWMzM2QwNDEzOTc2IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiMzc3ODkiLCJwcyI6IkBzdW5mbG93ZXJwbGF0byIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
 
 vmess://eyJhZGQiOiJsMS5hcGxhbmQuaXIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InVwdHZzLmNvbSIsImlkIjoiYzk1YzRlYWYtMGYxYi00ZTM0LTliMDMtMzcxODdlNjM3MjFjIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiNDUwOTAiLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiJ9
 
