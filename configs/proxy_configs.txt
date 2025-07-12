@@ -22,10 +22,6 @@ vless://29f35cf5-33b8-4630-9ae6-97575cd5d638@54.37.76.89:2025?mode=gun&security=
 
 vless://3bd19247-d248-4fc4-8662-0bcd37fa48b2@SRCVPN.fast.hosting-ip.com:80?mode=auto&path=%2FFASTSHOVPN%3Fed%3D2048&security=none&encryption=none&host=crazyofferzzshopp.com&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
 
-vless://3d1622e6-7ac5-4715-b635-7bd542e0a70b@fr.marzban-locations.com:3032?security=reality&encryption=none&pbk=21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI&headerType=none&fp=firefox&type=tcp&sni=refersion.com#%40sunflowerplato%F0%9F%8C%BB
-
-vless://3d1622e6-7ac5-4715-b635-7bd542e0a70b@tr.panelmarzban.com:3036?security=reality&encryption=none&pbk=21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI&headerType=none&fp=firefox&type=tcp&sni=refersion.com#%40sunflowerplato%F0%9F%8C%BB
-
 vless://47ff8594-87eb-492c-bc5f-b116a33065da@91.99.112.78:443?security=reality&encryption=none&pbk=A58Fv9wW1xfE5_s14H2wvWryYTle31Hr2XUk9j3iLjg&headerType=none&fp=chrome&spx=%2F%40----%40vPRUOXYI&type=tcp&sni=www.latimes.com&sid=ac#%40sunflowerplato%F0%9F%8C%BB
 
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@162.159.252.20:8880?path=%2F%3Fed%3D2560&security=none&encryption=none&host=reedfree8mahsang2.redorg.ir&type=ws#%40sunflowerplato
