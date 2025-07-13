@@ -4,19 +4,13 @@
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-vless://029254f9-05e8-47b2-a9a9-6e62e84aeb92@172.234.150.158:2321?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
-
 vless://267613d7-f53f-4005-b642-d6f1f687b7cf@104.16.34.128:443?path=%2FdQMN2VQLkaE52qWD%3Fed%3D2560&security=tls&encryption=none&host=ensHOLP-91s.pageS.DEv&fp=randomized&type=ws&sni=ensHOLP-91s.pageS.DEv#%40sunflowerplato%F0%9F%8C%BB
 
 vless://2cb4aba4-ba88-4620-82e4-7eb444970ed8@speedy.mooo.info:80?mode=auto&path=%2F&security=none&encryption=none&host=5.ir&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
 
 vless://337bf72e-bb79-4d5f-be3f-7822eb77100c@ipw.gfdv54cvghhgfhgj-njhgj64.info:2096?path=%2F&security=tls&encryption=none&host=Ft77Ta8Q1m.EmShAbKhObE.oRg&type=ws&sni=Ft77Ta8Q1m.EmShAbKhObE.oRg#%40sunflowerplato%F0%9F%8C%BB
 
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@162.159.252.20:8880?path=%2F%3Fed%3D2560&security=none&encryption=none&host=reedfree8mahsang2.redorg.ir&type=ws#%40sunflowerplato
-
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.4.147:80?path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8.pooriashop.ir&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.80.111.147:80?path=%2FTelegram%40AZADIIIVPN%2F%3Fed%3D2560&security=none&encryption=none&host=reedfree8mahsang2.redorg.ir&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://8a9d20f7-21b5-4f31-a6bb-c93894388514@fin01-vlr01.tcp-reset-club.net:443?security=reality&encryption=none&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=e499f276e7bd6420#%40sunflowerplato%F0%9F%8C%BB
 
@@ -36,13 +30,13 @@ vless://d0298536-d670-4045-bbb1-ddd5ea68683e@198.62.62.4:443?path=%2FTELEGRAM-MA
 
 vless://d0298536-d670-4045-bbb1-ddd5ea68683e@198.62.62.4:443?path=%2Fazadnet-7py.pages.dev%2F%3Fed%3D2560&security=tls&encryption=none&host=azadnet-7py.pages.dev&fp=randomized&type=ws&sni=azadnet-7py.pages.dev#%40sunflowerplato%F0%9F%8C%BB
 
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.85:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB
+
 vless://f0ab68c4-2391-4968-9cf2-dd8630e8cbb1@62.60.156.102:80?security=reality&encryption=none&pbk=y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=digikala.com#%40sunflowerplato%F0%9F%8C%BB
 
 vless://itsproxy-1@bot.nimeshab-nabod.info:80?mode=auto&path=%2F%40itsproxy%3Fed%3D2560&security=none&encryption=none&host=Behrfbot.global.ssl.fastly.net&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
 
 vless://turboo-server@146.75.55.82:80?mode=auto&path=%2F&security=none&encryption=none&host=turboo-server-bot.com&type=xhttp#%40sunflowerplato
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@admin.c1.webramz.co:443#%40sunflowerplato%F0%9F%8C%BB
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBY0dGRXNNUjZjMDdUeHV4@172.187.109.127:443#%40sunflowerplato%F0%9F%8C%BB
 
