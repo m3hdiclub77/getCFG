@@ -4,15 +4,15 @@
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3
 
+vless://0fe270d2-ddae-4d90-b415-818c57710cc5@151.101.195.8:80?mode=auto&path=%2FTelegram%40Merlin_ViP&security=none&encryption=none&host=althoughoutmanoeuvreforenenst.global.ssl.fastly.net&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
+
 vless://1a827c35-7a17-48d8-a9f5-eeed323ca57b@91.99.141.177:443?security=reality&encryption=none&pbk=SJt4jAvhiR5MVRnl-OPj2BWUXZT6p4oH-Ugl3B0b-VA&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=refersion.com&sid=8ad4b0d652d3e8#%40sunflowerplato%F0%9F%8C%BB
 
 vless://2036e2c3-18a5-4eed-9db4-f91a7f02c7d5@104.21.112.1:80?path=%2F193.123.81.105%3D443&security=none&encryption=none&host=zoomgov.vipren.biz.id&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
-vless://267613d7-f53f-4005-b642-d6f1f687b7cf@69.84.182.169:443?path=%2FdQMN2VQLkaE52qWD%3Fed%3D2560&security=tls&encryption=none&host=ensHOLP-91s.pageS.DEv&fp=randomized&type=ws&sni=ensHOLP-91s.pageS.DEv#%40sunflowerplato%F0%9F%8C%BB
+vless://337bf72e-bb79-4d5f-be3f-7822eb77100c@104.26.6.89:443?path=%2F&security=tls&encryption=none&host=NpFzCqA01g.V2pLuSmLm.OrG&type=ws&sni=NpFzCqA01g.V2pLuSmLm.OrG#%40sunflowerplato%F0%9F%8C%BB
 
 vless://38046915-6d82-4d86-8510-b5bcc569d0ea@www.speedtest.net:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=MydigiKala.pAges.dEv&type=ws&sni=PaGes.deV#%40sunflowerplato
-
-vless://38046915-6d82-4d86-8510-b5bcc569d0ea@www.speedtest.net:443?path=%2F%40Prime_Verse%3Fed%3D2560&security=tls&encryption=none&host=MydigiKala.pAges.dEv&type=ws&sni=PaGes.deV#%40sunflowerplato%F0%9F%8C%BB
 
 vless://38046915-6d82-4d86-8510-b5bcc569d0ea@www.speedtest.net:443?path=%2F%40Prime_Verse%3Fed&security=tls&encryption=none&host=MydigiKala.pAges.dEv&type=ws&sni=PaGes.deV#%40sunflowerplato
 
@@ -36,11 +36,11 @@ vless://71168f32-84d8-4061-b865-dfe7f685ad38@Hi.somo44.sbs:8880?path=%2Fbhvcgvvc
 
 vless://73e10f2a-bb9a-40c1-8e2c-ebfe0dac1dac@185.243.51.67:21760?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
+vless://77eb0a34-e172-48fa-8093-6c488664da44@fbi11.wizard2shop.com:8085?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
+
 vless://7c63f43f-f526-49bb-b5c8-2be26e11ef00@statue.lnmarketplace.net:443?mode=stream-one&path=%2Fstatue&security=tls&alpn=h2&encryption=none&host=statue.lnmarketplace.net&type=xhttp&sni=statue.lnmarketplace.net#%40sunflowerplato%F0%9F%8C%BB
 
 vless://8b883c3f-61ed-4961-90f9-24f1f661b382@91.99.234.241:18730?security=reality&encryption=none&pbk=4i4VmtZlXzsNQwiGYOpxUCH7hygnGM8bVfDOeSd2G2A&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=yahoo.com&sid=877fa74f#%40sunflowerplato%F0%9F%8C%BBvl
-
-vless://8ca4ca74-fa0c-4c18-86c5-ce6d0382ff14@104.21.32.1:2096?path=%2F&security=tls&encryption=none&host=DO-iTforyOu-E1P.PAgeS.dEV&fp=chrome&type=ws&sni=DO-iTforyOu-E1P.PAgeS.dEV#%40sunflowerplato%F0%9F%8C%BB
 
 vless://8fae2f16-aa26-435d-b4c0-200309f72dc7@panel-germany-2.vpnbankpro.site:1002?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
 
@@ -60,9 +60,9 @@ vless://a396b860-11b7-4af3-9950-146caf79735e@172.66.47.61:8443?path=%2F8WuhXm4Qj
 
 vless://a396b860-11b7-4af3-9950-146caf79735e@172.66.47.61:8443?path=%2F8WuhXm4QjK0L68Uf%3Fed%3D2560&security=tls&encryption=none&host=gghdfa.pages.dev&fp=randomized&type=ws&sni=gGHDFa.pAgeS.Dev#%40sunflowerplato%F0%9F%8C%BB
 
-vless://a6d451e9-c206-4681-a42e-365c7aa3f4ca@j3s1i.proxyfire.xyz:8000?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
-
 vless://b1b80024-8607-4eef-9064-5bbe75554573@mtn.ivy-net.ir:8080?path=%2F&security=none&encryption=none&host=bgopjopjfuiasdjfiojasdifonowqnediumqwmed.okatestoka.ir&type=httpupgrade#%40sunflowerplato%F0%9F%8C%BB
+
+vless://bdf79d37-877b-4727-b45a-5ba235a01a24@Aule.Manwe.ir:443?mode=stream-one&path=%2FYavanna%2F&security=tls&encryption=none&fp=randomized&type=xhttp&sni=Varda.Manwe.ir#%40sunflowerplato%F0%9F%8C%BB
 
 vless://c256ce5f-9b2b-43a0-946a-cceeadf0d5b0@62.212.70.229:80?mode=auto&path=%2Fstandvpn-standvpn-standvpn-standvpn-standvpn-standvpn&security=reality&encryption=none&pbk=tGORZqRxnUHzC46UYNRlydnkDlbA06OlkhPFZrxeLCE&fp=chrome&spx=%2F&type=xhttp&sni=ea.com&sid=3df4#%40sunflowerplato%F0%9F%8C%BB
 
@@ -75,8 +75,6 @@ vless://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.121.55:8080?path=%2F%3Fed%3
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.253:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato
 
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.253:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB
-
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.85:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB
 
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.95:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB
 
@@ -98,15 +96,13 @@ vless://f08eb18c-a6ad-466f-a335-c3b44d4fa092@speedtest.net:80?mode=auto&path=%2F
 
 vless://f48db050-fcfc-46cd-963e-6f53ecb0772e@104.248.194.230:80?mode=auto&path=%2Fshahinshams%3Fed%3D2560&security=reality&encryption=none&pbk=z3dFjHp3NPxSRP51s-EJGLO0P--M4hCorPlvOQ9ksiE&host=sha834ydtrfcvshin3877.global.ssl.fastly.net&fp=chrome&spx=%2F&type=xhttp&sni=marzijooon.adas.monster&sid=2a70224f5466#%40sunflowerplato%F0%9F%8C%BB
 
-vless://faa98229-a17c-4ea6-d6b5-1b040cb9fa26@bmi.raheaiande.ir:1001?security=reality&encryption=none&pbk=wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM&headerType=http&fp=edge&spx=%2Fjoin_telegram-%40vpnserverrr...&type=tcp&sni=ea.com&sid=c7bc4d#%40sunflowerplato%F0%9F%8C%BB
+vless://fac1c66f-3ba3-4d24-8ae8-d6049d949898@51.38.64.196:443?security=reality&encryption=none&pbk=guQofANvA8Ia_uVwhRMriU09zudRTM_k7Nr498g161s&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=a31a8d04622560#%40sunflowerplato%F0%9F%8C%BB
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVFEwWg%3D%3D@83.147.18.163:8388#%40sunflowerplato%F0%9F%8C%BB
 
 vmess://eyJhZGQiOiI4My4xNDkuODQuMTQ1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJAdjJ4YXktQHYyeGF5LUB2MnhheS1AdjJ4YXktQHYyeGF5LUB2MnhheS0iLCJpZCI6IjRhYzM5ZThhLTZkNWMtNDhiYi1iMGQwLWY2MzNjODI5MTEzZSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTU3MDkiLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 
 vmess://eyJhZGQiOiIxMzAuMTg1LjEyMS4xNDEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Ind3dy5iaW5nLmNvbSIsImlkIjoiYzA5Yzg3MzktYTU2Yy00MGQ1LWI2M2MtYTE1ZWFiNTNkNWU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL2MwOWM4NzM5LWE1NmMtNDBkNS1iNjNjLWExNWVhYjUzZDVlOC12bT9lZFx1MDAzZDIwNDgiLCJwb3J0IjoiNTY0NTciLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
-
-vmess://eyJhZGQiOiJwYW5lbDEuaXB5YXIub3JnIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImM0YmQ5ZWJhLThhZWEtNGQ1ZS1hMmVlLWI1ZGU2NWFjMTRlMSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDI2ODQiLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 
 vmess://eyJhZGQiOiJwYW5lbDMuaXB5YXIub3JnIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImMwY2NkZWI5LTc4NGMtNGQ2Ny1iOTA0LTIwZGNhYWM5OTAyYSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzIwMTciLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 
