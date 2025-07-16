@@ -44,10 +44,6 @@ vless://8b883c3f-61ed-4961-90f9-24f1f661b382@91.99.234.241:18730?security=realit
 
 vless://8fae2f16-aa26-435d-b4c0-200309f72dc7@panel-germany-2.vpnbankpro.site:1002?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
 
-vless://96479a22-9333-4b03-9912-4dd26acef75e@104.22.24.195:443?path=%2F9EkfcCDedhvB19xj%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&host=nextfilmtomovies.site&fp=randomized&type=ws&sni=NExtfilmtOmovies.sitE#%40sunflowerplato
-
-vless://96479a22-9333-4b03-9912-4dd26acef75e@104.22.24.195:443?path=%2F9EkfcCDedhvB19xj%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&host=nextfilmtomovies.site&fp=randomized&type=ws&sni=NExtfilmtOmovies.sitE#%40sunflowerplato%F0%9F%8C%BB
-
 vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@ipw.gfdv54cvghhgfhgj-njhgj64.info:8443?path=%2F&security=tls&alpn=h3%2Ch2&encryption=none&host=OpBgSaWz16.aBbAsAlIrAhMaTdIkH.OrG&fp=chrome&type=ws&sni=OpBgSaWz16.aBbAsAlIrAhMaTdIkH.OrG#%40sunflowerplato%F0%9F%8C%BB
 
 vless://9767a982-d18d-4634-ad2b-c93489cbffae@91.107.150.172:443?security=none&encryption=none&host=exo.ir&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
@@ -56,11 +52,7 @@ vless://997744ee-c8bb-45e8-ab86-583e58a30b6e@91.99.98.186:30618?security=none&en
 
 vless://9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c@104.19.245.206:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=kawaiifreevpn-7ds.pages.dev&fp=random&type=ws&sni=kawaiifreevpn-7ds.pages.dev#%40sunflowerplato%F0%9F%8C%BB
 
-vless://a396b860-11b7-4af3-9950-146caf79735e@172.66.47.61:8443?path=%2F8WuhXm4QjK0L68Uf%3Fed%3D2560&security=tls&encryption=none&host=gghdfa.pages.dev&fp=randomized&type=ws&sni=gGHDFa.pAgeS.Dev#%40sunflowerplato
-
 vless://a396b860-11b7-4af3-9950-146caf79735e@172.66.47.61:8443?path=%2F8WuhXm4QjK0L68Uf%3Fed%3D2560&security=tls&encryption=none&host=gghdfa.pages.dev&fp=randomized&type=ws&sni=gGHDFa.pAgeS.Dev#%40sunflowerplato%F0%9F%8C%BB
-
-vless://b1b80024-8607-4eef-9064-5bbe75554573@mtn.ivy-net.ir:8080?path=%2F&security=none&encryption=none&host=bgopjopjfuiasdjfiojasdifonowqnediumqwmed.okatestoka.ir&type=httpupgrade#%40sunflowerplato%F0%9F%8C%BB
 
 vless://bdf79d37-877b-4727-b45a-5ba235a01a24@Aule.Manwe.ir:443?mode=stream-one&path=%2FYavanna%2F&security=tls&encryption=none&fp=randomized&type=xhttp&sni=Varda.Manwe.ir#%40sunflowerplato%F0%9F%8C%BB
 
@@ -72,8 +64,6 @@ vless://d0298536-d670-4045-bbb1-ddd5ea68683e@162.159.129.67:8443?path=%2Fazadnet
 
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.121.55:8080?path=%2F%3Fed%3D2048&security=none&encryption=none&host=1750293123492.china.baidu.bilibili.china.aeko.cn&type=ws#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
 
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.253:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato
-
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.253:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB
 
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.95:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB
@@ -83,8 +73,6 @@ vless://e2c0a0ac-0270-4ebc-acbd-75df71153b0e@104.21.43.168:443?path=%2FbDUGlAj9B
 vless://e2c0a0ac-0270-4ebc-acbd-75df71153b0e@104.21.43.168:443?path=%2FbDUGlAj9BFG7zebG%3Fed%3D2560&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#%40sunflowerplato%F0%9F%8C%BB
 
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.184:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB
-
-vless://eb568786-bb3f-4f02-a25c-7183e800a0ba@188.114.97.183:2053?path=%2FbPJ4mgkJbA7CnY7q%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&host=nOCTYq.pAGES.DEV&fp=randomized&type=ws&sni=nOCTYq.pAGES.DEV#%40sunflowerplato%F0%9F%8C%BB
 
 vless://efed37ed-37e5-4100-a540-049dc7929984@172.66.44.253:8443?path=%2Fdy26vBaDi5RTblzP%3Fed%3D2560&security=tls&encryption=none&host=net-aCcOUNt02.Pages.DEv&fp=randomized&type=ws&sni=net-aCcOUNt02.Pages.DEv#%40sunflowerplato
 
