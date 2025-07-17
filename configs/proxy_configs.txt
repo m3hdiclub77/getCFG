@@ -12,8 +12,6 @@ vless://38046915-6d82-4d86-8510-b5bcc569d0ea@www.speedtest.net:443?path=%2F%3Fed
 
 vless://38046915-6d82-4d86-8510-b5bcc569d0ea@www.speedtest.net:443?path=%2F%40Prime_Verse%3Fed&security=tls&encryption=none&host=MydigiKala.pAges.dEv&type=ws&sni=PaGes.deV#%40sunflowerplato
 
-vless://4a97cff9-6a61-403f-a4fb-e54853f132a4@194.182.79.117:35305?mode=gun&security=reality&encryption=none&pbk=S8LYaLxf-eMRhIuDxpKuHKs6XBSk1mstDowwxjVYEQI&fp=chrome&spx=%2F&type=grpc&serviceName=Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON&sni=sourceforge.net&sid=99a2319d8ed309#%40sunflowerplato%F0%9F%8C%BB
-
 vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@18.171.203.193:443?security=reality&encryption=none&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=store.steampowered.com&sid=f5#%40sunflowerplato%F0%9F%8C%BB
 
 vless://55a4210c-e765-427f-813d-0c55b763f6b0@199.247.28.17:44914?mode=auto&path=%2F&security=reality&encryption=none&pbk=o1n1Qj_IBvl3xGDkMPzmuRJzKKW31L_r9kEeyW7e3F8&fp=chrome&spx=%2F&type=xhttp&sni=black-moai.com&sid=1ac2a2dde288#%40sunflowerplato%F0%9F%8C%BB
@@ -52,10 +50,6 @@ vless://e2c0a0ac-0270-4ebc-acbd-75df71153b0e@104.21.43.168:443?path=%2FbDUGlAj9B
 
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.184:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB
 
-vless://efed37ed-37e5-4100-a540-049dc7929984@172.66.44.253:8443?path=%2Fdy26vBaDi5RTblzP%3Fed%3D2560&security=tls&encryption=none&host=net-aCcOUNt02.Pages.DEv&fp=randomized&type=ws&sni=net-aCcOUNt02.Pages.DEv#%40sunflowerplato
-
-vless://efed37ed-37e5-4100-a540-049dc7929984@172.66.44.253:8443?path=%2Fdy26vBaDi5RTblzP%3Fed%3D2560&security=tls&encryption=none&host=net-aCcOUNt02.Pages.DEv&fp=randomized&type=ws&sni=net-aCcOUNt02.Pages.DEv#%40sunflowerplato%F0%9F%8C%BB
-
 vless://f08eb18c-a6ad-466f-a335-c3b44d4fa092@ip2.yw5jk.org:80?mode=auto&path=%2Ffardin%3Fed%3D2048&security=none&encryption=none&host=zaryabtre.global.ssl.fastly.net&type=xhttp#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
 
 vless://f08eb18c-a6ad-466f-a335-c3b44d4fa092@speedtest.net:80?mode=auto&path=%2Ffardin%3Fed%3D2048&security=none&encryption=none&host=zaryabtre.global.ssl.fastly.net&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
@@ -64,5 +58,5 @@ vless://fac1c66f-3ba3-4d24-8ae8-d6049d949898@51.38.64.196:443?security=reality&e
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVFEwWg%3D%3D@83.147.18.163:8388#%40sunflowerplato%F0%9F%8C%BB
 
-vmess://eyJhZGQiOiIxMzAuMTg1LjEyMS4xNDEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Ind3dy5iaW5nLmNvbSIsImlkIjoiYzA5Yzg3MzktYTU2Yy00MGQ1LWI2M2MtYTE1ZWFiNTNkNWU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL2MwOWM4NzM5LWE1NmMtNDBkNS1iNjNjLWExNWVhYjUzZDVlOC12bT9lZFx1MDAzZDIwNDgiLCJwb3J0IjoiNTY0NTciLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
+vmess://eyJhZGQiOiIzMS40MS4zNS44MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZW4ud2lraXBlZGlhLm9yZyIsImlkIjoiNmQ0YzhiMTktM2U4Mi00NjUyLWFhMzUtZTlmOGE3NDQzMTg4IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiODQ0MyIsInBzIjoiQHN1bmZsb3dlcnBsYXRv8J+MuyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
 
