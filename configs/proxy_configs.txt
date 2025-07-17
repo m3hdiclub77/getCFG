@@ -30,8 +30,6 @@ vless://77eb0a34-e172-48fa-8093-6c488664da44@fbi11.wizard2shop.com:8085?security
 
 vless://7c63f43f-f526-49bb-b5c8-2be26e11ef00@statue.lnmarketplace.net:443?mode=stream-one&path=%2Fstatue&security=tls&alpn=h2&encryption=none&host=statue.lnmarketplace.net&type=xhttp&sni=statue.lnmarketplace.net#%40sunflowerplato%F0%9F%8C%BB
 
-vless://8fae2f16-aa26-435d-b4c0-200309f72dc7@panel-germany-2.vpnbankpro.site:1002?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
-
 vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@ipw.gfdv54cvghhgfhgj-njhgj64.info:8443?path=%2F&security=tls&alpn=h3%2Ch2&encryption=none&host=OpBgSaWz16.aBbAsAlIrAhMaTdIkH.OrG&fp=chrome&type=ws&sni=OpBgSaWz16.aBbAsAlIrAhMaTdIkH.OrG#%40sunflowerplato%F0%9F%8C%BB
 
 vless://9767a982-d18d-4634-ad2b-c93489cbffae@91.107.150.172:443?security=none&encryption=none&host=exo.ir&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
