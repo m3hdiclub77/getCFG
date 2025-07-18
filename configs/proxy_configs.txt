@@ -12,19 +12,13 @@ vless://337bf72e-bb79-4d5f-be3f-7822eb77100c@104.26.6.89:443?path=%2F&security=t
 
 vless://34797f17-09a1-400c-9f4b-275718d62a0f@brainy-party.seotoolsforyou.co.uk:80?path=%2F&security=none&encryption=none&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
-vless://38046915-6d82-4d86-8510-b5bcc569d0ea@www.speedtest.net:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=MydigiKala.pAges.dEv&type=ws&sni=PaGes.deV#%40sunflowerplato
-
 vless://38046915-6d82-4d86-8510-b5bcc569d0ea@www.speedtest.net:443?path=%2F%40Prime_Verse%3Fed%3D2560&security=tls&encryption=none&host=MydigiKala.pAges.dEv&type=ws&sni=PaGes.deV#%40sunflowerplato%F0%9F%8C%BB
 
 vless://4d794980-54c0-4fcb-8def-c2beaecadbad@172.66.47.175:2083?path=%2FlZU7WqWIDqC1jRn6%3Fed%3D2560&security=tls&encryption=none&host=azadnet05.pages.dev&type=ws&sni=azadnet05.pages.dev#%40sunflowerplato%F0%9F%8C%BB
 
 vless://4e4768df-0fbb-4cc1-8fd3-7c6fea95742a@104.16.41.28:443?path=%2F%40Rayan_Config&security=tls&encryption=none&host=rayan-10.parastoo.dpdns.org&fp=chrome&type=ws&sni=rayan-10.parastoo.dpdns.org#%40sunflowerplato%F0%9F%8C%BB
 
-vless://5822eb7d-40ea-4835-9e33-9b92680f9f22@18.158.203.138:443?security=reality&encryption=none&pbk=t3NblMhBOs954papHI6dkNf_qU5WU588CqPYpq-yEFI&headerType=none&fp=firefox&type=tcp&sni=jetbrains.com&sid=66#%40sunflowerplato%F0%9F%8C%BB
-
 vless://63005378-e32e-4e23-bc6e-84812f147a6f@172.66.44.118:443?path=%2Ftelegram%40v2ray_configs_pools%2F%3Fed%3D2560&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=configmr.pages.dev&fp=randomized&type=ws&sni=ConFIgmr.PaGeS.dEV#%40sunflowerplato%F0%9F%8C%BB
-
-vless://63005378-e32e-4e23-bc6e-84812f147a6f@45.159.219.96:443?path=%2Ftelegram%40v2ray_configs_pools%2F%3Fed%3D2560&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=configmr.pages.dev&fp=randomized&type=ws&sni=ConFIgmr.PaGeS.dEV#%40sunflowerplato%F0%9F%8C%BB
 
 vless://73e10f2a-bb9a-40c1-8e2c-ebfe0dac1dac@185.243.51.67:21760?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
@@ -39,8 +33,6 @@ vless://8b262468-6e0d-46bf-b54f-32e6fae5af8b@sn434.nikatel.uno:8080?security=non
 vless://a6c4db3e-7785-429e-8bc5-9eaf7b1a79b1@45.8.146.207:80?path=%2Fvless%2F&security=none&encryption=none&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://bdf79d37-877b-4727-b45a-5ba235a01a24@Aule.Manwe.ir:443?mode=stream-one&path=%2FYavanna%2F&security=tls&encryption=none&fp=randomized&type=xhttp&sni=Varda.Manwe.ir#%40sunflowerplato%F0%9F%8C%BB
-
-vless://cde2125d-5f12-442f-8af5-e9b5f85f5a50@conectedgreensabzbashonline02.greenbridge-conected.shop:2057?mode=multi&security=none&encryption=none&type=grpc&serviceName=cmV0aXJlZCBoZWxsbyBob3cgYXJlIHlvdSB0aGlzIGlzIG15IG5ldyBoZWFkZXIgdG93YXJkcyB0aGUgd2Vic3R0ZSB0aGluZyBob3cgdG8gYmUgb2sgb24gaGF0PyBob3cgaXMgZ29pbmc#%40sunflowerplato%F0%9F%8C%BB
 
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.121.243:8080?path=%2F&security=none&encryption=none&host=1750293123492.china.baidu.bilibili.china.aeko.cn&type=ws#%40sunflowerplato
 
@@ -57,8 +49,6 @@ vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.25.210.16:8880?path=%2FTJhZjFeb
 vless://f6c1b473-d0c7-4f0e-b97a-38a00cff5a9e@91.107.170.231:2053?security=none&encryption=none&host=bmw.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
 vless://fac1c66f-3ba3-4d24-8ae8-d6049d949898@51.38.64.196:443?security=reality&encryption=none&pbk=guQofANvA8Ia_uVwhRMriU09zudRTM_k7Nr498g161s&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=a31a8d04622560#%40sunflowerplato%F0%9F%8C%BB
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVFEwWg%3D%3D@83.147.18.163:8388#%40sunflowerplato%F0%9F%8C%BB
 
 vmess://eyJhZGQiOiIzMS40MS4zNS44MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZW4ud2lraXBlZGlhLm9yZyIsImlkIjoiNmQ0YzhiMTktM2U4Mi00NjUyLWFhMzUtZTlmOGE3NDQzMTg4IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiODQ0MyIsInBzIjoiQHN1bmZsb3dlcnBsYXRv8J+MuyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
 
