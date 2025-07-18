@@ -18,8 +18,6 @@ vless://55a4210c-e765-427f-813d-0c55b763f6b0@199.247.28.17:44914?mode=auto&path=
 
 vless://5822eb7d-40ea-4835-9e33-9b92680f9f22@18.158.203.138:443?security=reality&encryption=none&pbk=t3NblMhBOs954papHI6dkNf_qU5WU588CqPYpq-yEFI&headerType=none&fp=firefox&type=tcp&sni=jetbrains.com&sid=66#%40sunflowerplato%F0%9F%8C%BB
 
-vless://5c2ac2e3-388b-4e37-8ce4-1730c4cabb27@ipc.alirezaoshjelalbcsom.ir:2086?path=%2Fwww.adsl.tci.ir%3Fed%3D1024&security=none&encryption=none&host=swww.speedtest.net.%E7%9C%9F%E7%9A%84www.digikala.com.%E6%88%91%E7%9C%9F.%E7%9A%84%E7%9C%9F%E7%9C%9F%E7%9A%84%E5%BE%88%E7%88%B1%E7%9A%84%E5%BE%88%E7%88%B1%E5%BE%88join.VPNCUSTOMIZE.www.speedtest.net.ovh.Powerfullservera.gozaroshloreshin.irdsda.gozaroshloreshin.ir.&type=httpupgrade#%40sunflowerplato%F0%9F%8C%BB
-
 vless://63005378-e32e-4e23-bc6e-84812f147a6f@45.159.219.96:443?path=%2Ftelegram%40v2ray_configs_pools%2F%3Fed%3D2560&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=configmr.pages.dev&fp=randomized&type=ws&sni=ConFIgmr.PaGeS.dEV#%40sunflowerplato%F0%9F%8C%BB
 
 vless://71168f32-84d8-4061-b865-dfe7f685ad38@Hi.somo44.sbs:8880?path=%2Fbhvcgvvc&security=none&encryption=none&host=Hoo.somo44.sbs&type=ws#%40sunflowerplato
@@ -29,8 +27,6 @@ vless://73e10f2a-bb9a-40c1-8e2c-ebfe0dac1dac@185.243.51.67:21760?security=none&e
 vless://77eb0a34-e172-48fa-8093-6c488664da44@fbi11.wizard2shop.com:8085?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
 vless://7c63f43f-f526-49bb-b5c8-2be26e11ef00@statue.lnmarketplace.net:443?mode=stream-one&path=%2Fstatue&security=tls&alpn=h2&encryption=none&host=statue.lnmarketplace.net&type=xhttp&sni=statue.lnmarketplace.net#%40sunflowerplato%F0%9F%8C%BB
-
-vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@ipw.gfdv54cvghhgfhgj-njhgj64.info:8443?path=%2F&security=tls&alpn=h3%2Ch2&encryption=none&host=OpBgSaWz16.aBbAsAlIrAhMaTdIkH.OrG&fp=chrome&type=ws&sni=OpBgSaWz16.aBbAsAlIrAhMaTdIkH.OrG#%40sunflowerplato%F0%9F%8C%BB
 
 vless://9767a982-d18d-4634-ad2b-c93489cbffae@91.107.150.172:443?security=none&encryption=none&host=exo.ir&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
@@ -45,8 +41,6 @@ vless://cde2125d-5f12-442f-8af5-e9b5f85f5a50@conectedgreensabzbashonline02.green
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.121.55:8080?path=%2F%3Fed%3D2048&security=none&encryption=none&host=1750293123492.china.baidu.bilibili.china.aeko.cn&type=ws#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
 
 vless://e2c0a0ac-0270-4ebc-acbd-75df71153b0e@104.21.43.168:443?path=%2FbDUGlAj9BFG7zebG%3Fed%3D2560&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#%40sunflowerplato%F0%9F%8C%BB
-
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.184:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB
 
 vless://f08eb18c-a6ad-466f-a335-c3b44d4fa092@ip2.yw5jk.org:80?mode=auto&path=%2Ffardin%3Fed%3D2048&security=none&encryption=none&host=zaryabtre.global.ssl.fastly.net&type=xhttp#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
 
