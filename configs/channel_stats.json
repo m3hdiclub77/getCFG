@@ -1,22 +1,22 @@
 {
-  "timestamp": "2025-07-19T07:15:18.008674+00:00",
+  "timestamp": "2025-07-19T08:20:58.505973+00:00",
   "channels": [
     {
       "url": "https://t.me/s/sunflowerplato",
       "enabled": true,
       "metrics": {
-        "total_configs": 32,
-        "valid_configs": 24,
-        "unique_configs": 24,
-        "avg_response_time": 0.61,
+        "total_configs": 26,
+        "valid_configs": 19,
+        "unique_configs": 19,
+        "avg_response_time": 0.72,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 92.84,
-        "last_success": "2025-07-19T07:15:18.008004+00:00",
+        "overall_score": 92.19,
+        "last_success": "2025-07-19T08:20:58.505296+00:00",
         "protocol_counts": {
           "wireguard://": 0,
           "hysteria2://": 0,
-          "vless://": 23,
+          "vless://": 18,
           "vmess://": 1,
           "ss://": 0,
           "trojan://": 0,
