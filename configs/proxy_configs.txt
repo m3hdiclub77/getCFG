@@ -4,8 +4,6 @@
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-vless://34797f17-09a1-400c-9f4b-275718d62a0f@brainy-party.seotoolsforyou.co.uk:80?path=%2F&security=none&encryption=none&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
 vless://38046915-6d82-4d86-8510-b5bcc569d0ea@www.speedtest.net:443?path=%2F%40Prime_Verse%3Fed%3D2560&security=tls&encryption=none&host=MydigiKala.pAges.dEv&type=ws&sni=PaGes.deV#%40sunflowerplato%F0%9F%8C%BB
 
 vless://42f8b774-f998-476d-ada2-2915588c7f45@dl1-fi-cdn.easy-upload.org:2010?security=none&encryption=none&host=skyroom.online&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
@@ -29,8 +27,6 @@ vless://8b262468-6e0d-46bf-b54f-32e6fae5af8b@sn434.nikatel.uno:8080?security=non
 vless://8e593aea-a906-412e-ba70-56782b2351ee@nod-all1.sdcards1.ir:8504?security=reality&encryption=none&pbk=OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI&headerType=none&fp=firefox&type=tcp&sni=tgju.org&sid=e701a013553059ba#%40sunflowerplato%F0%9F%8C%BB
 
 vless://8e593aea-a906-412e-ba70-56782b2351ee@real-all3.sdcards1.ir:8504?security=reality&encryption=none&pbk=OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI&headerType=none&fp=firefox&type=tcp&sni=tgju.org&sid=e701a013553059ba#%40sunflowerplato%F0%9F%8C%BB
-
-vless://a6c4db3e-7785-429e-8bc5-9eaf7b1a79b1@45.8.146.207:80?path=%2Fvless%2F&security=none&encryption=none&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://a84f0ac2-0a3d-4ad4-bd9e-9b9ed0f7a603@130.185.122.139:16380?mode=auto&path=%2FGrizzlyVPN&security=reality&encryption=none&pbk=fcCCo3amb6xSdqw_NPVERN8TF-Noy4DRHLNFM9ee4DQ&fp=chrome&spx=%2F&type=xhttp&sni=microsoft.com&sid=7821497e5d#%40sunflowerplato%F0%9F%8C%BB@sunflowerplato🌻
 
