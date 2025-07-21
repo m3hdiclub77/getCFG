@@ -4,25 +4,15 @@
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-vless://38046915-6d82-4d86-8510-b5bcc569d0ea@www.speedtest.net:443?path=%2F%40Prime_Verse%3Fed%3D2560&security=tls&encryption=none&host=MydigiKala.pAges.dEv&type=ws&sni=PaGes.deV#%40sunflowerplato%F0%9F%8C%BB
-
 vless://42f8b774-f998-476d-ada2-2915588c7f45@dl1-fi-cdn.easy-upload.org:2010?security=none&encryption=none&host=skyroom.online&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
-vless://4d794980-54c0-4fcb-8def-c2beaecadbad@172.66.47.175:2083?path=%2FlZU7WqWIDqC1jRn6%3Fed%3D2560&security=tls&encryption=none&host=azadnet05.pages.dev&type=ws&sni=azadnet05.pages.dev#%40sunflowerplato%F0%9F%8C%BB
-
 vless://4d86fbab-d15f-4e7f-8ac7-3b4d90568444@5.133.102.59:80?mode=auto&path=%2Fbread&security=reality&encryption=none&pbk=6xEqt7g9Q7zJD8rtAzA_8rODvZ9ZJwlv3uOH1cXujzI&host=bread.global.ssl.fastly.net&fp=chrome&spx=%2F&type=xhttp&sni=journalofbigdata.springeropen.com&sid=43#%40sunflowerplato%F0%9F%8C%BB
-
-vless://63005378-e32e-4e23-bc6e-84812f147a6f@172.66.44.118:443?path=%2Ftelegram%40v2ray_configs_pools%2F%3Fed%3D2560&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=configmr.pages.dev&fp=randomized&type=ws&sni=ConFIgmr.PaGeS.dEV#%40sunflowerplato%F0%9F%8C%BB
-
-vless://73e10f2a-bb9a-40c1-8e2c-ebfe0dac1dac@185.243.51.67:21760?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
 vless://75fde681-ec64-4654-86fa-30732e8e179c@104.16.243.59:443?path=%2Fassets&security=tls&alpn=h3&encryption=none&host=nginx.nscl.ir&type=ws&sni=NGINX.NSCl.IR#%40sunflowerplato%F0%9F%8C%BB
 
 vless://80128acc-ff7f-41fe-af34-62f4108635ca@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2Fjzkedews&security=tls&encryption=none&host=638880231667527799.madrid-prx-dnraaao.info&type=ws&sni=638880231667527799.madrid-prx-dnraaao.info#%40sunflowerplato%F0%9F%8C%BB
 
 vless://88b9da00-7a25-45ec-859b-14ad57a6bd2b@91.99.179.203:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
-
-vless://8b262468-6e0d-46bf-b54f-32e6fae5af8b@sn434.nikatel.uno:8080?security=none&encryption=none&host=avidmehregan.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
 vless://8e593aea-a906-412e-ba70-56782b2351ee@nod-all1.sdcards1.ir:8504?security=reality&encryption=none&pbk=OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI&headerType=none&fp=firefox&type=tcp&sni=tgju.org&sid=e701a013553059ba#%40sunflowerplato%F0%9F%8C%BB
 
@@ -58,8 +48,6 @@ vless://d9a06c5a-cf2f-4ae7-97c3-066f607a51ee@65.109.215.110:8433?security=none&e
 
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.78:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB
 
-vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.16.69.162:8880?path=%2FfgvtHUpS6R8Rv8s5%3Fed%3D...&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
 vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.16.69.162:8880?path=%2FfgvtHUpS6R8Rv8s5%3Fed%3D2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.16.85.3:8880?path=%2F6TvG8D6HimXKgdp2%3Fed%3D2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
@@ -77,8 +65,6 @@ vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.25.229.227:8880?path=%2FXWFOoG8
 vless://e9979910-79d1-4621-a93c-b2a579c44ba7@172.67.65.158:8880?path=%2FEtb1L6YUdZFZuTOr%3Fed%3D2560%2F%3FJOKERRVPN_BIA_CHANEL%40JOKERRVPN&security=none&encryption=none&host=VngSuPpLY.IP-DdnS.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://e9979910-79d1-4621-a93c-b2a579c44ba7@172.67.65.158:8880?path=%2FEtb1L6YUdZFZuTOr%3Fed%3D2560&security=none&encryption=none&host=VngSuPpLY.IP-Ddns.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
-vless://f6c1b473-d0c7-4f0e-b97a-38a00cff5a9e@91.107.170.231:2053?security=none&encryption=none&host=bmw.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
 trojan://ZU%290ryc%24VSrG@104.17.148.22:443?path=%2Ftrg2dhGAnG15ULOP7i%3Fed%3D2560&security=tls&alpn=http%2F1.1&host=uk2wbo0ikx3iyi4i9wjdyu6y-o28et7o.pages.dev&fp=randomized&type=ws&sni=uk2WbO0iKx3IyI4i9WjdYU6Y-O28ET7o.pagEs.DeV#%40sunflowerplato%F0%9F%8C%BB
 
