@@ -8,17 +8,11 @@ vless://133361c8-60e7-447a-dd5b-e7af60b9d115@193.238.153.84:33817?security=none&
 
 vless://2ac5f66e-c301-47df-a086-e66b990f6e67@300232332.webnama.com.tr:1517?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
-vless://42f8b774-f998-476d-ada2-2915588c7f45@dl1-fi-cdn.easy-upload.org:2010?security=none&encryption=none&host=skyroom.online&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
-
 vless://47bd0b60-29ca-4755-a314-9f1ef398657e@104.16.245.154:8443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=hong2333.pages.dev&fp=random&type=ws&sni=hong2333.pages.dev#%40sunflowerplato%F0%9F%8C%BB
 
 vless://4d86fbab-d15f-4e7f-8ac7-3b4d90568444@5.133.102.59:80?mode=auto&path=%2Fbread&security=reality&encryption=none&pbk=6xEqt7g9Q7zJD8rtAzA_8rODvZ9ZJwlv3uOH1cXujzI&host=bread.global.ssl.fastly.net&fp=chrome&spx=%2F&type=xhttp&sni=journalofbigdata.springeropen.com&sid=43#%40sunflowerplato%F0%9F%8C%BB
 
-vless://75fde681-ec64-4654-86fa-30732e8e179c@104.16.243.59:443?path=%2Fassets&security=tls&alpn=h3&encryption=none&host=nginx.nscl.ir&type=ws&sni=NGINX.NSCl.IR#%40sunflowerplato%F0%9F%8C%BB
-
 vless://7f42d502-d3dc-4c0e-a0b6-da5a69dc9e97@63.250.61.157:443?mode=stream-one&path=%2Fxhttp&security=none&encryption=none&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
-
-vless://80128acc-ff7f-41fe-af34-62f4108635ca@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2Fjzkedews&security=tls&encryption=none&host=638880231667527799.madrid-prx-dnraaao.info&type=ws&sni=638880231667527799.madrid-prx-dnraaao.info#%40sunflowerplato%F0%9F%8C%BB
 
 vless://88b9da00-7a25-45ec-859b-14ad57a6bd2b@91.99.179.203:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
@@ -41,8 +35,6 @@ vless://a84f0ac2-0a3d-4ad4-bd9e-9b9ed0f7a603@130.185.122.139:16380?mode=auto&pat
 vless://b221eccb-6823-4940-8980-59db5ee0dbf1@104.16.53.11:80?path=%2F%3Fed&security=none&encryption=none&host=aKmDuHdNrOjhEjGs1.FligHtbEaN24.Com&type=ws#%40sunflowerplato
 
 vless://bab6b157-a6e8-4756-a485-dcb4ca476eb9@server2.fergalvpnmod.com:25126?mode=gun&security=reality&encryption=none&pbk=AtKTc84OxbQltdeNKIgGRpUBmO1nKRCyqV6OuZmGIik&fp=chrome&spx=%2F&type=grpc&serviceName=Telegram%3A%40FergalVpnMod&sni=cloudflare.com&sid=1e#%40sunflowerplato%F0%9F%8C%BB
-
-vless://c4e6a6ef-d782-4a12-a38a-906a61ee5bc1@104.21.48.1:2083?mode=auto&path=%2Fgdsthjjjvfxsstyy%D8%9Fed%3D2083%2F%3F&security=tls&alpn=h3&encryption=none&host=cho.chonon.sbs&fp=chrome&type=xhttp&sni=cho.chonon.sbs#%40sunflowerplato%F0%9F%8C%BB
 
 vless://c5faf134-bade-4e16-96de-a33a24c51cce@sn.lunarmc.ir:8082?mode=multi&security=none&encryption=none&authority=N1ZucxBTN2elyqg&type=grpc&serviceName=sn.lunarmc.ir#%40sunflowerplato%F0%9F%8C%BB
 
@@ -72,8 +64,6 @@ vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.16.86.73:8880?path=%2FJ5aLQOY1R
 
 vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.16.86.73:8880?path=%2FJ5aLQOY1R9ONWYCM%3Fed%3D2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
-vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.17.1.197:8880?path=%2F1ycR2zb3KeELWRha%3Fed%3D2560&security=none&encryption=none&host=VngSuPpLY.IP-DdnS.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
 vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.17.1.197:8880?path=%2F1ycR2zb3KeELWRha%3Fed%3D2560&security=none&encryption=none&host=VngSuPpLY.IP-Ddns.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.17.1.197:8880?path=%2FfgvtHUpS6R8Rv8s5%3Fed%3D2560&security=none&encryption=none&host=VngSuPpLY.IP-Ddns.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
@@ -87,8 +77,6 @@ vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.25.229.227:8880?path=%2FXWFOoG8
 vless://e9979910-79d1-4621-a93c-b2a579c44ba7@172.67.65.158:8880?path=%2FEtb1L6YUdZFZuTOr%3Fed%3D2560%2F%3FJOKERRVPN_BIA_CHANEL%40JOKERRVPN&security=none&encryption=none&host=VngSuPpLY.IP-DdnS.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://e9979910-79d1-4621-a93c-b2a579c44ba7@172.67.65.158:8880?path=%2FEtb1L6YUdZFZuTOr%3Fed%3D2560&security=none&encryption=none&host=VngSuPpLY.IP-DdnS.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
-vless://e9979910-79d1-4621-a93c-b2a579c44ba7@172.67.65.158:8880?path=%2FEtb1L6YUdZFZuTOr%3Fed%3D2560&security=none&encryption=none&host=VngSuPpLY.IP-Ddns.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://e9979910-79d1-4621-a93c-b2a579c44ba7@45.131.6.87:8880?path=%2F&security=none&encryption=none&host=VngSuPpLY.IP-DdnS.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
