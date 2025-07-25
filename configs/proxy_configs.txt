@@ -54,25 +54,13 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.234:8880?mode=gun&secur
 
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.85:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB
 
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.124:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato
-
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.78:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB
 
 vless://e4e82781-f854-4f5e-bfeb-8f34d8ab9fe7@www.speedtest.net:2095?path=%2F%3Fed%3D2052&security=none&encryption=none&host=cdncloud-direct-public.beraghsa.ir&type=httpupgrade#%40sunflowerplato%F0%9F%8C%B
 
-vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.16.222.98:8880?path=%2FuLF6HXZ7986oF7Yg%3Fed&security=none&alpn=http%2F1.1&encryption=none&host=vngsupply.ip-ddns.com&fp=chrome&type=ws&sni=VngSupply.Ip-DdNS.com#%40sunflowerplato%F0%9F%8C%BB
-
 vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.16.86.73:8880?path=%2FJ5aLQOY1R9ONWYCM%3Fed%3D2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
-vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.17.1.197:8880?path=%2FfgvtHUpS6R8Rv8s5%3Fed%3D2560&security=none&encryption=none&host=VngSuPpLY.IP-Ddns.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
-vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.25.220.177:8880?path=%2Freklaz1FsDrIv7mW%3Fed%3D2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
-vless://e9979910-79d1-4621-a93c-b2a579c44ba7@172.67.65.158:8880?path=%2FEtb1L6YUdZFZuTOr%3Fed%3D2560&security=none&encryption=none&host=VngSuPpLY.IP-DdnS.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
 vless://e9979910-79d1-4621-a93c-b2a579c44ba7@198.62.62.175:8880?path=%2FJ5aLQOY1R9ONWYCM%3Fed%3D2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
-vless://e9979910-79d1-4621-a93c-b2a579c44ba7@45.131.6.87:8880?path=%2F&security=none&encryption=none&host=VngSuPpLY.IP-DdnS.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://f353fbf3-b6a1-4524-b916-f65bc077511f@s2.1dnt.k-l.cloud:80?mode=auto&path=%2F123&security=none&encryption=none&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
 
@@ -89,8 +77,6 @@ vmess://eyJhZGQiOiI5MS4xMDcuMjQzLjE1MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJo
 vmess://eyJhZGQiOiI5MS4yMjguMTAuMTI1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjZiODM3ZGRkLTdkZmItNDUyMC1kZDljLTY1ZDYxZDY0MDg5NiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDc2ODIiLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 
 vmess://eyJhZGQiOiIxODUuMTQyLjUzLjYzIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjJiYWJmMzRhLTE2ZjUtNGUzOC1hODg1LTczOGZkZmM4ZWFiZiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDM1ODUiLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
-
-vmess://eyJhZGQiOiIxOTMuMTYzLjIwMS4xODEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMzJlMzQwZWUtMWE4NS00M2Q1LWFmYjgtOWQzNGY1OWM0ZWIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4NDQzIiwicHMiOiJAc3VuZmxvd2VycGxhdG/wn4y7Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
 
 vmess://eyJhZGQiOiJ0bS5tbmJ0bS5pciIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI1NjUyYmY5Ni04ZjUyLTRlYmUtYmUyNS03NzEwMmZhN2Y4MTkiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjE1MTciLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 
