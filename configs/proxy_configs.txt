@@ -4,8 +4,6 @@
 //support-url: https://t.me/BXAMbot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-vless://00aec5ec-bf88-4ceb-9171-d7e7f3845e75@direct.yasharteam.com:443?security=reality&encryption=none&pbk=tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=tgju.org&sid=e54b5ad736ae4c38#%40sunflowerplato%F0%9F%8C%BB
-
 vless://0b9ee474-19f6-4d7f-9281-96f239e6cebc@104.248.136.27:28338?mode=gun&security=reality&encryption=none&pbk=MJwVQS7Qs5U_FYJn_osHZJSQ9ioxZRHC2HDPVwt7nmw&fp=randomized&spx=%2F&type=grpc&serviceName=Telegram%3A%40FergalVpnMod&sni=cloudflare.com&sid=9ecc4615ce#%40sunflowerplato%F0%9F%8C%BB
 
 vless://2a02cb25-0f58-4b19-a7a6-8c205fdb9042@ru01-vlr01.tcp-reset-club.net:443?security=reality&encryption=none&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=48720c#%40sunflowerplato%F0%9F%8C%BB
@@ -18,8 +16,6 @@ vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.26.15.69:2096?path=%2Fproxyip%3
 
 vless://31b1473d-31bf-48fb-9b35-b12d459125e6@s3.vip.ip9s.ir:37916?security=none&encryption=none&host=cloudflare.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
-vless://37c38568-d2fb-46f4-a107-ca15890f5cdf@em-3.webnama.com.tr:1429?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#%40sunflowerplato%F0%9F%8C%BB
-
 vless://4d794980-54c0-4fcb-8def-c2beaecadbad@172.66.44.81:2083?path=%2F&security=tls&encryption=none&type=ws&sni=azadnet05.pages.dev#%40sunflowerplato%F0%9F%8C%BB
 
 vless://598d2298-5e1f-4d07-bc4b-6d1949693852@162.19.250.117:25921?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato
@@ -28,11 +24,7 @@ vless://598d2298-5e1f-4d07-bc4b-6d1949693852@162.19.250.117:25921?security=none&
 
 vless://5e44dfe9-c98d-424c-a7b9-39bf15d0cb67@jetafn.hpcdn.info:80?path=%2F30019%2FhMMad&security=none&encryption=none&host=jetafn.hpcdn.info&type=httpupgrade#%40sunflowerplato%F0%9F%8C%BB
 
-vless://616997f9-fff3-4280-8760-adddf9048203@104.17.148.22:8443?path=%2F&security=tls&encryption=none&host=pishgam.pinpen.ir.&fp=chrome&type=ws&sni=pishgam.pinpen.ir.#%40sunflowerplato%F0%9F%8C%BB
-
 vless://881043ca-4194-439b-ffad-c7bb552b3edb@171.22.173.206:28931?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
-
-vless://8ee4b805-5a65-4977-bcbb-f759fb8d9441@god.mygoldiran.com:11867?mode=multi&security=reality&encryption=none&pbk=-mYOfmHHBGIPqR5Uho9lT7MjSXLlSVi4l83ohs3MaTM&fp=chrome&spx=%2FYniTnQJG9tRiVv1&type=grpc&sni=tgju.org&sid=d2#%40sunflowerplato
 
 vless://90c7ad5e-cd15-4314-b39b-aeabd397d592@www.visa.com.sg:2087?path=%2F&security=tls&encryption=none&host=vl.hongkong6.qzz.io&fp=random&type=ws&sni=vl.hongkong6.qzz.io#%40sunflowerplato%F0%9F%8C%BB
 
@@ -40,15 +32,11 @@ vless://90c7ad5e-cd15-4314-b39b-aeabd397d592@www.visa.com.sg:2087?path=%2F&secur
 
 vless://a58ae8ac-1433-4c16-ad27-d14a5669af93@elitedevteam.com:2096?security=none&encryption=none&headerType=none&type=tcp#%40sunflowerplato%F0%9F%8C%BB
 
-vless://b221eccb-6823-4940-8980-59db5ee0dbf1@104.16.53.11:80?path=%2F%3Fed&security=none&encryption=none&host=aKmDuHdNrOjhEjGs1.FligHtbEaN24.Com&type=ws#%40sunflowerplato%F0%9F%8C%BB
-
 vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.218.14:8443?mode=auto&path=%2Fxhttp&security=none&encryption=none&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
 
 vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.98.90:8443?mode=auto&path=%2Fxhttp&security=none&encryption=none&type=xhttp#%40sunflowerplato%F0%9F%8C%BB
 
 vless://be015dd2-30b4-4fcf-a9ee-080c13ac13fb@2.56.125.209:49868?security=reality&encryption=none&pbk=joEKL4Itljxodt1SOe1itSMrAH9bk_udpPtXgIjdu10&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=6d638e#%40sunflowerplato
-
-vless://c28dfe26-a1cd-4ebf-b427-7b44f8c2f7e0@nl01-vlr01.tcp-reset-club.net:443?security=reality&encryption=none&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=e499f276e7bd6420#%40sunflowerplato%F0%9F%8C%BB
 
 vless://c28dfe26-a1cd-4ebf-b427-7b44f8c2f7e0@ru01-vlr01.tcp-reset-club.net:443?security=reality&encryption=none&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=48720c#%40sunflowerplato%F0%9F%8C%BB
 
@@ -59,8 +47,6 @@ vless://c98a16e4-0dc5-42f0-b3db-30f04525c123@103.160.204.50:443?path=%2F%3Fed%3D
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.78:8880?mode=gun&security=none&encryption=none&type=grpc#%40sunflowerplato%F0%9F%8C%BB
 
 vless://e4e82781-f854-4f5e-bfeb-8f34d8ab9fe7@www.speedtest.net:2095?path=%2F%3Fed%3D2052&security=none&encryption=none&host=cdncloud-direct-public.beraghsa.ir&type=httpupgrade#%40sunflowerplato%F0%9F%8C%B
-
-vless://e9979910-79d1-4621-a93c-b2a579c44ba7@198.62.62.175:8880?path=%2FJ5aLQOY1R9ONWYCM%3Fed%3D2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
 vless://f278037e-ce36-4634-9b4d-fca93e345a35@104.16.191.195:80?path=%2Fvpnowl-vpnowl-vpnowl-vpnowl%3Fed%3D2560&security=none&encryption=none&host=barayeiran.mahiozonboroon.qzz.io&type=ws#%40sunflowerplato%F0%9F%8C%BB
 
@@ -77,6 +63,4 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVbFQ4OUQwcnZjcjA1dEtmdDFOQjVh@83.147.216.70:
 trojan://%24_qP4V4U26sb%7B04A@do-itforyou.pages.dev:2083?path=%2FtrdFPAI0ljLLOygN2y%3Fed%3D2560&security=tls&alpn=http%2F1.1&fp=randomized&type=ws&sni=do-itfORYOU.PAGEs.deV#%40sunflowerplato%F0%9F%8C%BB
 
 vmess://eyJhZGQiOiI5MS4yMjguMTAuMTI1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjZiODM3ZGRkLTdkZmItNDUyMC1kZDljLTY1ZDYxZDY0MDg5NiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDc2ODIiLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
-
-vmess://eyJhZGQiOiIxODUuMTQyLjUzLjYzIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjJiYWJmMzRhLTE2ZjUtNGUzOC1hODg1LTczOGZkZmM4ZWFiZiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDM1ODUiLCJwcyI6IkBzdW5mbG93ZXJwbGF0b/CfjLsiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 
